@@ -1,34 +1,8 @@
 class MixerGrinder{
-	static	String brandName = "Philips";
-	static	double price = 3395.00d;
-	static	String color = "Black";
-	static	String bladeMaterial = "Stainless Steel";
-	static	String capacity = "1500 Millilitres";
-	static	String controlsType = "Knob";
-	static	String modelName = "HL7756/00";
-	static	String containerMaterial = "Stainless Steel";
-	static	String itemWeight = "3 Kilograms";
-	static	String manufacturer = "Philips";
-	public static void main(String grinder[]){
-		//String brandName = "Philips";
-		//double price = 3395.00d;
-		//String color = "Black";
-		//String bladeMaterial = "Stainless Steel";
-		//String capacity = "1500 Millilitres";
-		//String controlsType = "Knob";
-		//String modelName = "HL7756/00";
-		//String containerMaterial = "Stainless Steel";
-		//String itemWeight = "3 Kilograms";
-		//String manufacturer = "Philips";
-		System.out.println("Brand : "+brandName);
-		System.out.println("Price : "+price);
-		System.out.println("color : "+color);
-		System.out.println("Blade Material : "+bladeMaterial);
-		System.out.println("Capacity : "+capacity);
-		System.out.println("Controls Type : "+controlsType);
-		System.out.println("Model Name : "+modelName);
-		System.out.println("Container Material : "+containerMaterial);
-		System.out.println("Item Weight : "+itemWeight);
-		System.out.println("Manufacturer : "+manufacturer);
-	}
+public static void main(String mixer[]){
+System.out.println("* Motor Warranty: 5 Years; Product Warranty: 2 Years,Wattage: 750 W; Voltage: 230 V.");
+System.out.println("* No of Jars: 3; Jar Size: Wet Jar (1.5 Litres), Multipurpose Jar (1 Litre), Chutney Jar (0.3 Litres); Jar Material: Stainless Steel; Body Material: ABS; Blade Material: Stainless Steel; Speed Control: 3 Speed Control + Pulse.");
+System.out.println("* Burning smell during first few usage is normal due to varnish coating on motor and will stop after few usage cycles. Your mixer grinder's powerful motor may make some noise. If the noise level/smell seem abnormal, please contact Customer Care.");
+System.out.println("* This product does not require installation. Please allow the motor to cool for some time between product uses.");
+}
 }
