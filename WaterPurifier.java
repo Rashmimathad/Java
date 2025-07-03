@@ -6,10 +6,4 @@ class WaterPurifier{
 			System.out.println("purify method ended");
 			
 		}
-	public static void main(String waterpurifier[]){
-		System.out.println("main started");
-		purifyWater();
-		System.out.println("main ended");
-	
-	}
 }

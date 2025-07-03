@@ -5,9 +5,4 @@ class FishingNet{
 			System.out.println("Fishing net is to capture fishes in the pond,sea and other water bodies");
 			System.out.println("capture method ended");
 		}
-	public static void main(String[] fishing){
-		System.out.println("main started");
-		capture();
-		System.out.println("main ended");
-	}
 }
