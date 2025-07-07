@@ -1,6 +1,7 @@
-class Projector{
+class Tv{
+	
 	static int currentVolume;
-	static int maxVolume=7;
+	static int maxVolume=5;
 	static boolean  isConnected;
 	
 	public static void onOrOff(){
@@ -8,11 +9,11 @@ class Projector{
 		System.out.println("on or off method started");
 		if(isConnected==false){
 			isConnected=true;
-			System.out.println("The projector is on");
+			System.out.println("The TV  is on");
 		}
 		else if(isConnected==true){
 			isConnected=false;	
-			System.out.println("The projector is off");
+			System.out.println("The TV is off");
 		}
 				System.out.println("on or off method ended");
 			System.out.println();
@@ -32,7 +33,7 @@ class Projector{
 		 else System.out.println("max volume reached");
 
 		}
-		 else System.out.println("Projector on madu..");
+		 else System.out.println("TV on madu..");
 	System.out.println("increase volume method ended");
 			System.out.println();
 	return;
@@ -48,7 +49,7 @@ class Projector{
 			  }
 		 else System.out.println("min volume reached");
 		}
-		 else System.out.println("Projector on madu..");
+		 else System.out.println("TV on madu..");
 		System.out.println("decrease volume method ended");
 				System.out.println();
 		return;
