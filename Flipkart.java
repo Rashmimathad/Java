@@ -1,4 +1,5 @@
 class Flipkart{
+	
 	static String givenName;
 	static String surName;
 	static long phoneNumber;
@@ -7,47 +8,18 @@ class Flipkart{
 	
 	public static boolean registerUser(String gName,String sName, long phNo, String pwd,String cPwd){
 		boolean isUserRegistered=false;
-		boolean givenNameValid=false;
-		boolean surNameValid=false;
-		boolean phoneNumberValid=false;
-		boolean passwordValid=false;
-		boolean confirmPasswordValid=false;
-		
-		if(gName!=null){
-			givenName=gName;
-			givenNameValid=true;
-		}else System.out.println("provide the valid name");
-		
-		if(sName!=null){
-			surName=sName;
-			surNameValid=true;
-		}else System.out.println("provide the valid surname");
-		
-		if(phNo!=0){
-			phoneNumber=phNo;
-			phoneNumberValid=true;
-		}else System.out.println("provide the valid phoneNumber");
-		
-		if(pwd!=null){
-			password=pwd;
-			passwordValid=true;
-		}else System.out.println("provide valid password");
-		
-		if(cPwd!=null&&pwd==cPwd){
-			confirmPassword=cPwd;
-			confirmPasswordValid=true;
-		}else System.out.println("provide valid confirm password");
-		
-		if(givenNameValid&&surNameValid&&phoneNumberValid&&passwordValid&&confirmPasswordValid){
-		System.out.println("All the details provided are valid");
-		isUserRegistered=true;
-		}
-		
+		boolean userValidated=FlipkartUserValidator.validateFlipkartUser(gName,sName,phNo,pwd,cPwd);
+		if(userValidated) isUserRegistered=true;
 		return isUserRegistered;
 	
 	}
 	
 	public static void getUserInfo(){
+		givenName=FlipkartUserValidator.givenName;
+		surName=FlipkartUserValidator.surName;
+		phoneNumber=FlipkartUserValidator.phoneNumber;
+		password=FlipkartUserValidator.password;
+		confirmPassword=FlipkartUserValidator.confirmPassword;
 		System.out.println();
 		System.out.println("The given name of the user is : "+givenName);
 		System.out.println("The sur name of the user is : "+surName);
