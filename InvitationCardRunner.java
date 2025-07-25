@@ -10,14 +10,7 @@ class InvitationCardRunner{
 			 firstInvitation.date="02-05-2004";
 			 firstInvitation.timings="6:00 Pm - 9:30 Pm";
 			 firstInvitation.venue="Davangere";
-				System.out.println();
-				  System.out.println("Invitation card details: ");
-				  System.out.println("id of invitation is : "+firstInvitation.invitationId);
-				  System.out.println("the type of event is : "+firstInvitation.eventType);
-				  System.out.println("name of the guest is : "+firstInvitation.guestName);
-				  System.out.println("date of invitation is : "+firstInvitation.date);
-				  System.out.println("timinigs of the event is : "+firstInvitation.timings);
-				  System.out.println("venue of the event is : "+firstInvitation.venue);
+			 firstInvitation.getInvitationInfo();
 			  
 			InvitationCard secondInvitation = new InvitationCard();
 			secondInvitation.invitationId = 2;
@@ -26,14 +19,7 @@ class InvitationCardRunner{
 			secondInvitation.date = "15-11-2025";
 			secondInvitation.timings = "10:00 AM - 1:00 PM";
 			secondInvitation.venue = "Bangalore";
-				System.out.println();
-				  System.out.println("Invitation card details: ");
-				  System.out.println("id of invitation is : "+secondInvitation.invitationId);
-				  System.out.println("the type of event is : "+secondInvitation.eventType);
-				  System.out.println("name of the guest is : "+secondInvitation.guestName);
-				  System.out.println("date of invitation is : "+secondInvitation.date);
-				  System.out.println("timinigs of the event is : "+secondInvitation.timings);
-				  System.out.println("venue of the event is : "+secondInvitation.venue);
+			secondInvitation.getInvitationInfo();
 			  
 			InvitationCard thirdInvitation = new InvitationCard();
 			thirdInvitation.invitationId = 3;
@@ -42,14 +28,7 @@ class InvitationCardRunner{
 			thirdInvitation.date = "22-09-2025";
 			thirdInvitation.timings = "12:00 PM - 3:00 PM";
 			thirdInvitation.venue = "Mysore";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + thirdInvitation.invitationId);
-				System.out.println("the type of event is : " + thirdInvitation.eventType);
-				System.out.println("name of the guest is : " + thirdInvitation.guestName);
-				System.out.println("date of invitation is : " + thirdInvitation.date);
-				System.out.println("timinigs of the event is : " + thirdInvitation.timings);
-				System.out.println("venue of the event is : " + thirdInvitation.venue);
+			thirdInvitation.getInvitationInfo();
 
 			InvitationCard fourthInvitation = new InvitationCard();
 			fourthInvitation.invitationId = 4;
@@ -58,14 +37,7 @@ class InvitationCardRunner{
 			fourthInvitation.date = "30-07-2025";
 			fourthInvitation.timings = "5:00 PM - 8:00 PM";
 			fourthInvitation.venue = "Hubli";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + fourthInvitation.invitationId);
-				System.out.println("the type of event is : " + fourthInvitation.eventType);
-				System.out.println("name of the guest is : " + fourthInvitation.guestName);
-				System.out.println("date of invitation is : " + fourthInvitation.date);
-				System.out.println("timinigs of the event is : " + fourthInvitation.timings);
-				System.out.println("venue of the event is : " + fourthInvitation.venue);
+			fourthInvitation.getInvitationInfo();
 
 			InvitationCard fifthInvitation = new InvitationCard();
 			fifthInvitation.invitationId = 5;
@@ -74,14 +46,7 @@ class InvitationCardRunner{
 			fifthInvitation.date = "05-01-2025";
 			fifthInvitation.timings = "4:00 PM - 7:00 PM";
 			fifthInvitation.venue = "Belgaum";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + fifthInvitation.invitationId);
-				System.out.println("the type of event is : " + fifthInvitation.eventType);
-				System.out.println("name of the guest is : " + fifthInvitation.guestName);
-				System.out.println("date of invitation is : " + fifthInvitation.date);
-				System.out.println("timinigs of the event is : " + fifthInvitation.timings);
-				System.out.println("venue of the event is : " + fifthInvitation.venue);
+			fifthInvitation.getInvitationInfo();
 			  
 			InvitationCard sixthInvitation = new InvitationCard();
 			sixthInvitation.invitationId = 6;
@@ -90,14 +55,7 @@ class InvitationCardRunner{
 			sixthInvitation.date = "18-08-2025";
 			sixthInvitation.timings = "11:00 AM - 2:00 PM";
 			sixthInvitation.venue = "Mangalore";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + sixthInvitation.invitationId);
-				System.out.println("the type of event is : " + sixthInvitation.eventType);
-				System.out.println("name of the guest is : " + sixthInvitation.guestName);
-				System.out.println("date of invitation is : " + sixthInvitation.date);
-				System.out.println("timinigs of the event is : " + sixthInvitation.timings);
-				System.out.println("venue of the event is : " + sixthInvitation.venue);
+			sixthInvitation.getInvitationInfo();
 			
 			InvitationCard seventhInvitation = new InvitationCard();
 			seventhInvitation.invitationId = 7;
@@ -106,14 +64,7 @@ class InvitationCardRunner{
 			seventhInvitation.date = "12-03-2025";
 			seventhInvitation.timings = "3:00 PM - 6:00 PM";
 			seventhInvitation.venue = "Udupi";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + seventhInvitation.invitationId);
-				System.out.println("the type of event is : " + seventhInvitation.eventType);
-				System.out.println("name of the guest is : " + seventhInvitation.guestName);
-				System.out.println("date of invitation is : " + seventhInvitation.date);
-				System.out.println("timinigs of the event is : " + seventhInvitation.timings);
-				System.out.println("venue of the event is : " + seventhInvitation.venue);
+			seventhInvitation.getInvitationInfo();
 			
 			InvitationCard eighthInvitation = new InvitationCard();
 			eighthInvitation.invitationId = 8;
@@ -122,14 +73,7 @@ class InvitationCardRunner{
 			eighthInvitation.date = "28-06-2025";
 			eighthInvitation.timings = "5:30 PM - 9:00 PM";
 			eighthInvitation.venue = "Shimoga";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + eighthInvitation.invitationId);
-				System.out.println("the type of event is : " + eighthInvitation.eventType);
-				System.out.println("name of the guest is : " + eighthInvitation.guestName);
-				System.out.println("date of invitation is : " + eighthInvitation.date);
-				System.out.println("timinigs of the event is : " + eighthInvitation.timings);
-				System.out.println("venue of the event is : " + eighthInvitation.venue);
+			eighthInvitation.getInvitationInfo();
 
 			InvitationCard ninthInvitation = new InvitationCard();
 			ninthInvitation.invitationId = 9;
@@ -138,14 +82,7 @@ class InvitationCardRunner{
 			ninthInvitation.date = "10-10-2025";
 			ninthInvitation.timings = "7:00 PM - 10:00 PM";
 			ninthInvitation.venue = "Hassan";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + ninthInvitation.invitationId);
-				System.out.println("the type of event is : " + ninthInvitation.eventType);
-				System.out.println("name of the guest is : " + ninthInvitation.guestName);
-				System.out.println("date of invitation is : " + ninthInvitation.date);
-				System.out.println("timinigs of the event is : " + ninthInvitation.timings);
-				System.out.println("venue of the event is : " + ninthInvitation.venue);
+			ninthInvitation.getInvitationInfo();
 
 			InvitationCard tenthInvitation = new InvitationCard();
 			tenthInvitation.invitationId = 10;
@@ -154,14 +91,7 @@ class InvitationCardRunner{
 			tenthInvitation.date = "01-12-2025";
 			tenthInvitation.timings = "6:00 PM - 10:00 PM";
 			tenthInvitation.venue = "Chikmagalur";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " +tenthInvitation.invitationId);
-				System.out.println("the type of event is : " +tenthInvitation.eventType);
-				System.out.println("name of the guest is : " + tenthInvitation.guestName);
-				System.out.println("date of invitation is : " +tenthInvitation.date);
-				System.out.println("timinigs of the event is : "+tenthInvitation.timings);
-				System.out.println("venue of the event is : "+tenthInvitation.venue);
+			tenthInvitation.getInvitationInfo();
 			
 			InvitationCard eleventhInvitation = new InvitationCard();			
 			eleventhInvitation.invitationId = 11;
@@ -170,14 +100,7 @@ class InvitationCardRunner{
 			eleventhInvitation.date = "25-10-2025";
 			eleventhInvitation.timings = "4:00 PM - 8:00 PM";
 			eleventhInvitation.venue = "Mandya";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + eleventhInvitation.invitationId);
-				System.out.println("the type of event is : " + eleventhInvitation.eventType);
-				System.out.println("name of the guest is : " + eleventhInvitation.guestName);
-				System.out.println("date of invitation is : " + eleventhInvitation.date);
-				System.out.println("timinigs of the event is : " +eleventhInvitation.timings);
-				System.out.println("venue of the event is : " + eleventhInvitation.venue);
+			eleventhInvitation.getInvitationInfo();
 
 			InvitationCard twelfthInvitation = new InvitationCard();
 			twelfthInvitation.invitationId = 12;
@@ -186,14 +109,7 @@ class InvitationCardRunner{
 			twelfthInvitation.date = "03-09-2025";
 			twelfthInvitation.timings = "2:00 PM - 4:00 PM";
 			twelfthInvitation.venue = "Raichur";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + twelfthInvitation.invitationId);
-				System.out.println("the type of event is : " + twelfthInvitation.eventType);
-				System.out.println("name of the guest is : " + twelfthInvitation.guestName);
-				System.out.println("date of invitation is : " + twelfthInvitation.date);
-				System.out.println("timinigs of the event is : " +twelfthInvitation.timings);
-				System.out.println("venue of the event is : " + twelfthInvitation.venue);
+			twelfthInvitation.getInvitationInfo();
 
 			InvitationCard thirteenthInvitation = new InvitationCard();
 			thirteenthInvitation.invitationId = 13;
@@ -202,14 +118,7 @@ class InvitationCardRunner{
 			thirteenthInvitation.date = "09-08-2025";
 			thirteenthInvitation.timings = "10:30 AM - 1:30 PM";
 			thirteenthInvitation.venue = "Belagavi";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + thirteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + thirteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + thirteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + thirteenthInvitation.date);
-				System.out.println("timinigs of the event is : " + thirteenthInvitation.timings);
-				System.out.println("venue of the event is : " + thirteenthInvitation.venue);
+			thirteenthInvitation.getInvitationInfo();
 
 			InvitationCard fourteenthInvitation = new InvitationCard();
 			fourteenthInvitation.invitationId = 14;
@@ -218,14 +127,7 @@ class InvitationCardRunner{
 			fourteenthInvitation.date = "19-07-2025";
 			fourteenthInvitation.timings = "1:00 PM - 5:00 PM";
 			fourteenthInvitation.venue = "Tumkur";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + fourteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + fourteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + fourteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + fourteenthInvitation.date);
-				System.out.println("timinigs of the event is : " + fourteenthInvitation.timings);
-				System.out.println("venue of the event is : " + fourteenthInvitation.venue);
+			fourteenthInvitation.getInvitationInfo();
 
 			InvitationCard fifteenthInvitation = new InvitationCard();
 			fifteenthInvitation.invitationId = 15;
@@ -234,14 +136,7 @@ class InvitationCardRunner{
 			fifteenthInvitation.date = "11-11-2025";
 			fifteenthInvitation.timings = "6:30 PM - 10:00 PM";
 			fifteenthInvitation.venue = "Hubbali";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + fifteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + fifteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + fifteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + fifteenthInvitation.date);
-				System.out.println("timinigs of the event is : " + fifteenthInvitation.timings);
-				System.out.println("venue of the event is : " + fifteenthInvitation.venue);
+			fifteenthInvitation.getInvitationInfo();
 
 			InvitationCard sixteenthInvitation = new InvitationCard();
 			sixteenthInvitation.invitationId = 16;
@@ -250,14 +145,7 @@ class InvitationCardRunner{
 			sixteenthInvitation.date = "05-05-2025";
 			sixteenthInvitation.timings = "9:00 AM - 1:00 PM";
 			sixteenthInvitation.venue = "Chitradurga";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + sixteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + sixteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + sixteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + sixteenthInvitation.date);
-				System.out.println("timinigs of the event is : " + sixteenthInvitation.timings);
-				System.out.println("venue of the event is : " + sixteenthInvitation.venue);
+			sixteenthInvitation.getInvitationInfo();
 
 			InvitationCard seventeenthInvitation = new InvitationCard();
 			seventeenthInvitation.invitationId = 17;
@@ -266,14 +154,7 @@ class InvitationCardRunner{
 			seventeenthInvitation.date = "28-04-2025";
 			seventeenthInvitation.timings = "8:30 AM - 11:00 AM";
 			seventeenthInvitation.venue = "Dharwad";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + seventeenthInvitation.invitationId);
-				System.out.println("the type of event is : " + seventeenthInvitation.eventType);
-				System.out.println("name of the guest is : " + seventeenthInvitation.guestName);
-				System.out.println("date of invitation is : " + seventeenthInvitation.date);
-				System.out.println("timinigs of the event is : " + seventeenthInvitation.timings);
-				System.out.println("venue of the event is : " + seventeenthInvitation.venue);
+			seventeenthInvitation.getInvitationInfo();
 
 			InvitationCard eighteenthInvitation = new InvitationCard();
 			eighteenthInvitation.invitationId = 18;
@@ -282,14 +163,7 @@ class InvitationCardRunner{
 			eighteenthInvitation.date = "06-02-2025";
 			eighteenthInvitation.timings = "5:00 PM - 9:00 PM";
 			eighteenthInvitation.venue = "Bijapur";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + eighteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + eighteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + eighteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + eighteenthInvitation.date);
-				System.out.println("timinigs of the event is : " + eighteenthInvitation.timings);
-				System.out.println("venue of the event is : " + eighteenthInvitation.venue);
+			eighteenthInvitation.getInvitationInfo();
 
 			InvitationCard nineteenthInvitation = new InvitationCard();
 			nineteenthInvitation.invitationId = 19;
@@ -298,14 +172,7 @@ class InvitationCardRunner{
 			nineteenthInvitation.date = "21-08-2025";
 			nineteenthInvitation.timings = "2:30 PM - 6:30 PM";
 			nineteenthInvitation.venue = "Karwar";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + nineteenthInvitation.invitationId);
-				System.out.println("the type of event is : " + nineteenthInvitation.eventType);
-				System.out.println("name of the guest is : " + nineteenthInvitation.guestName);
-				System.out.println("date of invitation is : " + nineteenthInvitation.date);
-				System.out.println("timinigs of the event is : " +nineteenthInvitation.timings);
-				System.out.println("venue of the event is : " + nineteenthInvitation.venue);
+			nineteenthInvitation.getInvitationInfo();
 
 			InvitationCard twentiethInvitation = new InvitationCard();
 			twentiethInvitation.invitationId = 20;
@@ -314,14 +181,7 @@ class InvitationCardRunner{
 			twentiethInvitation.date = "17-01-2025";
 			twentiethInvitation.timings = "9:30 AM - 12:30 PM";
 			twentiethInvitation.venue = "Gulbarga";
-				System.out.println();
-				System.out.println("Invitation card details:");
-				System.out.println("id of invitation is : " + twentiethInvitation.invitationId);
-				System.out.println("the type of event is : " + twentiethInvitation.eventType);
-				System.out.println("name of the guest is : " + twentiethInvitation.guestName);
-				System.out.println("date of invitation is : " + twentiethInvitation.date);
-				System.out.println("timinigs of the event is : " + twentiethInvitation.timings);
-				System.out.println("venue of the event is : " + twentiethInvitation.venue);
+			twentiethInvitation.getInvitationInfo();
 				
 		System.out.println("main ended");
 	}

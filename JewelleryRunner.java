@@ -10,15 +10,7 @@ class JewelleryRunner{
 			jewelleryOne.jewelleryPrice=50000.00;
 			jewelleryOne.jewelleryDesignStyle="Traditional";
 			jewelleryOne.warrantyPeriod=3;
-				System.out.println();
-				System.out.println("Jewellery One details : ");
-				System.out.println("id of jewellery is : "+jewelleryOne.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryOne.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryOne.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryOne.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryOne.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryOne.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryOne.warrantyPeriod);
+			jewelleryOne.getJewelleryInfo();
 				
 			Jewellery jewelleryTwo = new Jewellery();
 			jewelleryTwo.jewelleryId=2;
@@ -28,15 +20,7 @@ class JewelleryRunner{
 			jewelleryTwo.jewelleryPrice=250000.00;
 			jewelleryTwo.jewelleryDesignStyle="Antique";
 			jewelleryTwo.warrantyPeriod=5;
-				System.out.println();
-				System.out.println("Jewellery Two details : ");
-				System.out.println("id of jewellery is : "+jewelleryTwo.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryTwo.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryTwo.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryTwo.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryTwo.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryTwo.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryTwo.warrantyPeriod);
+			jewelleryTwo.getJewelleryInfo();
 				
 			Jewellery jewelleryThree = new Jewellery();
 			jewelleryThree.jewelleryId=3;
@@ -46,15 +30,7 @@ class JewelleryRunner{
 			jewelleryThree.jewelleryPrice=5000.00;
 			jewelleryThree.jewelleryDesignStyle="Modern";
 			jewelleryThree.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Three details : ");
-				System.out.println("id of jewellery is : "+jewelleryThree.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryThree.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryThree.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryThree.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryThree.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryThree.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryThree.warrantyPeriod);
+			jewelleryThree.getJewelleryInfo();
 			
 			Jewellery jewelleryFour = new Jewellery();
 			jewelleryFour.jewelleryId=4;
@@ -64,15 +40,7 @@ class JewelleryRunner{
 			jewelleryFour.jewelleryPrice=500000.00;
 			jewelleryFour.jewelleryDesignStyle="Antique";
 			jewelleryFour.warrantyPeriod=7;
-				System.out.println();
-				System.out.println("Jewellery Four details : ");
-				System.out.println("id of jewellery is : "+jewelleryFour.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryFour.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryFour.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryFour.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryFour.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryFour.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryFour.warrantyPeriod);
+			jewelleryFour.getJewelleryInfo();
 			
 			Jewellery jewelleryFive = new Jewellery();
 			jewelleryFive.jewelleryId=5;
@@ -82,15 +50,7 @@ class JewelleryRunner{
 			jewelleryFive.jewelleryPrice=200000.00;
 			jewelleryFive.jewelleryDesignStyle="Uncut";
 			jewelleryFive.warrantyPeriod=5;
-				System.out.println();
-				System.out.println("Jewellery Five details : ");
-				System.out.println("id of jewellery is : "+jewelleryFive.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryFive.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryFive.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryFive.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryFive.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryFive.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryFive.warrantyPeriod);
+			jewelleryFive.getJewelleryInfo();
 				
 			Jewellery jewellerySix = new Jewellery();
 			jewellerySix.jewelleryId=6;
@@ -100,15 +60,7 @@ class JewelleryRunner{
 			jewellerySix.jewelleryPrice=45000.00;
 			jewellerySix.jewelleryDesignStyle="Modern";
 			jewellerySix.warrantyPeriod=2;
-				System.out.println();
-				System.out.println("Jewellery Six details : ");
-				System.out.println("id of jewellery is : "+jewellerySix.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewellerySix.jewelleryType);
-				System.out.println("the jewellery name is : "+jewellerySix.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewellerySix.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewellerySix.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewellerySix.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewellerySix.warrantyPeriod);
+			jewellerySix.getJewelleryInfo();
 				
 			Jewellery jewellerySeven = new Jewellery();
 			jewellerySeven.jewelleryId=7;
@@ -118,15 +70,7 @@ class JewelleryRunner{
 			jewellerySeven.jewelleryPrice=99000.00;
 			jewellerySeven.jewelleryDesignStyle="Antique";
 			jewellerySeven.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Seven details : ");
-				System.out.println("id of jewellery is : "+jewellerySeven.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewellerySeven.jewelleryType);
-				System.out.println("the jewellery name is : "+jewellerySeven.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewellerySeven.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewellerySeven.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewellerySeven.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewellerySeven.warrantyPeriod);
+			jewellerySeven.getJewelleryInfo();
 				
 			Jewellery jewelleryEight = new Jewellery();
 			jewelleryEight.jewelleryId=8;
@@ -136,15 +80,7 @@ class JewelleryRunner{
 			jewelleryEight.jewelleryPrice=3200.00;
 			jewelleryEight.jewelleryDesignStyle="Modern";
 			jewelleryEight.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Eight details : ");
-				System.out.println("id of jewellery is : "+jewelleryEight.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryEight.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryEight.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryEight.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryEight.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryEight.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryEight.warrantyPeriod);
+			jewelleryEight.getJewelleryInfo();
 				
 			Jewellery jewelleryNine = new Jewellery();
 			jewelleryNine.jewelleryId=9;
@@ -154,15 +90,7 @@ class JewelleryRunner{
 			jewelleryNine.jewelleryPrice=350200.00;
 			jewelleryNine.jewelleryDesignStyle="Traditional";
 			jewelleryNine.warrantyPeriod=7;
-				System.out.println();
-				System.out.println("Jewellery Nine details : ");
-				System.out.println("id of jewellery is : "+jewelleryNine.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryNine.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryNine.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryNine.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryNine.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryNine.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryNine.warrantyPeriod);
+			jewelleryNine.getJewelleryInfo();
 				
 			Jewellery jewelleryTen = new Jewellery();
 			jewelleryTen.jewelleryId=10;
@@ -172,15 +100,7 @@ class JewelleryRunner{
 			jewelleryTen.jewelleryPrice=750200.00;
 			jewelleryTen.jewelleryDesignStyle="Modern";
 			jewelleryTen.warrantyPeriod=7;
-				System.out.println();
-				System.out.println("Jewellery Ten details : ");
-				System.out.println("id of jewellery is : "+jewelleryTen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryTen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryTen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryTen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryTen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryTen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryTen.warrantyPeriod);
+			jewelleryTen.getJewelleryInfo();
 				
 			Jewellery jewelleryEleven  = new Jewellery();
 			jewelleryEleven.jewelleryId=11;
@@ -190,15 +110,7 @@ class JewelleryRunner{
 			jewelleryEleven.jewelleryPrice=58200.00;
 			jewelleryEleven.jewelleryDesignStyle="Traditional";
 			jewelleryEleven.warrantyPeriod=7;
-				System.out.println();
-				System.out.println("Jewellery Eleventh details : ");
-				System.out.println("id of jewellery is : "+jewelleryEleven.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryEleven.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryEleven.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryEleven.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryEleven.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryEleven.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryEleven.warrantyPeriod);
+			jewelleryEleven.getJewelleryInfo();
 				
 			Jewellery jewelleryTwelve = new Jewellery();
 			jewelleryTwelve.jewelleryId=12;
@@ -208,15 +120,7 @@ class JewelleryRunner{
 			jewelleryTwelve.jewelleryPrice=58200.00;
 			jewelleryTwelve.jewelleryDesignStyle="Traditional";
 			jewelleryTwelve.warrantyPeriod=7;
-				System.out.println();
-				System.out.println("Jewellery Twelve details : ");
-				System.out.println("id of jewellery is : "+jewelleryTwelve.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryTwelve.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryTwelve.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryTwelve.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryTwelve.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryTwelve.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryTwelve.warrantyPeriod);
+			jewelleryTwelve.getJewelleryInfo();
 				
 			Jewellery jewelleryThirteen = new Jewellery();
 			jewelleryThirteen.jewelleryId=13;
@@ -226,15 +130,7 @@ class JewelleryRunner{
 			jewelleryThirteen.jewelleryPrice=5800.00;
 			jewelleryThirteen.jewelleryDesignStyle="Antique";
 			jewelleryThirteen.warrantyPeriod=3;
-				System.out.println();
-				System.out.println("Jewellery Thirteen details : ");
-				System.out.println("id of jewellery is : "+jewelleryThirteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryThirteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryThirteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryThirteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryThirteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryThirteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryThirteen.warrantyPeriod);
+			jewelleryThirteen.getJewelleryInfo();
 				
 			Jewellery jewelleryFourteen = new Jewellery();
 			jewelleryFourteen.jewelleryId=14;
@@ -244,15 +140,7 @@ class JewelleryRunner{
 			jewelleryFourteen.jewelleryPrice=7500.00;
 			jewelleryFourteen.jewelleryDesignStyle="Traditional";
 			jewelleryFourteen.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Fourteen details : ");
-				System.out.println("id of jewellery is : "+jewelleryFourteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryFourteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryFourteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryFourteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryFourteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryFourteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryFourteen.warrantyPeriod);
+			jewelleryFourteen.getJewelleryInfo();
 				
 			Jewellery jewelleryFifteen = new Jewellery();
 			jewelleryFifteen.jewelleryId=15;
@@ -262,15 +150,7 @@ class JewelleryRunner{
 			jewelleryFifteen.jewelleryPrice=750599.00;
 			jewelleryFifteen.jewelleryDesignStyle="Traditional";
 			jewelleryFifteen.warrantyPeriod=5;
-				System.out.println();
-				System.out.println("Jewellery Fifteen details : ");
-				System.out.println("id of jewellery is : "+jewelleryFifteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryFifteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryFifteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryFifteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryFifteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryFifteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryFifteen.warrantyPeriod);
+			jewelleryFifteen.getJewelleryInfo();
 				
 			Jewellery jewellerySixteen = new Jewellery();
 			jewellerySixteen.jewelleryId=16;
@@ -280,15 +160,7 @@ class JewelleryRunner{
 			jewellerySixteen.jewelleryPrice=1000000.00;
 			jewellerySixteen.jewelleryDesignStyle="Antique";
 			jewellerySixteen.warrantyPeriod=9;
-				System.out.println();
-				System.out.println("Jewellery Sixteen details : ");
-				System.out.println("id of jewellery is : "+jewellerySixteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewellerySixteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewellerySixteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewellerySixteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewellerySixteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewellerySixteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewellerySixteen.warrantyPeriod);
+			jewellerySixteen.getJewelleryInfo();
 				
 			Jewellery jewellerySeventeen = new Jewellery();
 			jewellerySeventeen.jewelleryId=17;
@@ -298,15 +170,7 @@ class JewelleryRunner{
 			jewellerySeventeen.jewelleryPrice=2000.00;
 			jewellerySeventeen.jewelleryDesignStyle="Traditional";
 			jewellerySeventeen.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Seventeen details : ");
-				System.out.println("id of jewellery is : "+jewellerySeventeen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewellerySeventeen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewellerySeventeen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewellerySeventeen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewellerySeventeen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewellerySeventeen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewellerySeventeen.warrantyPeriod);
+			jewellerySeventeen.getJewelleryInfo();
 				
 			Jewellery jewelleryEighteen = new Jewellery();
 			jewelleryEighteen.jewelleryId=18;
@@ -316,15 +180,7 @@ class JewelleryRunner{
 			jewelleryEighteen.jewelleryPrice=70000.00;
 			jewelleryEighteen.jewelleryDesignStyle="Traditional";
 			jewelleryEighteen.warrantyPeriod=5;
-				System.out.println();
-				System.out.println("Jewellery Eighteen details : ");
-				System.out.println("id of jewellery is : "+jewelleryEighteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryEighteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryEighteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryEighteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryEighteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryEighteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryEighteen.warrantyPeriod);
+			jewelleryEighteen.getJewelleryInfo();
 				
 			Jewellery jewelleryNineteen = new Jewellery();
 			jewelleryNineteen.jewelleryId=19;
@@ -334,15 +190,7 @@ class JewelleryRunner{
 			jewelleryNineteen.jewelleryPrice=90900.00;
 			jewelleryNineteen.jewelleryDesignStyle="Modern";
 			jewelleryNineteen.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Nineteen details : ");
-				System.out.println("id of jewellery is : "+jewelleryNineteen.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryNineteen.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryNineteen.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryNineteen.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryNineteen.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryNineteen.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryNineteen.warrantyPeriod);
+			jewelleryNineteen.getJewelleryInfo();
 				
 			Jewellery jewelleryTwenty = new Jewellery();
 			jewelleryTwenty.jewelleryId=20;
@@ -352,15 +200,7 @@ class JewelleryRunner{
 			jewelleryTwenty.jewelleryPrice=10000.00;
 			jewelleryTwenty.jewelleryDesignStyle="Antique";
 			jewelleryTwenty.warrantyPeriod=1;
-				System.out.println();
-				System.out.println("Jewellery Twenty details : ");
-				System.out.println("id of jewellery is : "+jewelleryTwenty.jewelleryId);
-				System.out.println("the type of the jewellery is : "+jewelleryTwenty.jewelleryType);
-				System.out.println("the jewellery name is : "+jewelleryTwenty.jewelleryName);
-				System.out.println("the making charges of the jewellery is : "+jewelleryTwenty.makingCharges+" %");
-				System.out.println("the price of the jewellery is : "+jewelleryTwenty.jewelleryPrice);
-				System.out.println("the design style of the jewellery is : "+jewelleryTwenty.jewelleryDesignStyle);
-				System.out.println("the warranty period of the jewellery is  : "+jewelleryTwenty.warrantyPeriod);
+			jewelleryTwenty.getJewelleryInfo();
 				System.out.println();
 		System.out.println("main ended");
 	}

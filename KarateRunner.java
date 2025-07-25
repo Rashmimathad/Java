@@ -9,14 +9,7 @@ class KarateRunner{
 			karateOne.includesMeditation = true;
 			karateOne.beltLevel = "Yellow";
 			karateOne.trainingSchedule = "Mon-Wed-Fri 6AM-8AM";
-				System.out.println();
-				System.out.println("Karate one details:");
-				System.out.println("ID of the karate is: " + karateOne.karateId);
-				System.out.println("Name of the karate style: " + karateOne.name);
-				System.out.println("Location of the dojo: " + karateOne.location);
-				System.out.println("Includes meditation: " + karateOne.includesMeditation);
-				System.out.println("Belt level: " + karateOne.beltLevel);
-				System.out.println("Training schedule: " + karateOne.trainingSchedule);
+			karateOne.getKarateInfo();
 
 			Karate karateTwo = new Karate();
 			karateTwo.karateId = 2;
@@ -25,14 +18,7 @@ class KarateRunner{
 			karateTwo.includesMeditation = false;
 			karateTwo.beltLevel = "Green";
 			karateTwo.trainingSchedule = "Tue-Thu 7PM-9PM";
-				System.out.println();
-				System.out.println("Karate two details:");
-				System.out.println("ID of the karate is: " + karateTwo.karateId);
-				System.out.println("Name of the karate style: " + karateTwo.name);
-				System.out.println("Location of the dojo: " + karateTwo.location);
-				System.out.println("Includes meditation: " + karateTwo.includesMeditation);
-				System.out.println("Belt level: " + karateTwo.beltLevel);
-				System.out.println("Training schedule: " + karateTwo.trainingSchedule);
+			karateTwo.getKarateInfo();
 
 			Karate karateThree = new Karate();
 			karateThree.karateId = 3;
@@ -41,14 +27,7 @@ class KarateRunner{
 			karateThree.includesMeditation = true;
 			karateThree.beltLevel = "Orange";
 			karateThree.trainingSchedule = "Sat-Sun 8AM-10AM";
-				System.out.println();
-				System.out.println("Karate three details:");
-				System.out.println("ID of the karate is: " + karateThree.karateId);
-				System.out.println("Name of the karate style: " + karateThree.name);
-				System.out.println("Location of the dojo: " + karateThree.location);
-				System.out.println("Includes meditation: " + karateThree.includesMeditation);
-				System.out.println("Belt level: " + karateThree.beltLevel);
-				System.out.println("Training schedule: " + karateThree.trainingSchedule);
+			karateThree.getKarateInfo();
 
 			Karate karateFour = new Karate();
 			karateFour.karateId = 4;
@@ -57,14 +36,7 @@ class KarateRunner{
 			karateFour.includesMeditation = false;
 			karateFour.beltLevel = "Blue";
 			karateFour.trainingSchedule = "Mon-Fri 6PM-8PM";
-				System.out.println();
-				System.out.println("Karate four details:");
-				System.out.println("ID of the karate is: " + karateFour.karateId);
-				System.out.println("Name of the karate style: " + karateFour.name);
-				System.out.println("Location of the dojo: " + karateFour.location);
-				System.out.println("Includes meditation: " + karateFour.includesMeditation);
-				System.out.println("Belt level: " + karateFour.beltLevel);
-				System.out.println("Training schedule: " + karateFour.trainingSchedule);
+			karateFour.getKarateInfo();
 
 			Karate karateFive = new Karate();
 			karateFive.karateId = 5;
@@ -73,14 +45,7 @@ class KarateRunner{
 			karateFive.includesMeditation = true;
 			karateFive.beltLevel = "Purple";
 			karateFive.trainingSchedule = "Wed-Fri 7AM-9AM";
-				System.out.println();
-				System.out.println("Karate five details:");
-				System.out.println("ID of the karate is: " + karateFive.karateId);
-				System.out.println("Name of the karate style: " + karateFive.name);
-				System.out.println("Location of the dojo: " + karateFive.location);
-				System.out.println("Includes meditation: " + karateFive.includesMeditation);
-				System.out.println("Belt level: " + karateFive.beltLevel);
-				System.out.println("Training schedule: " + karateFive.trainingSchedule);
+			karateFive.getKarateInfo();
 
 			Karate karateSix = new Karate();
 			karateSix.karateId = 6;
@@ -89,14 +54,7 @@ class KarateRunner{
 			karateSix.includesMeditation = true;
 			karateSix.beltLevel = "Brown";
 			karateSix.trainingSchedule = "Tue-Thu 6AM-7AM";
-				System.out.println();
-				System.out.println("Karate six details:");
-				System.out.println("ID of the karate is: " + karateSix.karateId);
-				System.out.println("Name of the karate style: " + karateSix.name);
-				System.out.println("Location of the dojo: " + karateSix.location);
-				System.out.println("Includes meditation: " + karateSix.includesMeditation);
-				System.out.println("Belt level: " + karateSix.beltLevel);
-				System.out.println("Training schedule: " + karateSix.trainingSchedule);
+			karateSix.getKarateInfo();
 
 			Karate karateSeven = new Karate();
 			karateSeven.karateId = 7;
@@ -105,14 +63,7 @@ class KarateRunner{
 			karateSeven.includesMeditation = false;
 			karateSeven.beltLevel = "Red";
 			karateSeven.trainingSchedule = "Mon-Wed 5PM-7PM";
-				System.out.println();
-				System.out.println("Karate seven details:");
-				System.out.println("ID of the karate is: " + karateSeven.karateId);
-				System.out.println("Name of the karate style: " + karateSeven.name);
-				System.out.println("Location of the dojo: " + karateSeven.location);
-				System.out.println("Includes meditation: " + karateSeven.includesMeditation);
-				System.out.println("Belt level: " + karateSeven.beltLevel);
-				System.out.println("Training schedule: " + karateSeven.trainingSchedule);
+			karateSeven.getKarateInfo();
 
 			Karate karateEight = new Karate();
 			karateEight.karateId = 8;
@@ -121,14 +72,7 @@ class KarateRunner{
 			karateEight.includesMeditation = true;
 			karateEight.beltLevel = "White";
 			karateEight.trainingSchedule = "Fri-Sat 7PM-9PM";
-				System.out.println();
-				System.out.println("Karate eight details:");
-				System.out.println("ID of the karate is: " + karateEight.karateId);
-				System.out.println("Name of the karate style: " + karateEight.name);
-				System.out.println("Location of the dojo: " + karateEight.location);
-				System.out.println("Includes meditation: " + karateEight.includesMeditation);
-				System.out.println("Belt level: " + karateEight.beltLevel);
-				System.out.println("Training schedule: " + karateEight.trainingSchedule);
+			karateEight.getKarateInfo();
 
 			Karate karateNine = new Karate();
 			karateNine.karateId = 9;
@@ -137,14 +81,7 @@ class KarateRunner{
 			karateNine.includesMeditation = false;
 			karateNine.beltLevel = "Black";
 			karateNine.trainingSchedule = "Sun 8AM-11AM";
-				System.out.println();
-				System.out.println("Karate nine details:");
-				System.out.println("ID of the karate is: " + karateNine.karateId);
-				System.out.println("Name of the karate style: " + karateNine.name);
-				System.out.println("Location of the dojo: " + karateNine.location);
-				System.out.println("Includes meditation: " + karateNine.includesMeditation);
-				System.out.println("Belt level: " + karateNine.beltLevel);
-				System.out.println("Training schedule: " + karateNine.trainingSchedule);
+			karateNine.getKarateInfo();
 
 			Karate karateTen = new Karate();
 			karateTen.karateId = 10;
@@ -153,14 +90,7 @@ class KarateRunner{
 			karateTen.includesMeditation = true;
 			karateTen.beltLevel = "Brown";
 			karateTen.trainingSchedule = "Tue-Thu 8AM-10AM";
-			System.out.println();
-			System.out.println("Karate ten details:");
-			System.out.println("ID of the karate is: " + karateTen.karateId);
-			System.out.println("Name of the karate style: " + karateTen.name);
-			System.out.println("Location of the dojo: " + karateTen.location);
-			System.out.println("Includes meditation: " + karateTen.includesMeditation);
-			System.out.println("Belt level: " + karateTen.beltLevel);
-			System.out.println("Training schedule: " + karateTen.trainingSchedule);
+			karateTen.getKarateInfo();
 					
 			Karate karateEleven = new Karate();
 			karateEleven.name = "Enshin";
@@ -168,14 +98,7 @@ class KarateRunner{
 			karateEleven.includesMeditation = false;
 			karateEleven.beltLevel = "Orange";
 			karateEleven.trainingSchedule = "Mon-Wed-Fri 9AM-11AM";
-				System.out.println();
-				System.out.println("Karate eleven details:");
-				System.out.println("ID of the karate is: " + karateEleven.karateId);
-				System.out.println("Name of the karate style: " + karateEleven.name);
-				System.out.println("Location of the dojo: " + karateEleven.location);
-				System.out.println("Includes meditation: " + karateEleven.includesMeditation);
-				System.out.println("Belt level: " + karateEleven.beltLevel);
-				System.out.println("Training schedule: " + karateEleven.trainingSchedule);
+			karateEleven.getKarateInfo();
 
 			Karate karateTwelve = new Karate();
 			karateTwelve.karateId = 12;
@@ -184,14 +107,7 @@ class KarateRunner{
 			karateTwelve.includesMeditation = true;
 			karateTwelve.beltLevel = "Green";
 			karateTwelve.trainingSchedule = "Tue-Thu 4PM-6PM";
-				System.out.println();
-				System.out.println("Karate twelve details:");
-				System.out.println("ID of the karate is: " + karateTwelve.karateId);
-				System.out.println("Name of the karate style: " + karateTwelve.name);
-				System.out.println("Location of the dojo: " + karateTwelve.location);
-				System.out.println("Includes meditation: " + karateTwelve.includesMeditation);
-				System.out.println("Belt level: " + karateTwelve.beltLevel);
-				System.out.println("Training schedule: " + karateTwelve.trainingSchedule);
+			karateTwelve.getKarateInfo();
 
 			Karate karateThirteen = new Karate();
 			karateThirteen.karateId = 13;
@@ -200,14 +116,7 @@ class KarateRunner{
 			karateThirteen.includesMeditation = false;
 			karateThirteen.beltLevel = "White";
 			karateThirteen.trainingSchedule = "Mon-Tue 7PM-8PM";
-				System.out.println();
-				System.out.println("Karate thirteen details:");
-				System.out.println("ID of the karate is: " + karateThirteen.karateId);
-				System.out.println("Name of the karate style: " + karateThirteen.name);
-				System.out.println("Location of the dojo: " + karateThirteen.location);
-				System.out.println("Includes meditation: " + karateThirteen.includesMeditation);
-				System.out.println("Belt level: " + karateThirteen.beltLevel);
-				System.out.println("Training schedule: " + karateThirteen.trainingSchedule);
+			karateThirteen.getKarateInfo();
 
 			Karate karateFourteen = new Karate();
 			karateFourteen.karateId = 14;
@@ -216,14 +125,7 @@ class KarateRunner{
 			karateFourteen.includesMeditation = true;
 			karateFourteen.beltLevel = "Blue";
 			karateFourteen.trainingSchedule = "Fri-Sun 5AM-7AM";
-				System.out.println();
-				System.out.println("Karate fourteen details:");
-				System.out.println("ID of the karate is: " + karateFourteen.karateId);
-				System.out.println("Name of the karate style: " + karateFourteen.name);
-				System.out.println("Location of the dojo: " + karateFourteen.location);
-				System.out.println("Includes meditation: " + karateFourteen.includesMeditation);
-				System.out.println("Belt level: " + karateFourteen.beltLevel);
-				System.out.println("Training schedule: " + karateFourteen.trainingSchedule);
+			karateFourteen.getKarateInfo();
 
 			Karate karateFifteen = new Karate();
 			karateFifteen.karateId = 15;
@@ -232,14 +134,7 @@ class KarateRunner{
 			karateFifteen.includesMeditation = false;
 			karateFifteen.beltLevel = "Purple";
 			karateFifteen.trainingSchedule = "Wed-Fri 6PM-8PM";
-				System.out.println();
-				System.out.println("Karate fifteen details:");
-				System.out.println("ID of the karate is: " + karateFifteen.karateId);
-				System.out.println("Name of the karate style: " + karateFifteen.name);
-				System.out.println("Location of the dojo: " + karateFifteen.location);
-				System.out.println("Includes meditation: " + karateFifteen.includesMeditation);
-				System.out.println("Belt level: " + karateFifteen.beltLevel);
-				System.out.println("Training schedule: " + karateFifteen.trainingSchedule);
+			karateFifteen.getKarateInfo();
 
 			Karate karateSixteen = new Karate();
 			karateSixteen.karateId = 16;
@@ -248,14 +143,7 @@ class KarateRunner{
 			karateSixteen.includesMeditation = true;
 			karateSixteen.beltLevel = "Red";
 			karateSixteen.trainingSchedule = "Tue-Thu 9AM-11AM";
-				System.out.println();
-				System.out.println("Karate sixteen details:");
-				System.out.println("ID of the karate is: " + karateSixteen.karateId);
-				System.out.println("Name of the karate style: " + karateSixteen.name);
-				System.out.println("Location of the dojo: " + karateSixteen.location);
-				System.out.println("Includes meditation: " + karateSixteen.includesMeditation);
-				System.out.println("Belt level: " + karateSixteen.beltLevel);
-				System.out.println("Training schedule: " + karateSixteen.trainingSchedule);
+			karateSixteen.getKarateInfo();
 
 			Karate karateSeventeen = new Karate();
 			karateSeventeen.karateId = 17;
@@ -264,14 +152,7 @@ class KarateRunner{
 			karateSeventeen.includesMeditation = false;
 			karateSeventeen.beltLevel = "Black";
 			karateSeventeen.trainingSchedule = "Sat 3PM-6PM";
-				System.out.println();
-				System.out.println("Karate seventeen details:");
-				System.out.println("ID of the karate is: " + karateSeventeen.karateId);
-				System.out.println("Name of the karate style: " + karateSeventeen.name);
-				System.out.println("Location of the dojo: " + karateSeventeen.location);
-				System.out.println("Includes meditation: " + karateSeventeen.includesMeditation);
-				System.out.println("Belt level: " + karateSeventeen.beltLevel);
-				System.out.println("Training schedule: " + karateSeventeen.trainingSchedule);
+			karateSeventeen.getKarateInfo();
 
 			Karate karateEighteen = new Karate();
 			karateEighteen.karateId = 18;
@@ -280,14 +161,7 @@ class KarateRunner{
 			karateEighteen.includesMeditation = true;
 			karateEighteen.beltLevel = "Yellow";
 			karateEighteen.trainingSchedule = "Mon-Wed 10AM-12PM";
-				System.out.println();
-				System.out.println("Karate eighteen details:");
-				System.out.println("ID of the karate is: " + karateEighteen.karateId);
-				System.out.println("Name of the karate style: " + karateEighteen.name);
-				System.out.println("Location of the dojo: " + karateEighteen.location);
-				System.out.println("Includes meditation: " + karateEighteen.includesMeditation);
-				System.out.println("Belt level: " + karateEighteen.beltLevel);
-				System.out.println("Training schedule: " + karateEighteen.trainingSchedule);
+			karateEighteen.getKarateInfo();
 
 			Karate karateNineteen = new Karate();
 			karateNineteen.karateId = 19;
@@ -296,14 +170,7 @@ class KarateRunner{
 			karateNineteen.includesMeditation = false;
 			karateNineteen.beltLevel = "Green";
 			karateNineteen.trainingSchedule = "Fri-Sat 4PM-6PM";
-				System.out.println();
-				System.out.println("Karate nineteen details:");
-				System.out.println("ID of the karate is: " + karateNineteen.karateId);
-				System.out.println("Name of the karate style: " + karateNineteen.name);
-				System.out.println("Location of the dojo: " + karateNineteen.location);
-				System.out.println("Includes meditation: " + karateNineteen.includesMeditation);
-				System.out.println("Belt level: " + karateNineteen.beltLevel);
-				System.out.println("Training schedule: " + karateNineteen.trainingSchedule);
+			karateNineteen.getKarateInfo();
 			
 			Karate karateTwenty = new Karate();
 			karateTwenty.karateId = 20;
@@ -312,14 +179,7 @@ class KarateRunner{
 			karateTwenty.includesMeditation = true;
 			karateTwenty.beltLevel = "Black Belt - 3rd Dan";
 			karateTwenty.trainingSchedule = "Monday to Friday, 6:00 PM - 8:00 PM";
-				System.out.println();
-				System.out.println("Karate Twenty Details:");
-				System.out.println("ID of the Karate is : " + karateTwenty.karateId);
-				System.out.println("Name of the Karate dojo : " + karateTwenty.name);
-				System.out.println("Location of the Karate dojo : " + karateTwenty.location);
-				System.out.println("Includes meditation? : " + karateTwenty.includesMeditation);
-				System.out.println("Belt level is : " + karateTwenty.beltLevel);
-				System.out.println("Training schedule : " + karateTwenty.trainingSchedule);
+			karateTwenty.getKarateInfo();
 
 		System.out.println("main ended");
 	}

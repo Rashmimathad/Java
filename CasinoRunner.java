@@ -9,14 +9,7 @@ class CasinoRunner{
 			casinoOne.establishedYear=1995;
 			casinoOne.numberOfTablesGames=50;
 			casinoOne.numberOfSlotMachines=1500;
-				System.out.println();
-				System.out.println("casino one details:");
-				System.out.println("id of casino is : "+casinoOne.casinoId);
-				System.out.println("name of casino is : "+casinoOne.casinoName);
-				System.out.println("casino is located at : "+casinoOne.location);
-				System.out.println("establishedYear of the casino is : "+casinoOne.establishedYear);
-				System.out.println("number of table games : "+casinoOne.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoOne.numberOfSlotMachines);
+			casinoOne.getCasinoInfo();
 			
 			Casino casinoTwo=new Casino();
 			casinoTwo.casinoId = 2;
@@ -25,14 +18,7 @@ class CasinoRunner{
 			casinoTwo.establishedYear = 2000;
 			casinoTwo.numberOfTablesGames = 80;
 			casinoTwo.numberOfSlotMachines = 1200;
-				System.out.println();
-				System.out.println("casino two details:");
-				System.out.println("id of casino is : "+casinoTwo.casinoId);
-				System.out.println("name of casino is : "+casinoTwo.casinoName);
-				System.out.println("casino is located at : "+casinoTwo.location);
-				System.out.println("establishedYear of the casino is : "+casinoTwo.establishedYear);
-				System.out.println("number of table games : "+casinoTwo.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoTwo.numberOfSlotMachines);
+			casinoTwo.getCasinoInfo();
 				
 			Casino casinoThree=new Casino();
 			casinoThree.casinoId = 3;
@@ -41,14 +27,7 @@ class CasinoRunner{
 			casinoThree.establishedYear = 1985;
 			casinoThree.numberOfTablesGames = 60;
 			casinoThree.numberOfSlotMachines = 900;
-				System.out.println();
-				System.out.println("casino three details:");
-				System.out.println("id of casino is : "+casinoThree.casinoId);
-				System.out.println("name of casino is : "+casinoThree.casinoName);
-				System.out.println("casino is located at : "+casinoThree.location);
-				System.out.println("establishedYear of the casino is : "+casinoThree.establishedYear);
-				System.out.println("number of table games : "+casinoThree.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoThree.numberOfSlotMachines);
+			casinoThree.getCasinoInfo();	
 				
 			Casino casinoFour=new Casino();
 			casinoFour.casinoId = 4;
@@ -57,14 +36,7 @@ class CasinoRunner{
 			casinoFour.establishedYear = 2010;
 			casinoFour.numberOfTablesGames = 40;
 			casinoFour.numberOfSlotMachines = 700;
-				System.out.println();
-				System.out.println("casino four details:");
-				System.out.println("id of casino is : "+casinoFour.casinoId);
-				System.out.println("name of casino is : "+casinoFour.casinoName);
-				System.out.println("casino is located at : "+casinoFour.location);
-				System.out.println("establishedYear of the casino is : "+casinoFour.establishedYear);
-				System.out.println("number of table games : "+casinoFour.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoFour.numberOfSlotMachines);
+			casinoFour.getCasinoInfo();
 				
 			Casino casinoFive=new Casino();
 			casinoFive.casinoId = 5;
@@ -73,14 +45,7 @@ class CasinoRunner{
 			casinoFive.establishedYear = 2015;
 			casinoFive.numberOfTablesGames = 45;
 			casinoFive.numberOfSlotMachines = 1100;
-				System.out.println();
-				System.out.println("casino five details:");
-				System.out.println("id of casino is : "+casinoFive.casinoId);
-				System.out.println("name of casino is : "+casinoFive.casinoName);
-				System.out.println("casino is located at : "+casinoFive.location);
-				System.out.println("establishedYear of the casino is : "+casinoFive.establishedYear);
-				System.out.println("number of table games : "+casinoFive.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoFive.numberOfSlotMachines);
+			casinoFive.getCasinoInfo();
 				
 			Casino casinoSix=new Casino();
 			casinoSix.casinoId = 6;
@@ -89,14 +54,7 @@ class CasinoRunner{
 			casinoSix.establishedYear = 2008;
 			casinoSix.numberOfTablesGames = 55;
 			casinoSix.numberOfSlotMachines = 1300;
-				System.out.println();
-				System.out.println("casino six details:");
-				System.out.println("id of casino is : "+casinoSix.casinoId);
-				System.out.println("name of casino is : "+casinoSix.casinoName);
-				System.out.println("casino is located at : "+casinoSix.location);
-				System.out.println("establishedYear of the casino is : "+casinoSix.establishedYear);
-				System.out.println("number of table games : "+casinoSix.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoSix.numberOfSlotMachines);
+			casinoSix.getCasinoInfo();	
 				
 			Casino casinoSeven=new Casino();
 			casinoSeven.casinoId = 7;
@@ -105,14 +63,7 @@ class CasinoRunner{
 			casinoSeven.establishedYear = 1990;
 			casinoSeven.numberOfTablesGames = 65;
 			casinoSeven.numberOfSlotMachines = 850;
-				System.out.println();
-				System.out.println("casino seven details:");
-				System.out.println("id of casino is : "+casinoSeven.casinoId);
-				System.out.println("name of casino is : "+casinoSeven.casinoName);
-				System.out.println("casino is located at : "+casinoSeven.location);
-				System.out.println("establishedYear of the casino is : "+casinoSeven.establishedYear);
-				System.out.println("number of table games : "+casinoSeven.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoSeven.numberOfSlotMachines);
+			casinoSeven.getCasinoInfo();
 				
 			Casino casinoEight=new Casino();
 			casinoEight.casinoId = 8;
@@ -121,14 +72,7 @@ class CasinoRunner{
 			casinoEight.establishedYear = 2005;
 			casinoEight.numberOfTablesGames = 30;
 			casinoEight.numberOfSlotMachines = 600;
-				System.out.println();
-				System.out.println("casino eight details:");
-				System.out.println("id of casino is : "+casinoEight.casinoId);
-				System.out.println("name of casino is : "+casinoEight.casinoName);
-				System.out.println("casino is located at : "+casinoEight.location);
-				System.out.println("establishedYear of the casino is : "+casinoEight.establishedYear);
-				System.out.println("number of table games : "+casinoEight.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoEight.numberOfSlotMachines);
+			casinoEight.getCasinoInfo();
 				
 			Casino casinoNine=new Casino();
 			casinoNine.casinoId = 9;
@@ -137,14 +81,7 @@ class CasinoRunner{
 			casinoNine.establishedYear = 1998;
 			casinoNine.numberOfTablesGames = 35;
 			casinoNine.numberOfSlotMachines = 750;
-				System.out.println();
-				System.out.println("casino nine details:");
-				System.out.println("id of casino is : "+casinoNine.casinoId);
-				System.out.println("name of casino is : "+casinoNine.casinoName);
-				System.out.println("casino is located at : "+casinoNine.location);
-				System.out.println("establishedYear of the casino is : "+casinoNine.establishedYear);
-				System.out.println("number of table games : "+casinoNine.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoNine.numberOfSlotMachines);
+			casinoNine.getCasinoInfo();
 				
 			Casino casinoTen=new Casino();
 			casinoTen.casinoId = 10;
@@ -153,14 +90,7 @@ class CasinoRunner{
 			casinoTen.establishedYear = 1980;
 			casinoTen.numberOfTablesGames = 90;
 			casinoTen.numberOfSlotMachines = 2000;
-				System.out.println();
-				System.out.println("casino ten details:");
-				System.out.println("id of casino is : "+casinoTen.casinoId);
-				System.out.println("name of casino is : "+casinoTen.casinoName);
-				System.out.println("casino is located at : "+casinoTen.location);
-				System.out.println("establishedYear of the casino is : "+casinoTen.establishedYear);
-				System.out.println("number of table games : "+casinoTen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoTen.numberOfSlotMachines);
+			casinoTen.getCasinoInfo();
 				
 			Casino casinoEleven=new Casino();
 			casinoEleven.casinoId = 11;
@@ -169,14 +99,7 @@ class CasinoRunner{
 			casinoEleven.establishedYear = 2012;
 			casinoEleven.numberOfTablesGames = 38;
 			casinoEleven.numberOfSlotMachines = 720;
-				System.out.println();
-				System.out.println("casino eleven details:");
-				System.out.println("id of casino is : "+casinoEleven.casinoId);
-				System.out.println("name of casino is : "+casinoEleven.casinoName);
-				System.out.println("casino is located at : "+casinoEleven.location);
-				System.out.println("establishedYear of the casino is : "+casinoEleven.establishedYear);
-				System.out.println("number of table games : "+casinoEleven.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoEleven.numberOfSlotMachines);
+			casinoEleven.getCasinoInfo();	
 				
 			Casino casinoTwelve=new Casino();
 			casinoTwelve.casinoId = 12;
@@ -185,14 +108,7 @@ class CasinoRunner{
 			casinoTwelve.establishedYear = 1996;
 			casinoTwelve.numberOfTablesGames = 50;
 			casinoTwelve.numberOfSlotMachines = 880;
-				System.out.println();
-				System.out.println("casino twelve details:");
-				System.out.println("id of casino is : "+casinoTwelve.casinoId);
-				System.out.println("name of casino is : "+casinoTwelve.casinoName);
-				System.out.println("casino is located at : "+casinoTwelve.location);
-				System.out.println("establishedYear of the casino is : "+casinoTwelve.establishedYear);
-				System.out.println("number of table games : "+casinoTwelve.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoTwelve.numberOfSlotMachines);
+			casinoTwelve.getCasinoInfo();
 				
 			Casino casinoThirteen=new Casino();
 			casinoThirteen.casinoId = 13;
@@ -201,13 +117,7 @@ class CasinoRunner{
 			casinoThirteen.establishedYear = 2020;
 			casinoThirteen.numberOfTablesGames = 70;
 			casinoThirteen.numberOfSlotMachines = 1100;
-				System.out.println();
-				System.out.println("casino thirteen details:");
-				System.out.println("id of casino is : "+casinoThirteen.casinoId);
-				System.out.println("name of casino is : "+casinoThirteen.casinoName);
-				System.out.println("establishedYear of the casino is : "+casinoThirteen.establishedYear);
-				System.out.println("number of table games : "+casinoThirteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoThirteen.numberOfSlotMachines);
+			casinoThirteen.getCasinoInfo();
 				
 			Casino casinoFourteen=new Casino();
 			casinoFourteen.casinoId = 14;
@@ -216,14 +126,7 @@ class CasinoRunner{
 			casinoFourteen.establishedYear = 2003;
 			casinoFourteen.numberOfTablesGames = 60;
 			casinoFourteen.numberOfSlotMachines = 970;
-				System.out.println();
-				System.out.println("casino fourteen details:");
-				System.out.println("id of casino is : "+casinoFourteen.casinoId);
-				System.out.println("name of casino is : "+casinoFourteen.casinoName);
-				System.out.println("casino is located at : "+casinoFourteen.location);
-				System.out.println("establishedYear of the casino is : "+casinoFourteen.establishedYear);
-				System.out.println("number of table games : "+casinoFourteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoFourteen.numberOfSlotMachines);
+			casinoFourteen.getCasinoInfo();
 				
 			Casino casinoFifteen=new Casino();
 			casinoFifteen.casinoId = 15;
@@ -232,14 +135,7 @@ class CasinoRunner{
 			casinoFifteen.establishedYear = 1975;
 			casinoFifteen.numberOfTablesGames = 100;
 			casinoFifteen.numberOfSlotMachines = 1900;
-				System.out.println();
-				System.out.println("casino fifteen details:");
-				System.out.println("id of casino is : "+casinoFifteen.casinoId);
-				System.out.println("name of casino is : "+casinoFifteen.casinoName);
-				System.out.println("casino is located at : "+casinoFifteen.location);
-				System.out.println("establishedYear of the casino is : "+casinoFifteen.establishedYear);
-				System.out.println("number of table games : "+casinoFifteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoFifteen.numberOfSlotMachines);
+			casinoFifteen.getCasinoInfo();
 				
 			Casino casinoSixteen=new Casino();
 			casinoSixteen.casinoId = 16;
@@ -248,15 +144,7 @@ class CasinoRunner{
 			casinoSixteen.establishedYear = 2007;
 			casinoSixteen.numberOfTablesGames = 42;
 			casinoSixteen.numberOfSlotMachines = 640;
-				System.out.println();
-				System.out.println("casino sixteen details:");
-				System.out.println("id of casino is : "+casinoSixteen.casinoId);
-				System.out.println("name of casino is : "+casinoSixteen.casinoName);
-				System.out.println("casino is located at : "+casinoSixteen.location);
-				System.out.println("establishedYear of the casino is : "+casinoSixteen.establishedYear);
-				System.out.println("number of table games : "+casinoSixteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoSixteen.numberOfSlotMachines);
-				
+			casinoSixteen.getCasinoInfo();
 			
 			Casino casinoSeventeen=new Casino();
 			casinoSeventeen.casinoId = 17;
@@ -265,14 +153,7 @@ class CasinoRunner{
 			casinoSeventeen.establishedYear = 2001;
 			casinoSeventeen.numberOfTablesGames = 48;
 			casinoSeventeen.numberOfSlotMachines = 770;
-				System.out.println();
-				System.out.println("casino seventeen details:");
-				System.out.println("id of casino is : "+casinoSeventeen.casinoId);
-				System.out.println("name of casino is : "+casinoSeventeen.casinoName);
-				System.out.println("casino is located at : "+casinoSeventeen.location);
-				System.out.println("establishedYear of the casino is : "+casinoSeventeen.establishedYear);
-				System.out.println("number of table games : "+casinoSeventeen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoSeventeen.numberOfSlotMachines);
+			casinoSeventeen.getCasinoInfo();	
 				
 			Casino casinoEighteen=new Casino();
 			casinoEighteen.casinoId = 18;
@@ -281,14 +162,7 @@ class CasinoRunner{
 			casinoEighteen.establishedYear = 2016;
 			casinoEighteen.numberOfTablesGames = 36;
 			casinoEighteen.numberOfSlotMachines = 830;
-				System.out.println();
-				System.out.println("casino eighteen details:");
-				System.out.println("id of casino is : "+casinoEighteen.casinoId);
-				System.out.println("name of casino is : "+casinoEighteen.casinoName);
-				System.out.println("casino is located at : "+casinoEighteen.location);
-				System.out.println("establishedYear of the casino is : "+casinoEighteen.establishedYear);
-				System.out.println("number of table games : "+casinoEighteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoEighteen.numberOfSlotMachines);
+			casinoEighteen.getCasinoInfo();
 				
 			Casino casinoNineteen=new Casino();
 			casinoNineteen.casinoId = 19;
@@ -297,14 +171,7 @@ class CasinoRunner{
 			casinoNineteen.establishedYear = 2004;
 			casinoNineteen.numberOfTablesGames = 58;
 			casinoNineteen.numberOfSlotMachines = 980;
-				System.out.println();
-				System.out.println("casino nineteen details:");
-				System.out.println("id of casino is : "+casinoNineteen.casinoId);
-				System.out.println("name of casino is : "+casinoNineteen.casinoName);
-				System.out.println("casino is located at : "+casinoNineteen.location);
-				System.out.println("establishedYear of the casino is : "+casinoNineteen.establishedYear);
-				System.out.println("number of table games : "+casinoNineteen.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoNineteen.numberOfSlotMachines);
+			casinoNineteen.getCasinoInfo();
 				
 			Casino casinoTwenty=new Casino();
 			casinoTwenty.casinoId = 20;
@@ -313,14 +180,7 @@ class CasinoRunner{
 			casinoTwenty.establishedYear = 2018;
 			casinoTwenty.numberOfTablesGames = 44;
 			casinoTwenty.numberOfSlotMachines = 1010;
-				System.out.println();
-				System.out.println("casino twenty details:");
-				System.out.println("id of casino is : "+casinoTwenty.casinoId);
-				System.out.println("name of casino is : "+casinoTwenty.casinoName);
-				System.out.println("casino is located at : "+casinoTwenty.location);
-				System.out.println("establishedYear of the casino is : "+casinoTwenty.establishedYear);
-				System.out.println("number of table games : "+casinoTwenty.numberOfTablesGames);
-				System.out.println("number of slot machines :"+casinoTwenty.numberOfSlotMachines);
+			casinoTwenty.getCasinoInfo();
 			
 		System.out.println("main ended");
 	}

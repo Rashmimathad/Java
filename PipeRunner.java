@@ -8,14 +8,7 @@ class PipeRunner{
 			pipeOne.flowRate=30;
 			pipeOne.color="Green";
 			pipeOne.cost=300.0;
-				System.out.println();
-				System.out.println("pipe one details : ");
-				System.out.println("id of pipe is : "+pipeOne.pipeId);
-				System.out.println("material of the type is : "+pipeOne.pipeMaterial);
-				System.out.println("length of the pipe is : "+pipeOne.length+" m");
-				System.out.println("flowRate of the pipe is : "+pipeOne.flowRate+" L/min");
-				System.out.println("color of the pipe is : "+pipeOne.color);
-				System.out.println("cost of the pipe is : "+pipeOne.cost);
+			pipeOne.getPipeInfo();
 			
 			Pipe pipeTwo = new Pipe();
 			pipeTwo.pipeId = 2;
@@ -24,14 +17,7 @@ class PipeRunner{
 			pipeTwo.flowRate = 50;
 			pipeTwo.color = "Brown";
 			pipeTwo.cost = 850.0;
-				System.out.println();
-				System.out.println("pipe two details : ");
-				System.out.println("id of pipe is : " + pipeTwo.pipeId);
-				System.out.println("material of the type is : " + pipeTwo.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeTwo.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeTwo.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeTwo.color);
-				System.out.println("cost of the pipe is : " + pipeTwo.cost);
+			pipeTwo.getPipeInfo();
 
 			Pipe pipeThree = new Pipe();
 			pipeThree.pipeId = 3;
@@ -40,14 +26,7 @@ class PipeRunner{
 			pipeThree.flowRate = 70;
 			pipeThree.color = "Silver";
 			pipeThree.cost = 1200.0;
-				System.out.println();
-				System.out.println("pipe three details : ");
-				System.out.println("id of pipe is : " + pipeThree.pipeId);
-				System.out.println("material of the type is : " + pipeThree.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeThree.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeThree.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeThree.color);
-				System.out.println("cost of the pipe is : " + pipeThree.cost);
+			pipeThree.getPipeInfo();
 
 			Pipe pipeFour = new Pipe();
 			pipeFour.pipeId = 4;
@@ -56,15 +35,8 @@ class PipeRunner{
 			pipeFour.flowRate = 40;
 			pipeFour.color = "Black";
 			pipeFour.cost = 950.0;
-				System.out.println();
-				System.out.println("pipe four details : ");
-				System.out.println("id of pipe is : " + pipeFour.pipeId);
-				System.out.println("material of the type is : " + pipeFour.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeFour.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeFour.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeFour.color);
-				System.out.println("cost of the pipe is : " + pipeFour.cost);
-
+			pipeFour.getPipeInfo();
+			
 			Pipe pipeFive = new Pipe();
 			pipeFive.pipeId = 5;
 			pipeFive.pipeMaterial = "HDPE";
@@ -72,14 +44,7 @@ class PipeRunner{
 			pipeFive.flowRate = 60;
 			pipeFive.color = "Blue";
 			pipeFive.cost = 1100.0;
-				System.out.println();
-				System.out.println("pipe five details : ");
-				System.out.println("id of pipe is : " + pipeFive.pipeId);
-				System.out.println("material of the type is : " + pipeFive.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeFive.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeFive.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeFive.color);
-				System.out.println("cost of the pipe is : " + pipeFive.cost);
+			pipeFive.getPipeInfo();
 
 			Pipe pipeSix = new Pipe();
 			pipeSix.pipeId = 6;
@@ -88,14 +53,7 @@ class PipeRunner{
 			pipeSix.flowRate = 80;
 			pipeSix.color = "Grey";
 			pipeSix.cost = 1600.0;
-				System.out.println();
-				System.out.println("pipe six details : ");
-				System.out.println("id of pipe is : " + pipeSix.pipeId);
-				System.out.println("material of the type is : " + pipeSix.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeSix.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeSix.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeSix.color);
-				System.out.println("cost of the pipe is : " + pipeSix.cost);
+			pipeSix.getPipeInfo();
 
 			Pipe pipeSeven = new Pipe();
 			pipeSeven.pipeId = 7;
@@ -104,14 +62,7 @@ class PipeRunner{
 			pipeSeven.flowRate = 25;
 			pipeSeven.color = "Transparent";
 			pipeSeven.cost = 700.0;
-				System.out.println();
-				System.out.println("pipe seven details : ");
-				System.out.println("id of pipe is : " + pipeSeven.pipeId);
-				System.out.println("material of the type is : " + pipeSeven.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeSeven.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeSeven.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeSeven.color);
-				System.out.println("cost of the pipe is : " + pipeSeven.cost);
+			pipeSeven.getPipeInfo();
 
 			Pipe pipeEight = new Pipe();
 			pipeEight.pipeId = 8;
@@ -120,14 +71,7 @@ class PipeRunner{
 			pipeEight.flowRate = 35;
 			pipeEight.color = "Black";
 			pipeEight.cost = 400.0;
-				System.out.println();
-				System.out.println("pipe eight details : ");
-				System.out.println("id of pipe is : " + pipeEight.pipeId);
-				System.out.println("material of the type is : " + pipeEight.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeEight.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeEight.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeEight.color);
-				System.out.println("cost of the pipe is : " + pipeEight.cost);
+			pipeEight.getPipeInfo();
 
 			Pipe pipeNine = new Pipe();
 			pipeNine.pipeId = 9;
@@ -136,14 +80,7 @@ class PipeRunner{
 			pipeNine.flowRate = 65;
 			pipeNine.color = "Silver";
 			pipeNine.cost = 1300.0;
-				System.out.println();
-				System.out.println("pipe nine details : ");
-				System.out.println("id of pipe is : " + pipeNine.pipeId);
-				System.out.println("material of the type is : " + pipeNine.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeNine.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeNine.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeNine.color);
-				System.out.println("cost of the pipe is : " + pipeNine.cost);
+			pipeNine.getPipeInfo();
 
 			Pipe pipeTen = new Pipe();
 			pipeTen.pipeId = 10;
@@ -152,14 +89,7 @@ class PipeRunner{
 			pipeTen.flowRate = 55;
 			pipeTen.color = "Gold";
 			pipeTen.cost = 1400.0;
-				System.out.println();
-				System.out.println("pipe ten details : ");
-				System.out.println("id of pipe is : " + pipeTen.pipeId);
-				System.out.println("material of the type is : " + pipeTen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeTen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeTen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeTen.color);
-				System.out.println("cost of the pipe is : " + pipeTen.cost);
+			pipeTen.getPipeInfo();
 
 			Pipe pipeEleven = new Pipe();
 			pipeEleven.pipeId = 11;
@@ -168,14 +98,7 @@ class PipeRunner{
 			pipeEleven.flowRate = 45;
 			pipeEleven.color = "White";
 			pipeEleven.cost = 1000.0;
-				System.out.println();
-				System.out.println("pipe eleven details : ");
-				System.out.println("id of pipe is : " + pipeEleven.pipeId);
-				System.out.println("material of the type is : " + pipeEleven.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeEleven.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeEleven.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeEleven.color);
-				System.out.println("cost of the pipe is : " + pipeEleven.cost);
+			pipeEleven.getPipeInfo();
 
 			Pipe pipeTwelve = new Pipe();
 			pipeTwelve.pipeId = 12;
@@ -184,14 +107,7 @@ class PipeRunner{
 			pipeTwelve.flowRate = 40;
 			pipeTwelve.color = "Blue";
 			pipeTwelve.cost = 500.0;
-				System.out.println();
-				System.out.println("pipe twelve details : ");
-				System.out.println("id of pipe is : " + pipeTwelve.pipeId);
-				System.out.println("material of the type is : " + pipeTwelve.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeTwelve.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeTwelve.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeTwelve.color);
-				System.out.println("cost of the pipe is : " + pipeTwelve.cost);
+			pipeTwelve.getPipeInfo();
 
 			Pipe pipeThirteen = new Pipe();
 			pipeThirteen.pipeId = 13;
@@ -200,14 +116,7 @@ class PipeRunner{
 			pipeThirteen.flowRate = 75;
 			pipeThirteen.color = "Dark Grey";
 			pipeThirteen.cost = 1350.0;
-				System.out.println();
-				System.out.println("pipe thirteen details : ");
-				System.out.println("id of pipe is : " + pipeThirteen.pipeId);
-				System.out.println("material of the type is : " + pipeThirteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeThirteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeThirteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeThirteen.color);
-				System.out.println("cost of the pipe is : " + pipeThirteen.cost);
+			pipeThirteen.getPipeInfo();
 
 			Pipe pipeFourteen = new Pipe();
 			pipeFourteen.pipeId = 14;
@@ -216,14 +125,7 @@ class PipeRunner{
 			pipeFourteen.flowRate = 20;
 			pipeFourteen.color = "Dull Grey";
 			pipeFourteen.cost = 950.0;
-				System.out.println();
-				System.out.println("pipe fourteen details : ");
-				System.out.println("id of pipe is : " + pipeFourteen.pipeId);
-				System.out.println("material of the type is : " + pipeFourteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeFourteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeFourteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeFourteen.color);
-				System.out.println("cost of the pipe is : " + pipeFourteen.cost);
+			pipeFourteen.getPipeInfo();
 
 			Pipe pipeFifteen = new Pipe();
 			pipeFifteen.pipeId = 15;
@@ -232,14 +134,7 @@ class PipeRunner{
 			pipeFifteen.flowRate = 60;
 			pipeFifteen.color = "Red";
 			pipeFifteen.cost = 900.0;
-				System.out.println();
-				System.out.println("pipe fifteen details : ");
-				System.out.println("id of pipe is : " + pipeFifteen.pipeId);
-				System.out.println("material of the type is : " + pipeFifteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeFifteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeFifteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeFifteen.color);
-				System.out.println("cost of the pipe is : " + pipeFifteen.cost);
+			pipeFifteen.getPipeInfo();
 
 			Pipe pipeSixteen = new Pipe();
 			pipeSixteen.pipeId = 16;
@@ -248,14 +143,7 @@ class PipeRunner{
 			pipeSixteen.flowRate = 85;
 			pipeSixteen.color = "Chrome";
 			pipeSixteen.cost = 1700.0;
-				System.out.println();
-				System.out.println("pipe sixteen details : ");
-				System.out.println("id of pipe is : " + pipeSixteen.pipeId);
-				System.out.println("material of the type is : " + pipeSixteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeSixteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeSixteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeSixteen.color);
-				System.out.println("cost of the pipe is : " + pipeSixteen.cost);
+			pipeSixteen.getPipeInfo();
 
 			Pipe pipeSeventeen = new Pipe();
 			pipeSeventeen.pipeId = 17;
@@ -264,14 +152,7 @@ class PipeRunner{
 			pipeSeventeen.flowRate = 35;
 			pipeSeventeen.color = "Beige";
 			pipeSeventeen.cost = 800.0;
-				System.out.println();
-				System.out.println("pipe seventeen details : ");
-				System.out.println("id of pipe is : " + pipeSeventeen.pipeId);
-				System.out.println("material of the type is : " + pipeSeventeen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeSeventeen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeSeventeen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeSeventeen.color);
-				System.out.println("cost of the pipe is : " + pipeSeventeen.cost);
+			pipeSeventeen.getPipeInfo();
 
 			Pipe pipeEighteen = new Pipe();
 			pipeEighteen.pipeId = 18;
@@ -280,14 +161,7 @@ class PipeRunner{
 			pipeEighteen.flowRate = 32;
 			pipeEighteen.color = "White";
 			pipeEighteen.cost = 950.0;
-				System.out.println();
-				System.out.println("pipe eighteen details : ");
-				System.out.println("id of pipe is : " + pipeEighteen.pipeId);
-				System.out.println("material of the type is : " + pipeEighteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeEighteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeEighteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeEighteen.color);
-				System.out.println("cost of the pipe is : " + pipeEighteen.cost);
+			pipeEighteen.getPipeInfo();
 
 			Pipe pipeNineteen = new Pipe();
 			pipeNineteen.pipeId = 19;
@@ -296,14 +170,7 @@ class PipeRunner{
 			pipeNineteen.flowRate = 48;
 			pipeNineteen.color = "Yellow";
 			pipeNineteen.cost = 870.0;
-				System.out.println();
-				System.out.println("pipe nineteen details : ");
-				System.out.println("id of pipe is : " + pipeNineteen.pipeId);
-				System.out.println("material of the type is : " + pipeNineteen.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeNineteen.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeNineteen.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeNineteen.color);
-				System.out.println("cost of the pipe is : " + pipeNineteen.cost);
+			pipeNineteen.getPipeInfo();
 
 			Pipe pipeTwenty = new Pipe();
 			pipeTwenty.pipeId = 20;
@@ -312,14 +179,7 @@ class PipeRunner{
 			pipeTwenty.flowRate = 68;
 			pipeTwenty.color = "Bronze";
 			pipeTwenty.cost = 1450.0;
-				System.out.println();
-				System.out.println("pipe twenty details : ");
-				System.out.println("id of pipe is : " + pipeTwenty.pipeId);
-				System.out.println("material of the type is : " + pipeTwenty.pipeMaterial);
-				System.out.println("length of the pipe is : " + pipeTwenty.length + " m");
-				System.out.println("flowRate of the pipe is : " + pipeTwenty.flowRate + " L/min");
-				System.out.println("color of the pipe is : " + pipeTwenty.color);
-				System.out.println("cost of the pipe is : " + pipeTwenty.cost);
+			pipeTwenty.getPipeInfo();
 
 		System.out.println("main ended");
 	}

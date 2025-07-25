@@ -11,14 +11,7 @@ class PoliticianRunner{
 		politicianOne.politicalParty="BJP";
 		politicianOne.position="Prime Minister";
 		politicianOne.termStarted="2019";
-			System.out.println();
-			System.out.println("id of politician is : "+politicianOne.politicianId);
-			System.out.println("name of the politician : "+politicianOne.politicianName);
-			System.out.println("date of birth of the politician is : "+politicianOne.dateOfBirth);
-			System.out.println("gender of the politician is : "+politicianOne.gender);
-			System.out.println("politicalParty of the politician is : "+politicianOne.politicalParty);
-			System.out.println("position of the politician is : "+politicianOne.position);
-			System.out.println("term started year of a politician is : "+politicianOne.termStarted);
+		politicianOne.getPoliticianInfo();
 			
 		Politician politicianTwo = new Politician();
 		politicianTwo.politicianId = 2;
@@ -28,14 +21,7 @@ class PoliticianRunner{
 		politicianTwo.politicalParty = "INC";
 		politicianTwo.position = "MP, Wayanad";
 		politicianTwo.termStarted = "2019";
-		System.out.println();
-			System.out.println("id of politician is : " + politicianTwo.politicianId);
-			System.out.println("name of the politician : " + politicianTwo.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianTwo.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianTwo.gender);
-			System.out.println("politicalParty of the politician is : " + politicianTwo.politicalParty);
-			System.out.println("position of the politician is : " + politicianTwo.position);
-			System.out.println("term started year of a politician is : " + politicianTwo.termStarted);
+		politicianTwo.getPoliticianInfo();
 
 		Politician politicianThree = new Politician();
 		politicianThree.politicianId = 3;
@@ -45,14 +31,7 @@ class PoliticianRunner{
 		politicianThree.politicalParty = "TMC";
 		politicianThree.position = "Chief Minister of West Bengal";
 		politicianThree.termStarted = "2011";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianThree.politicianId);
-			System.out.println("name of the politician : " + politicianThree.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianThree.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianThree.gender);
-			System.out.println("politicalParty of the politician is : " + politicianThree.politicalParty);
-			System.out.println("position of the politician is : " + politicianThree.position);
-			System.out.println("term started year of a politician is : " + politicianThree.termStarted);
+		politicianThree.getPoliticianInfo();
 
 		Politician politicianFour = new Politician();
 		politicianFour.politicianId = 4;
@@ -62,14 +41,7 @@ class PoliticianRunner{
 		politicianFour.politicalParty = "AAP";
 		politicianFour.position = "Chief Minister of Delhi";
 		politicianFour.termStarted = "2015";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianFour.politicianId);
-			System.out.println("name of the politician : " + politicianFour.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianFour.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianFour.gender);
-			System.out.println("politicalParty of the politician is : " + politicianFour.politicalParty);
-			System.out.println("position of the politician is : " + politicianFour.position);
-			System.out.println("term started year of a politician is : " + politicianFour.termStarted);
+		politicianFour.getPoliticianInfo();
 
 		Politician politicianFive = new Politician();
 		politicianFive.politicianId = 5;
@@ -79,14 +51,7 @@ class PoliticianRunner{
 		politicianFive.politicalParty = "BRS";
 		politicianFive.position = "Former Chief Minister of Telangana";
 		politicianFive.termStarted = "2014";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianFive.politicianId);
-			System.out.println("name of the politician : " + politicianFive.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianFive.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianFive.gender);
-			System.out.println("politicalParty of the politician is : " + politicianFive.politicalParty);
-			System.out.println("position of the politician is : " + politicianFive.position);
-			System.out.println("term started year of a politician is : " + politicianFive.termStarted);
+		politicianFive.getPoliticianInfo();
 
 		Politician politicianSix = new Politician();
 		politicianSix.politicianId = 6;
@@ -96,14 +61,7 @@ class PoliticianRunner{
 		politicianSix.politicalParty = "BJP";
 		politicianSix.position = "Chief Minister of Uttar Pradesh";
 		politicianSix.termStarted = "2017";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianSix.politicianId);
-			System.out.println("name of the politician : " + politicianSix.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianSix.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianSix.gender);
-			System.out.println("politicalParty of the politician is : " + politicianSix.politicalParty);
-			System.out.println("position of the politician is : " + politicianSix.position);
-			System.out.println("term started year of a politician is : " + politicianSix.termStarted);
+		politicianSix.getPoliticianInfo();
 
 		Politician politicianSeven = new Politician();
 		politicianSeven.politicianId = 7;
@@ -113,14 +71,7 @@ class PoliticianRunner{
 		politicianSeven.politicalParty = "INC";
 		politicianSeven.position = "Former President of INC";
 		politicianSeven.termStarted = "1998";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianSeven.politicianId);
-			System.out.println("name of the politician : " + politicianSeven.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianSeven.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianSeven.gender);
-			System.out.println("politicalParty of the politician is : " + politicianSeven.politicalParty);
-			System.out.println("position of the politician is : " + politicianSeven.position);
-			System.out.println("term started year of a politician is : " + politicianSeven.termStarted);
+		politicianSeven.getPoliticianInfo();
 
 		Politician politicianEight = new Politician();
 		politicianEight.politicianId = 8;
@@ -130,14 +81,7 @@ class PoliticianRunner{
 		politicianEight.politicalParty = "JD(U)";
 		politicianEight.position = "Chief Minister of Bihar";
 		politicianEight.termStarted = "2005";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianEight.politicianId);
-			System.out.println("name of the politician : " + politicianEight.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianEight.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianEight.gender);
-			System.out.println("politicalParty of the politician is : " + politicianEight.politicalParty);
-			System.out.println("position of the politician is : " + politicianEight.position);
-			System.out.println("term started year of a politician is : " + politicianEight.termStarted);
+		politicianEight.getPoliticianInfo();
 
 		Politician politicianNine = new Politician();
 		politicianNine.politicianId = 9;
@@ -147,14 +91,7 @@ class PoliticianRunner{
 		politicianNine.politicalParty = "CPI(M)";
 		politicianNine.position = "Chief Minister of Kerala";
 		politicianNine.termStarted = "2016";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianNine.politicianId);
-			System.out.println("name of the politician : " + politicianNine.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianNine.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianNine.gender);
-			System.out.println("politicalParty of the politician is : " + politicianNine.politicalParty);
-			System.out.println("position of the politician is : " + politicianNine.position);
-			System.out.println("term started year of a politician is : " + politicianNine.termStarted);
+		politicianNine.getPoliticianInfo();
 
 		Politician politicianTen = new Politician();
 		politicianTen.politicianId = 10;
@@ -164,15 +101,8 @@ class PoliticianRunner{
 		politicianTen.politicalParty = "DMK";
 		politicianTen.position = "Chief Minister of Tamil Nadu";
 		politicianTen.termStarted = "2021";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianTen.politicianId);
-			System.out.println("name of the politician : " + politicianTen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianTen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianTen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianTen.politicalParty);
-			System.out.println("position of the politician is : " + politicianTen.position);
-			System.out.println("term started year of a politician is : " + politicianTen.termStarted);
-
+		politicianTen.getPoliticianInfo();
+		
 		Politician politicianEleven = new Politician();
 		politicianEleven.politicianId = 11;
 		politicianEleven.politicianName = "Arvind Kejriwal";
@@ -181,14 +111,7 @@ class PoliticianRunner{
 		politicianEleven.politicalParty = "AAP";
 		politicianEleven.position = "Chief Minister of Delhi";
 		politicianEleven.termStarted = "2015";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianEleven.politicianId);
-			System.out.println("name of the politician : " + politicianEleven.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianEleven.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianEleven.gender);
-			System.out.println("politicalParty of the politician is : " + politicianEleven.politicalParty);
-			System.out.println("position of the politician is : " + politicianEleven.position);
-			System.out.println("term started year of a politician is : " + politicianEleven.termStarted);
+		politicianEleven.getPoliticianInfo();
 
 		Politician politicianTwelve = new Politician();
 		politicianTwelve.politicianId = 12;
@@ -198,14 +121,7 @@ class PoliticianRunner{
 		politicianTwelve.politicalParty = "INC";
 		politicianTwelve.position = "Member of Parliament";
 		politicianTwelve.termStarted = "2004";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianTwelve.politicianId);
-			System.out.println("name of the politician : " + politicianTwelve.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianTwelve.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianTwelve.gender);
-			System.out.println("politicalParty of the politician is : " + politicianTwelve.politicalParty);
-			System.out.println("position of the politician is : " + politicianTwelve.position);
-			System.out.println("term started year of a politician is : " + politicianTwelve.termStarted);
+		politicianTwelve.getPoliticianInfo();
 
 		Politician politicianThirteen = new Politician();
 		politicianThirteen.politicianId = 13;
@@ -215,14 +131,7 @@ class PoliticianRunner{
 		politicianThirteen.politicalParty = "BJP";
 		politicianThirteen.position = "Home Minister of India";
 		politicianThirteen.termStarted = "2019";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianThirteen.politicianId);
-			System.out.println("name of the politician : " + politicianThirteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianThirteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianThirteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianThirteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianThirteen.position);
-			System.out.println("term started year of a politician is : " + politicianThirteen.termStarted);
+		politicianThirteen.getPoliticianInfo();
 
 		Politician politicianFourteen = new Politician();
 		politicianFourteen.politicianId = 14;
@@ -232,14 +141,7 @@ class PoliticianRunner{
 		politicianFourteen.politicalParty = "BJP";
 		politicianFourteen.position = "Minister of Women and Child Development";
 		politicianFourteen.termStarted = "2019";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianFourteen.politicianId);
-			System.out.println("name of the politician : " + politicianFourteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianFourteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianFourteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianFourteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianFourteen.position);
-			System.out.println("term started year of a politician is : " + politicianFourteen.termStarted);
+		politicianFourteen.getPoliticianInfo();
 
 		Politician politicianFifteen = new Politician();
 		politicianFifteen.politicianId = 15;
@@ -249,14 +151,7 @@ class PoliticianRunner{
 		politicianFifteen.politicalParty = "NCP";
 		politicianFifteen.position = "Founder of NCP";
 		politicianFifteen.termStarted = "1999";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianFifteen.politicianId);
-			System.out.println("name of the politician : " + politicianFifteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianFifteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianFifteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianFifteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianFifteen.position);
-			System.out.println("term started year of a politician is : " + politicianFifteen.termStarted);
+		politicianFifteen.getPoliticianInfo();
 
 		Politician politicianSixteen = new Politician();
 		politicianSixteen.politicianId = 16;
@@ -266,14 +161,7 @@ class PoliticianRunner{
 		politicianSixteen.politicalParty = "TMC";
 		politicianSixteen.position = "Chief Minister of West Bengal";
 		politicianSixteen.termStarted = "2011";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianSixteen.politicianId);
-			System.out.println("name of the politician : " + politicianSixteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianSixteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianSixteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianSixteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianSixteen.position);
-			System.out.println("term started year of a politician is : " + politicianSixteen.termStarted);
+		politicianSixteen.getPoliticianInfo();
 
 		Politician politicianSeventeen = new Politician();
 		politicianSeventeen.politicianId = 17;
@@ -283,14 +171,7 @@ class PoliticianRunner{
 		politicianSeventeen.politicalParty = "BRS";
 		politicianSeventeen.position = "Former CM of Telangana";
 		politicianSeventeen.termStarted = "2014";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianSeventeen.politicianId);
-			System.out.println("name of the politician : " + politicianSeventeen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianSeventeen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianSeventeen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianSeventeen.politicalParty);
-			System.out.println("position of the politician is : " + politicianSeventeen.position);
-			System.out.println("term started year of a politician is : " + politicianSeventeen.termStarted);
+		politicianSeventeen.getPoliticianInfo();
 
 		Politician politicianEighteen = new Politician();
 		politicianEighteen.politicianId = 18;
@@ -300,14 +181,7 @@ class PoliticianRunner{
 		politicianEighteen.politicalParty = "INC";
 		politicianEighteen.position = "Former Chief Minister of Chhattisgarh";
 		politicianEighteen.termStarted = "2018";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianEighteen.politicianId);
-			System.out.println("name of the politician : " + politicianEighteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianEighteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianEighteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianEighteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianEighteen.position);
-			System.out.println("term started year of a politician is : " + politicianEighteen.termStarted);
+		politicianEighteen.getPoliticianInfo();
 
 		Politician politicianNineteen = new Politician();
 		politicianNineteen.politicianId = 19;
@@ -317,14 +191,7 @@ class PoliticianRunner{
 		politicianNineteen.politicalParty = "JMM";
 		politicianNineteen.position = "Former Chief Minister of Jharkhand";
 		politicianNineteen.termStarted = "2019";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianNineteen.politicianId);
-			System.out.println("name of the politician : " + politicianNineteen.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianNineteen.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianNineteen.gender);
-			System.out.println("politicalParty of the politician is : " + politicianNineteen.politicalParty);
-			System.out.println("position of the politician is : " + politicianNineteen.position);
-			System.out.println("term started year of a politician is : " + politicianNineteen.termStarted);
+		politicianNineteen.getPoliticianInfo();
 
 		Politician politicianTwenty = new Politician();
 		politicianTwenty.politicianId = 20;
@@ -334,14 +201,7 @@ class PoliticianRunner{
 		politicianTwenty.politicalParty = "RJD";
 		politicianTwenty.position = "Former Deputy CM of Bihar";
 		politicianTwenty.termStarted = "2015";
-			System.out.println();
-			System.out.println("id of politician is : " + politicianTwenty.politicianId);
-			System.out.println("name of the politician : " + politicianTwenty.politicianName);
-			System.out.println("date of birth of the politician is : " + politicianTwenty.dateOfBirth);
-			System.out.println("gender of the politician is : " + politicianTwenty.gender);
-			System.out.println("politicalParty of the politician is : " + politicianTwenty.politicalParty);
-			System.out.println("position of the politician is : " + politicianTwenty.position);
-			System.out.println("term started year of a politician is : " + politicianTwenty.termStarted);
+		politicianTwenty.getPoliticianInfo();
 
 	System.out.println("main ended");
 	}

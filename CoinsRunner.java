@@ -9,14 +9,7 @@ class CoinsRunner{
 			firstCoin.coinMaterial="Copper";
 			firstCoin.yearOfMinting=2005;
 			firstCoin.coinWeight=4.50;
-				System.out.println();
-				System.out.println("First Coin Details : ");
-				System.out.println("id of coin is : "+firstCoin.coindId);
-				System.out.println("name of the currency coin is : "+firstCoin.currencyName);
-				System.out.println("country origin of coin is : "+firstCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+firstCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+firstCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+firstCoin.coinWeight+" g");
+			firstCoin.getCoinsInfo();	
 				
 			Coins secondCoin = new Coins();
 			secondCoin.coindId=2;
@@ -25,14 +18,7 @@ class CoinsRunner{
 			secondCoin.coinMaterial="Aluminum";
 			secondCoin.yearOfMinting=2000;
 			secondCoin.coinWeight=2.50;
-				System.out.println();
-				System.out.println("Second Coin Details : ");
-				System.out.println("id of coin is : "+secondCoin.coindId);
-				System.out.println("name of the currency coin is : "+secondCoin.currencyName);
-				System.out.println("country origin of coin is : "+secondCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+secondCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+secondCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+secondCoin.coinWeight+" g");
+			secondCoin.getCoinsInfo();
 				
 			Coins thirdCoin = new Coins();
 			thirdCoin.coindId=3;
@@ -41,14 +27,7 @@ class CoinsRunner{
 			thirdCoin.coinMaterial="Nickel";
 			thirdCoin.yearOfMinting=1996;
 			thirdCoin.coinWeight=3.50;
-				System.out.println();
-				System.out.println("Third Coin Details : ");
-				System.out.println("id of coin is : "+thirdCoin.coindId);
-				System.out.println("name of the currency coin is : "+thirdCoin.currencyName);
-				System.out.println("country origin of coin is : "+thirdCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+thirdCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+thirdCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+thirdCoin.coinWeight+" g");
+			thirdCoin.getCoinsInfo();
 				
 			Coins fourthCoin = new Coins();
 			fourthCoin.coindId=4;
@@ -57,14 +36,7 @@ class CoinsRunner{
 			fourthCoin.coinMaterial="Copper";
 			fourthCoin.yearOfMinting=2016;
 			fourthCoin.coinWeight=3.50;
-				System.out.println();
-				System.out.println("Fourth Coin Details : ");
-				System.out.println("id of coin is : "+fourthCoin.coindId);
-				System.out.println("name of the currency coin is : "+fourthCoin.currencyName);
-				System.out.println("country origin of coin is : "+fourthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+fourthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+fourthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+fourthCoin.coinWeight+" g");
+			fourthCoin.getCoinsInfo();
 				
 			Coins fifthCoin = new Coins();
 			fifthCoin.coindId=5;
@@ -73,14 +45,7 @@ class CoinsRunner{
 			fifthCoin.coinMaterial="Nickel";
 			fifthCoin.yearOfMinting=2023;
 			fifthCoin.coinWeight=4.25;
-				System.out.println();
-				System.out.println("Fifth Coin Details : ");
-				System.out.println("id of coin is : "+fifthCoin.coindId);
-				System.out.println("name of the currency coin is : "+fifthCoin.currencyName);
-				System.out.println("country origin of coin is : "+fifthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+fifthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+fifthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+fifthCoin.coinWeight+" g");
+			fifthCoin.getCoinsInfo();	
 				
 			Coins sixthCoin = new Coins();
 			sixthCoin.coindId=6;
@@ -89,14 +54,7 @@ class CoinsRunner{
 			sixthCoin.coinMaterial="Aluminium";
 			sixthCoin.yearOfMinting=2010;
 			sixthCoin.coinWeight=3.15;
-				System.out.println();
-				System.out.println("Sixth Coin Details : ");
-				System.out.println("id of coin is : "+sixthCoin.coindId);
-				System.out.println("name of the currency coin is : "+sixthCoin.currencyName);
-				System.out.println("country origin of coin is : "+sixthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+sixthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+sixthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+sixthCoin.coinWeight+" g");
+			sixthCoin.getCoinsInfo();
 				
 			Coins seventhCoin = new Coins();
 			seventhCoin.coindId=7;
@@ -105,14 +63,7 @@ class CoinsRunner{
 			seventhCoin.coinMaterial="Nickel";
 			seventhCoin.yearOfMinting=1990;
 			seventhCoin.coinWeight=4.15;
-				System.out.println();
-				System.out.println("Seventh Coin Details : ");
-				System.out.println("id of coin is : "+seventhCoin.coindId);
-				System.out.println("name of the currency coin is : "+seventhCoin.currencyName);
-				System.out.println("country origin of coin is : "+seventhCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+seventhCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+seventhCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+seventhCoin.coinWeight+" g");
+			seventhCoin.getCoinsInfo();
 				
 			Coins eighthCoin = new Coins();
 			eighthCoin.coindId=8;
@@ -121,14 +72,7 @@ class CoinsRunner{
 			eighthCoin.coinMaterial="Aluminium";
 			eighthCoin.yearOfMinting=2019;
 			eighthCoin.coinWeight=3.50;
-				System.out.println();
-				System.out.println("Eighth Coin Details : ");
-				System.out.println("id of coin is : "+eighthCoin.coindId);
-				System.out.println("name of the currency coin is : "+eighthCoin.currencyName);
-				System.out.println("country origin of coin is : "+eighthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+eighthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+eighthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+seventhCoin.coinWeight+" g");
+			eighthCoin.getCoinsInfo();
 				
 			Coins ninthCoin = new Coins();
 			ninthCoin.coindId=9;
@@ -137,14 +81,7 @@ class CoinsRunner{
 			ninthCoin.coinMaterial="Nickel";
 			ninthCoin.yearOfMinting=2022;
 			ninthCoin.coinWeight=2.25;
-				System.out.println();
-				System.out.println("Ninth Coin Details : ");
-				System.out.println("id of coin is : "+ninthCoin.coindId);
-				System.out.println("name of the currency coin is : "+ninthCoin.currencyName);
-				System.out.println("country origin of coin is : "+ninthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+ninthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+ninthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+ninthCoin.coinWeight+" g");
+			ninthCoin.getCoinsInfo();
 				
 			Coins tenthCoin = new Coins();
 			tenthCoin.coindId=10;
@@ -153,15 +90,8 @@ class CoinsRunner{
 			tenthCoin.coinMaterial="Copper";
 			tenthCoin.yearOfMinting=1999;
 			tenthCoin.coinWeight=4.00;
-				System.out.println();
-				System.out.println("Ninth Coin Details : ");
-				System.out.println("id of coin is : "+tenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+tenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+tenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+tenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+tenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+tenthCoin.coinWeight+" g");
-				
+			tenthCoin.getCoinsInfo();
+			
 			Coins eleventhCoin = new Coins();
 			eleventhCoin.coindId=11;
 			eleventhCoin.currencyName="Ringgit";
@@ -169,14 +99,7 @@ class CoinsRunner{
 			eleventhCoin.coinMaterial="Copper";
 			eleventhCoin.yearOfMinting=1999;
 			eleventhCoin.coinWeight=4.00;
-				System.out.println();
-				System.out.println("Ninth Coin Details : ");
-				System.out.println("id of coin is : "+eleventhCoin.coindId);
-				System.out.println("name of the currency coin is : "+eleventhCoin.currencyName);
-				System.out.println("country origin of coin is : "+eleventhCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+eleventhCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+eleventhCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+eleventhCoin.coinWeight+" g");
+			eleventhCoin.getCoinsInfo();	
 			
 			Coins twelvethCoin = new Coins();
 			twelvethCoin.coindId=12;
@@ -185,14 +108,7 @@ class CoinsRunner{
 			twelvethCoin.coinMaterial="Nickel";
 			twelvethCoin.yearOfMinting=2004;
 			twelvethCoin.coinWeight=3.75;
-				System.out.println();
-				System.out.println("Twelveth Coin Details : ");
-				System.out.println("id of coin is : "+twelvethCoin.coindId);
-				System.out.println("name of the currency coin is : "+twelvethCoin.currencyName);
-				System.out.println("country origin of coin is : "+twelvethCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+twelvethCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+twelvethCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+twelvethCoin.coinWeight+" g");
+			twelvethCoin.getCoinsInfo();	
 				
 			Coins thirteenthCoin = new Coins();
 			thirteenthCoin.coindId=13;
@@ -201,14 +117,7 @@ class CoinsRunner{
 			thirteenthCoin.coinMaterial="Aluminium";
 			thirteenthCoin.yearOfMinting=2014;
 			thirteenthCoin.coinWeight=3.15;
-				System.out.println();
-				System.out.println("Thirteenth Coin Details : ");
-				System.out.println("id of coin is : "+thirteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+thirteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+thirteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+thirteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+thirteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+thirteenthCoin.coinWeight+" g");
+			thirteenthCoin.getCoinsInfo();
 				
 			Coins fourteenthCoin = new Coins();
 			fourteenthCoin.coindId=14;
@@ -217,14 +126,7 @@ class CoinsRunner{
 			fourteenthCoin.coinMaterial="Nickel";
 			fourteenthCoin.yearOfMinting=2015;
 			fourteenthCoin.coinWeight=3.75;
-				System.out.println();
-				System.out.println("Fourteenth Coin Details : ");
-				System.out.println("id of coin is : "+fourteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+fourteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+fourteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+fourteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+fourteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+fourteenthCoin.coinWeight+" g");
+			fourteenthCoin.getCoinsInfo();
 				
 			Coins fifteenthCoin = new Coins();
 			fifteenthCoin.coindId=15;
@@ -233,14 +135,7 @@ class CoinsRunner{
 			fifteenthCoin.coinMaterial="Copper";
 			fifteenthCoin.yearOfMinting=2017;
 			fifteenthCoin.coinWeight=2.75;
-				System.out.println();
-				System.out.println("Fifteenth Coin Details : ");
-				System.out.println("id of coin is : "+fifteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+fifteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+fifteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+fifteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+fifteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+fifteenthCoin.coinWeight+" g");
+			fifteenthCoin.getCoinsInfo();
 				
 			Coins sixteenthCoin = new Coins();
 			sixteenthCoin.coindId=16;
@@ -249,14 +144,7 @@ class CoinsRunner{
 			sixteenthCoin.coinMaterial="Aluminium";
 			sixteenthCoin.yearOfMinting=2011;
 			sixteenthCoin.coinWeight=2.55;
-				System.out.println();
-				System.out.println("Sixteenth Coin Details : ");
-				System.out.println("id of coin is : "+sixteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+sixteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+sixteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+sixteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+sixteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+sixteenthCoin.coinWeight+" g");
+			sixteenthCoin.getCoinsInfo();
 				
 			Coins seventeenthCoin = new Coins();
 			seventeenthCoin.coindId=17;
@@ -265,14 +153,7 @@ class CoinsRunner{
 			seventeenthCoin.coinMaterial="Copper";
 			seventeenthCoin.yearOfMinting=2018;
 			seventeenthCoin.coinWeight=3.95;
-				System.out.println();
-				System.out.println("Seventeenth Coin Details : ");
-				System.out.println("id of coin is : "+seventeenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+seventeenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+seventeenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+seventeenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+seventeenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+seventeenthCoin.coinWeight+" g");
+			seventeenthCoin.getCoinsInfo();
 				
 			Coins eighteenthCoin = new Coins();
 			eighteenthCoin.coindId=18;
@@ -281,14 +162,7 @@ class CoinsRunner{
 			eighteenthCoin.coinMaterial="Nickel";
 			eighteenthCoin.yearOfMinting=2020;
 			eighteenthCoin.coinWeight=3.45;
-				System.out.println();
-				System.out.println("Eighteenth Coin Details : ");
-				System.out.println("id of coin is : "+eighteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+eighteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+eighteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+eighteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+eighteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+eighteenthCoin.coinWeight+" g");
+			eighteenthCoin.getCoinsInfo();
 				
 			Coins ninteenthCoin = new Coins();
 			ninteenthCoin.coindId=19;
@@ -297,14 +171,7 @@ class CoinsRunner{
 			ninteenthCoin.coinMaterial="Copper";
 			ninteenthCoin.yearOfMinting=2021;
 			ninteenthCoin.coinWeight=3.75;
-				System.out.println();
-				System.out.println("ninteenth Coin Details : ");
-				System.out.println("id of coin is : "+ninteenthCoin.coindId);
-				System.out.println("name of the currency coin is : "+ninteenthCoin.currencyName);
-				System.out.println("country origin of coin is : "+ninteenthCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+ninteenthCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+ninteenthCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+ninteenthCoin.coinWeight+" g");
+			ninteenthCoin.getCoinsInfo();
 				
 			Coins twentiethCoin = new Coins();
 			twentiethCoin.coindId=20;
@@ -313,14 +180,7 @@ class CoinsRunner{
 			twentiethCoin.coinMaterial="Nickel";
 			twentiethCoin.yearOfMinting=2024;
 			twentiethCoin.coinWeight=3.25;
-				System.out.println();
-				System.out.println("twentieth Coin Details : ");
-				System.out.println("id of coin is : "+twentiethCoin.coindId);
-				System.out.println("name of the currency coin is : "+twentiethCoin.currencyName);
-				System.out.println("country origin of coin is : "+twentiethCoin.countryOfOrigin);
-				System.out.println("material of the coin is : "+twentiethCoin.coinMaterial);
-				System.out.println("year of minting of coin is  : "+twentiethCoin.yearOfMinting);
-				System.out.println("weight of the coin is : "+twentiethCoin.coinWeight+" g");
+			twentiethCoin.getCoinsInfo();
 				System.out.println();
 		System.out.println("main ended");
 	}

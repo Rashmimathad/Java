@@ -10,15 +10,7 @@ class BlazerRunner{
 			blazerOne.materialType	= "Cotton";
 			blazerOne.noOfButtons	= 3;
 			blazerOne.fitType	= 	"Slim fit";
-				System.out.println();
-				System.out.println("Blazer one details : ");
-				System.out.println("Id of blazer is : "+blazerOne.blazerId);
-				System.out.println("brand name of blazer is : "+blazerOne.brandName);
-				System.out.println("size of the blazer is : "+blazerOne.size);
-				System.out.println("color of the blazer is : "+blazerOne.color);
-				System.out.println("material type of the blazer is : "+blazerOne.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerOne.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerOne.fitType);
+			blazerOne.getBlazerInfo();
 			
 			Blazer blazerTwo    = new Blazer();
 			blazerTwo.blazerId = 2;
@@ -28,15 +20,7 @@ class BlazerRunner{
 			blazerTwo.materialType = "wool";
 			blazerTwo.noOfButtons  = 2;
 			blazerTwo.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer two details : ");
-				System.out.println("Id of blazer is : "+blazerTwo.blazerId);
-				System.out.println("brand name of blazer is : "+blazerTwo.brandName);
-				System.out.println("size of the blazer is : "+blazerTwo.size);
-				System.out.println("color of the blazer is : "+blazerTwo.color);
-				System.out.println("material type of the blazer is : "+blazerTwo.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerTwo.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerTwo.fitType);
+				
 				
 			Blazer blazerThree    = new Blazer();
 			blazerThree.blazerId = 3;
@@ -46,15 +30,7 @@ class BlazerRunner{
 			blazerThree.materialType = "Linen";
 			blazerThree.noOfButtons  = 3;
 			blazerThree.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer three details : ");
-				System.out.println("Id of blazer is : "+blazerThree.blazerId);
-				System.out.println("brand name of blazer is : "+blazerThree.brandName);
-				System.out.println("size of the blazer is : "+blazerThree.size);
-				System.out.println("color of the blazer is : "+blazerThree.color);
-				System.out.println("material type of the blazer is : "+blazerThree.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerThree.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerThree.fitType);
+			blazerThree.getBlazerInfo();
 				
 			Blazer blazerFour    = new Blazer();
 			blazerFour.blazerId = 4;
@@ -64,15 +40,7 @@ class BlazerRunner{
 			blazerFour.materialType = "Cotton";
 			blazerFour.noOfButtons  = 2;
 			blazerFour.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer four details : ");
-				System.out.println("Id of blazer is : "+blazerFour.blazerId);
-				System.out.println("brand name of blazer is : "+blazerFour.brandName);
-				System.out.println("size of the blazer is : "+blazerFour.size);
-				System.out.println("color of the blazer is : "+blazerFour.color);
-				System.out.println("material type of the blazer is : "+blazerFour.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerFour.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerFour.fitType);
+			blazerFour.getBlazerInfo();
 				
 			Blazer blazerFive    = new Blazer();
 			blazerFive.blazerId = 5;
@@ -82,15 +50,7 @@ class BlazerRunner{
 			blazerFive.materialType = "Linen";
 			blazerFive.noOfButtons  = 3;
 			blazerFive.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer five details : ");
-				System.out.println("Id of blazer is : "+blazerFive.blazerId);
-				System.out.println("brand name of blazer is : "+blazerFive.brandName);
-				System.out.println("size of the blazer is : "+blazerFive.size);
-				System.out.println("color of the blazer is : "+blazerFive.color);
-				System.out.println("material type of the blazer is : "+blazerFive.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerFive.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerFive.fitType);
+			blazerFive.getBlazerInfo();
 				
 			Blazer blazerSix    = new Blazer();
 			blazerSix.blazerId = 6;
@@ -100,15 +60,7 @@ class BlazerRunner{
 			blazerSix.materialType = "cotton";
 			blazerSix.noOfButtons  = 2;
 			blazerSix.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer six details : ");
-				System.out.println("Id of blazer is : "+blazerSix.blazerId);
-				System.out.println("brand name of blazer is : "+blazerSix.brandName);
-				System.out.println("size of the blazer is : "+blazerSix.size);
-				System.out.println("color of the blazer is : "+blazerSix.color);
-				System.out.println("material type of the blazer is : "+blazerSix.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerSix.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerSix.fitType);
+			blazerSix.getBlazerInfo();
 				
 			Blazer blazerSeven    = new Blazer();
 			blazerSeven.blazerId = 7;
@@ -118,15 +70,7 @@ class BlazerRunner{
 			blazerSeven.materialType = "Linen";
 			blazerSeven.noOfButtons  = 3;
 			blazerSeven.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer seven details : ");
-				System.out.println("Id of blazer is : "+blazerSeven.blazerId);
-				System.out.println("brand name of blazer is : "+blazerSeven.brandName);
-				System.out.println("size of the blazer is : "+blazerSeven.size);
-				System.out.println("color of the blazer is : "+blazerSeven.color);
-				System.out.println("material type of the blazer is : "+blazerSeven.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerSeven.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerSeven.fitType);
+			blazerSeven.getBlazerInfo();
 				
 			Blazer blazerEight    = new Blazer();
 			blazerEight.blazerId = 8;
@@ -136,15 +80,7 @@ class BlazerRunner{
 			blazerEight.materialType = "wool";
 			blazerEight.noOfButtons  = 2;
 			blazerEight.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer eight details : ");
-				System.out.println("Id of blazer is : "+blazerEight.blazerId);
-				System.out.println("brand name of blazer is : "+blazerEight.brandName);
-				System.out.println("size of the blazer is : "+blazerEight.size);
-				System.out.println("color of the blazer is : "+blazerEight.color);
-				System.out.println("material type of the blazer is : "+blazerEight.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerEight.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerEight.fitType);
+			blazerEight.getBlazerInfo();
 				
 			Blazer blazerNine    = new Blazer();
 			blazerNine.blazerId = 9;
@@ -154,15 +90,7 @@ class BlazerRunner{
 			blazerNine.materialType = "cotton";
 			blazerNine.noOfButtons  = 3;
 			blazerNine.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer nine details : ");
-				System.out.println("Id of blazer is : "+blazerNine.blazerId);
-				System.out.println("brand name of blazer is : "+blazerNine.brandName);
-				System.out.println("size of the blazer is : "+blazerNine.size);
-				System.out.println("color of the blazer is : "+blazerNine.color);
-				System.out.println("material type of the blazer is : "+blazerNine.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerNine.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerNine.fitType);
+			blazerNine.getBlazerInfo();
 				
 			Blazer blazerTen    = new Blazer();
 			blazerTen.blazerId = 10;
@@ -172,15 +100,7 @@ class BlazerRunner{
 			blazerTen.materialType = "Linen";
 			blazerTen.noOfButtons  = 2;
 			blazerTen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer ten details : ");
-				System.out.println("Id of blazer is : "+blazerTen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerTen.brandName);
-				System.out.println("size of the blazer is : "+blazerTen.size);
-				System.out.println("color of the blazer is : "+blazerTen.color);
-				System.out.println("material type of the blazer is : "+blazerTen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerTen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerTen.fitType);
+			blazerTen.getBlazerInfo();	
 				
 			Blazer blazerEleven    = new Blazer();
 			blazerEleven.blazerId = 11;
@@ -190,15 +110,7 @@ class BlazerRunner{
 			blazerEleven.materialType = "cotton";
 			blazerEleven.noOfButtons  = 3;
 			blazerEleven.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer eleven details : ");
-				System.out.println("Id of blazer is : "+blazerEleven.blazerId);
-				System.out.println("brand name of blazer is : "+blazerEleven.brandName);
-				System.out.println("size of the blazer is : "+blazerEleven.size);
-				System.out.println("color of the blazer is : "+blazerEleven.color);
-				System.out.println("material type of the blazer is : "+blazerEleven.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerEleven.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerEleven.fitType);
+			blazerEleven.getBlazerInfo();
 				
 			Blazer blazerTwelve    = new Blazer();
 			blazerTwelve.blazerId = 12;
@@ -208,15 +120,7 @@ class BlazerRunner{
 			blazerTwelve.materialType = "wool";
 			blazerTwelve.noOfButtons  = 2;
 			blazerTwelve.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer twelve details : ");
-				System.out.println("Id of blazer is : "+blazerTwelve.blazerId);
-				System.out.println("brand name of blazer is : "+blazerTwelve.brandName);
-				System.out.println("size of the blazer is : "+blazerTwelve.size);
-				System.out.println("color of the blazer is : "+blazerTwelve.color);
-				System.out.println("material type of the blazer is : "+blazerTwelve.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerTwelve.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerTwelve.fitType);
+			blazerTwelve.getBlazerInfo();
 				
 			Blazer blazerThirteen   = new Blazer();
 			blazerThirteen.blazerId = 13;
@@ -226,15 +130,7 @@ class BlazerRunner{
 			blazerThirteen.materialType = "cotton";
 			blazerThirteen.noOfButtons  = 3;
 			blazerThirteen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer thirteen details : ");
-				System.out.println("Id of blazer is : "+blazerThirteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerThirteen.brandName);
-				System.out.println("size of the blazer is : "+blazerThirteen.size);
-				System.out.println("color of the blazer is : "+blazerThirteen.color);
-				System.out.println("material type of the blazer is : "+blazerThirteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerThirteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerThirteen.fitType);
+			blazerThirteen.getBlazerInfo();
 				
 			Blazer blazerFourteen   = new Blazer();
 			blazerFourteen.blazerId = 14;
@@ -244,15 +140,7 @@ class BlazerRunner{
 			blazerFourteen.materialType = "cotton";
 			blazerFourteen.noOfButtons  = 2;
 			blazerFourteen.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer fourteen details : ");
-				System.out.println("Id of blazer is : "+blazerFourteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerFourteen.brandName);
-				System.out.println("size of the blazer is : "+blazerFourteen.size);
-				System.out.println("color of the blazer is : "+blazerFourteen.color);
-				System.out.println("material type of the blazer is : "+blazerFourteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerFourteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerFourteen.fitType);
+			blazerFourteen.getBlazerInfo();
 				
 			Blazer blazerFifteen   = new Blazer();
 			blazerFifteen.blazerId = 15;
@@ -262,15 +150,7 @@ class BlazerRunner{
 			blazerFifteen.materialType = "cotton";
 			blazerFifteen.noOfButtons  = 3;
 			blazerFifteen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer fifteen details : ");
-				System.out.println("Id of blazer is : "+blazerFifteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerFifteen.brandName);
-				System.out.println("size of the blazer is : "+blazerFifteen.size);
-				System.out.println("color of the blazer is : "+blazerFifteen.color);
-				System.out.println("material type of the blazer is : "+blazerFifteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerFifteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerFifteen.fitType);
+			blazerFifteen.getBlazerInfo();
 				
 			Blazer blazerSixteen   = new Blazer();
 			blazerSixteen.blazerId = 16;
@@ -280,15 +160,7 @@ class BlazerRunner{
 			blazerSixteen.materialType = "Linen";
 			blazerSixteen.noOfButtons  = 2;
 			blazerSixteen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer sixteen details : ");
-				System.out.println("Id of blazer is : "+blazerSixteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerSixteen.brandName);
-				System.out.println("size of the blazer is : "+blazerSixteen.size);
-				System.out.println("color of the blazer is : "+blazerSixteen.color);
-				System.out.println("material type of the blazer is : "+blazerSixteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerSixteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerSixteen.fitType);
+			blazerSixteen.getBlazerInfo();
 				
 			Blazer blazerSeventeen   = new Blazer();
 			blazerSeventeen.blazerId = 17;
@@ -298,15 +170,7 @@ class BlazerRunner{
 			blazerSeventeen.materialType = "Linen";
 			blazerSeventeen.noOfButtons  = 3;
 			blazerSeventeen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer seventeen details : ");
-				System.out.println("Id of blazer is : "+blazerSeventeen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerSeventeen.brandName);
-				System.out.println("size of the blazer is : "+blazerSeventeen.size);
-				System.out.println("color of the blazer is : "+blazerSeventeen.color);
-				System.out.println("material type of the blazer is : "+blazerSeventeen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerSeventeen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerSeventeen.fitType);
+			blazerSeventeen.getBlazerInfo();
 				
 			Blazer blazerEighteen   = new Blazer();
 			blazerEighteen.blazerId = 18;
@@ -316,16 +180,8 @@ class BlazerRunner{
 			blazerEighteen.materialType = "cotton";
 			blazerEighteen.noOfButtons  = 2;
 			blazerEighteen.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer eighteen details : ");
-				System.out.println("Id of blazer is : "+blazerEighteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerEighteen.brandName);
-				System.out.println("size of the blazer is : "+blazerEighteen.size);
-				System.out.println("color of the blazer is : "+blazerEighteen.color);
-				System.out.println("material type of the blazer is : "+blazerEighteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerEighteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerEighteen.fitType);
-			
+			blazerEighteen.getBlazerInfo();	
+				
 			Blazer blazerNineteen   = new Blazer();
 			blazerNineteen.blazerId = 19;
 			blazerNineteen.brandName = "Van Heusen";
@@ -334,15 +190,7 @@ class BlazerRunner{
 			blazerNineteen.materialType = "wool";
 			blazerNineteen.noOfButtons  = 2;
 			blazerNineteen.fitType	   = "Slim fit";
-				System.out.println();
-				System.out.println("Blazer nineteen details : ");
-				System.out.println("Id of blazer is : "+blazerNineteen.blazerId);
-				System.out.println("brand name of blazer is : "+blazerNineteen.brandName);
-				System.out.println("size of the blazer is : "+blazerNineteen.size);
-				System.out.println("color of the blazer is : "+blazerNineteen.color);
-				System.out.println("material type of the blazer is : "+blazerNineteen.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerNineteen.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerNineteen.fitType);
+			blazerNineteen.getBlazerInfo();
 				
 			Blazer blazerTwenty   = new Blazer();
 			blazerTwenty.blazerId = 20;
@@ -352,15 +200,7 @@ class BlazerRunner{
 			blazerTwenty.materialType = "Linen";
 			blazerTwenty.noOfButtons  = 3;
 			blazerTwenty.fitType	   = "Regular fit";
-				System.out.println();
-				System.out.println("Blazer twenty details : ");
-				System.out.println("Id of blazer is : "+blazerTwenty.blazerId);
-				System.out.println("brand name of blazer is : "+blazerTwenty.brandName);
-				System.out.println("size of the blazer is : "+blazerTwenty.size);
-				System.out.println("color of the blazer is : "+blazerTwenty.color);
-				System.out.println("material type of the blazer is : "+blazerTwenty.materialType);
-				System.out.println("no of buttons on blazer are : "+blazerTwenty.noOfButtons);
-				System.out.println("fit type of the blazer is : "+blazerTwenty.fitType);
+			blazerTwenty.getBlazerInfo();
 				System.out.println();
 		System.out.println("main ended");
 	}

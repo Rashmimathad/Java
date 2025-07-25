@@ -6,4 +6,16 @@ class Blade{
 	double bladeLength;
 	String bladeType;
 	String sharpnessLevel;
+	
+	public void getBladeInfo(){
+		System.out.println();
+		System.out.println("Blade  details : ");
+		System.out.println("id of blade is : "+bladeId);
+		System.out.println("weight of the blade is : "+bladeWeight+" g");
+		System.out.println("thickness of the blade is : "+bladeThickness+" mm");
+		System.out.println("material of the blade is : "+bladeMaterial);
+		System.out.println("length of the blade is : "+bladeLength+" inches");
+		System.out.println("type of the blade is : "+bladeType);
+		System.out.println("sharpness level of blade is : "+sharpnessLevel);
+	}
 }

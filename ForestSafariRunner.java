@@ -9,14 +9,7 @@ class ForestSafariRunner{
 			safariOne.safariTimings="10:00 AM to 12:00 PM";
 			safariOne.groupSizeLimit=6;
 			safariOne.isGuideAvailable=true;
-				System.out.println();
-				System.out.println("safari one details :");
-				System.out.println("id of the safari is :"+safariOne.safariId);
-				System.out.println("name of the safari : "+safariOne.safariName);
-				System.out.println("type of safari : "+safariOne.safariType);
-				System.out.println("timings of safari : "+safariOne.safariTimings);
-				System.out.println("group size limit of safari is : "+safariOne.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariOne.isGuideAvailable);
+			safariOne.getSafariInfo();
 			
 			ForestSafari safariTwo=new ForestSafari();
 			safariTwo.safariId = 2;
@@ -25,14 +18,7 @@ class ForestSafariRunner{
 			safariTwo.safariTimings = "6:00 AM to 8:00 AM";
 			safariTwo.groupSizeLimit = 20;
 			safariTwo.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari two details :");
-				System.out.println("id of the safari is :"+safariTwo.safariId);
-				System.out.println("name of the safari : "+safariTwo.safariName);
-				System.out.println("type of safari : "+safariTwo.safariType);
-				System.out.println("timings of safari : "+safariTwo.safariTimings);
-				System.out.println("group size limit of safari is : "+safariTwo.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariTwo.isGuideAvailable);
+			safariTwo.getSafariInfo();
 			
 			ForestSafari safariThree=new ForestSafari();
 			safariThree.safariId = 3;
@@ -41,14 +27,7 @@ class ForestSafariRunner{
 			safariThree.safariTimings = "4:00 PM to 6:00 PM";
 			safariThree.groupSizeLimit = 6;
 			safariThree.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari three details :");
-				System.out.println("id of the safari is :"+safariThree.safariId);
-				System.out.println("name of the safari : "+safariThree.safariName);
-				System.out.println("type of safari : "+safariThree.safariType);
-				System.out.println("timings of safari : "+safariThree.safariTimings);
-				System.out.println("group size limit of safari is : "+safariThree.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariThree.isGuideAvailable);
+			safariThree.getSafariInfo();
 			
 			ForestSafari safariFour=new ForestSafari();
 			safariFour.safariId = 4;
@@ -57,14 +36,7 @@ class ForestSafariRunner{
 			safariFour.safariTimings = "7:00 AM to 9:00 AM";
 			safariFour.groupSizeLimit = 4;
 			safariFour.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari four details :");
-				System.out.println("id of the safari is :"+safariFour.safariId);
-				System.out.println("name of the safari : "+safariFour.safariName);
-				System.out.println("type of safari : "+safariFour.safariType);
-				System.out.println("timings of safari : "+safariFour.safariTimings);
-				System.out.println("group size limit of safari is : "+safariFour.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariFour.isGuideAvailable);
+			safariFour.getSafariInfo();
 			
 			ForestSafari safariFive=new ForestSafari();
 			safariFive.safariId = 5;
@@ -73,14 +45,7 @@ class ForestSafariRunner{
 			safariFive.safariTimings = "3:00 PM to 5:00 PM";
 			safariFive.groupSizeLimit = 6;
 			safariFive.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari five details :");
-				System.out.println("id of the safari is :"+safariFive.safariId);
-				System.out.println("name of the safari : "+safariFive.safariName);
-				System.out.println("type of safari : "+safariFive.safariType);
-				System.out.println("timings of safari : "+safariFive.safariTimings);
-				System.out.println("group size limit of safari is : "+safariFive.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariFive.isGuideAvailable);
+			safariFive.getSafariInfo();
 				
 			ForestSafari safariSix=new ForestSafari();
 			safariSix.safariId = 6;
@@ -89,14 +54,7 @@ class ForestSafariRunner{
 			safariSix.safariTimings = "9:00 AM to 11:00 AM";
 			safariSix.groupSizeLimit = 15;
 			safariSix.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari six details :");
-				System.out.println("id of the safari is :"+safariSix.safariId);
-				System.out.println("name of the safari : "+safariSix.safariName);
-				System.out.println("type of safari : "+safariSix.safariType);
-				System.out.println("timings of safari : "+safariSix.safariTimings);
-				System.out.println("group size limit of safari is : "+safariSix.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariSix.isGuideAvailable);
+			safariSix.getSafariInfo();
 			
 			ForestSafari safariSeven=new ForestSafari();
 			safariSeven.safariId = 7;
@@ -105,14 +63,7 @@ class ForestSafariRunner{
 			safariSeven.safariTimings = "5:30 AM to 7:30 AM";
 			safariSeven.groupSizeLimit = 4;
 			safariSeven.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari seven details :");
-				System.out.println("id of the safari is :"+safariSeven.safariId);
-				System.out.println("name of the safari : "+safariSeven.safariName);
-				System.out.println("type of safari : "+safariSeven.safariType);
-				System.out.println("timings of safari : "+safariSeven.safariTimings);
-				System.out.println("group size limit of safari is : "+safariSeven.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariSeven.isGuideAvailable);
+			safariSeven.getSafariInfo();
 			
 			ForestSafari safariEight=new ForestSafari();
 			safariEight.safariId = 8;
@@ -121,14 +72,7 @@ class ForestSafariRunner{
 			safariEight.safariTimings = "8:00 AM to 10:00 AM";
 			safariEight.groupSizeLimit = 10;
 			safariEight.isGuideAvailable = false;
-				System.out.println();
-				System.out.println("safari one details :");
-				System.out.println("id of the safari is :"+safariEight.safariId);
-				System.out.println("name of the safari : "+safariEight.safariName);
-				System.out.println("type of safari : "+safariEight.safariType);
-				System.out.println("timings of safari : "+safariEight.safariTimings);
-				System.out.println("group size limit of safari is : "+safariEight.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariEight.isGuideAvailable);
+			safariEight.getSafariInfo();
 			
 			
 			ForestSafari safariNine=new ForestSafari();
@@ -138,14 +82,7 @@ class ForestSafariRunner{
 			safariNine.safariTimings = "4:30 PM to 6:30 PM";
 			safariNine.groupSizeLimit = 12;
 			safariNine.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari nine details :");
-				System.out.println("id of the safari is :"+safariNine.safariId);
-				System.out.println("name of the safari : "+safariNine.safariName);
-				System.out.println("type of safari : "+safariNine.safariType);
-				System.out.println("timings of safari : "+safariNine.safariTimings);
-				System.out.println("group size limit of safari is : "+safariNine.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariNine.isGuideAvailable);
+			safariNine.getSafariInfo();
 			
 			ForestSafari safariTen=new ForestSafari();
 			safariTen.safariId = 10;
@@ -154,14 +91,7 @@ class ForestSafariRunner{
 			safariTen.safariTimings = "6:00 AM to 8:00 AM";
 			safariTen.groupSizeLimit = 6;
 			safariTen.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari ten details :");
-				System.out.println("id of the safari is :"+safariTen.safariId);
-				System.out.println("name of the safari : "+safariTen.safariName);
-				System.out.println("type of safari : "+safariTen.safariType);
-				System.out.println("timings of safari : "+safariTen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariTen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariTen.isGuideAvailable);
+			safariTen.getSafariInfo();
 			
 			ForestSafari safariEleven=new ForestSafari();
 			safariEleven.safariId = 11;
@@ -170,14 +100,7 @@ class ForestSafariRunner{
 			safariEleven.safariTimings = "3:00 PM to 5:00 PM";
 			safariEleven.groupSizeLimit = 10;
 			safariEleven.isGuideAvailable = false;
-				System.out.println();
-				System.out.println("safari eleven details :");
-				System.out.println("id of the safari is :"+safariEleven.safariId);
-				System.out.println("name of the safari : "+safariEleven.safariName);
-				System.out.println("type of safari : "+safariEleven.safariType);
-				System.out.println("timings of safari : "+safariEleven.safariTimings);
-				System.out.println("group size limit of safari is : "+safariEleven.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariEleven.isGuideAvailable);
+			safariEleven.getSafariInfo();
 			
 			
 			ForestSafari safariTwelve=new ForestSafari();
@@ -187,14 +110,7 @@ class ForestSafariRunner{
 			safariTwelve.safariTimings = "7:00 AM to 9:00 AM";
 			safariTwelve.groupSizeLimit = 4;
 			safariTwelve.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari twelve details :");
-				System.out.println("id of the safari is :"+safariTwelve.safariId);
-				System.out.println("name of the safari : "+safariTwelve.safariName);
-				System.out.println("type of safari : "+safariTwelve.safariType);
-				System.out.println("timings of safari : "+safariTwelve.safariTimings);
-				System.out.println("group size limit of safari is : "+safariTwelve.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariTwelve.isGuideAvailable);
+			safariTwelve.getSafariInfo();
 			
 			ForestSafari safariThirteen=new ForestSafari();
 			safariThirteen.safariId = 13;
@@ -203,14 +119,7 @@ class ForestSafariRunner{
 			safariThirteen.safariTimings = "6:00 AM to 8:00 AM";
 			safariThirteen.groupSizeLimit = 5;
 			safariThirteen.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari thirteen details :");
-				System.out.println("id of the safari is :"+safariThirteen.safariId);
-				System.out.println("name of the safari : "+safariThirteen.safariName);
-				System.out.println("type of safari : "+safariThirteen.safariType);
-				System.out.println("timings of safari : "+safariThirteen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariThirteen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariThirteen.isGuideAvailable);
+			safariThirteen.getSafariInfo();
 			
 			ForestSafari safariFourteen=new ForestSafari();
 			safariFourteen.safariId = 14;
@@ -219,14 +128,7 @@ class ForestSafariRunner{
 			safariFourteen.safariTimings = "4:00 PM to 6:00 PM";
 			safariFourteen.groupSizeLimit = 6;
 			safariFourteen.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari fourteen details :");
-				System.out.println("id of the safari is :"+safariFourteen.safariId);
-				System.out.println("name of the safari : "+safariFourteen.safariName);
-				System.out.println("type of safari : "+safariFourteen.safariType);
-				System.out.println("timings of safari : "+safariFourteen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariFourteen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariFourteen.isGuideAvailable);
+			safariFourteen.getSafariInfo();
 			
 			ForestSafari safariFifteen=new ForestSafari();
 			safariFifteen.safariId = 15;
@@ -235,14 +137,7 @@ class ForestSafariRunner{
 			safariFifteen.safariTimings = "8:00 AM to 10:00 AM";
 			safariFifteen.groupSizeLimit = 12;
 			safariFifteen.isGuideAvailable = true;
-			System.out.println();
-			System.out.println("safari fifteen details :");
-			System.out.println("id of the safari is :"+safariFifteen.safariId);
-			System.out.println("name of the safari : "+safariFifteen.safariName);
-			System.out.println("type of safari : "+safariFifteen.safariType);
-			System.out.println("timings of safari : "+safariFifteen.safariTimings);
-			System.out.println("group size limit of safari is : "+safariFifteen.groupSizeLimit);
-			System.out.println("is guide avaialable? "+safariFifteen.isGuideAvailable);
+			safariFifteen.getSafariInfo();
 			
 			ForestSafari safariSeventeen=new ForestSafari();
 			safariSeventeen.safariId = 17;
@@ -251,14 +146,7 @@ class ForestSafariRunner{
 			safariSeventeen.safariTimings = "9:00 AM to 11:00 AM";
 			safariSeventeen.groupSizeLimit = 15;
 			safariSeventeen.isGuideAvailable = false;
-				System.out.println();
-				System.out.println("safari seventeen details :");
-				System.out.println("id of the safari is :"+safariSeventeen.safariId);
-				System.out.println("name of the safari : "+safariSeventeen.safariName);
-				System.out.println("type of safari : "+safariSeventeen.safariType);
-				System.out.println("timings of safari : "+safariSeventeen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariSeventeen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariSeventeen.isGuideAvailable);
+			safariSeventeen.getSafariInfo();
 			
 			ForestSafari safariEighteen=new ForestSafari();
 			safariEighteen.safariId = 18;
@@ -267,14 +155,7 @@ class ForestSafariRunner{
 			safariEighteen.safariTimings = "3:00 PM to 5:00 PM";
 			safariEighteen.groupSizeLimit = 20;
 			safariEighteen.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari eighteen details :");
-				System.out.println("id of the safari is :"+safariEighteen.safariId);
-				System.out.println("name of the safari : "+safariEighteen.safariName);
-				System.out.println("type of safari : "+safariEighteen.safariType);
-				System.out.println("timings of safari : "+safariEighteen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariEighteen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariEighteen.isGuideAvailable);
+			safariEighteen.getSafariInfo();
 			
 			ForestSafari safariNineteen=new ForestSafari();
 			safariNineteen.safariId = 19;
@@ -283,14 +164,7 @@ class ForestSafariRunner{
 			safariNineteen.safariTimings = "7:00 AM to 9:00 AM";
 			safariNineteen.groupSizeLimit = 5;
 			safariNineteen.isGuideAvailable = true;
-				System.out.println();
-				System.out.println("safari nineteen details :");
-				System.out.println("id of the safari is :"+safariNineteen.safariId);
-				System.out.println("name of the safari : "+safariNineteen.safariName);
-				System.out.println("type of safari : "+safariNineteen.safariType);
-				System.out.println("timings of safari : "+safariNineteen.safariTimings);
-				System.out.println("group size limit of safari is : "+safariNineteen.groupSizeLimit);
-				System.out.println("is guide avaialable? "+safariNineteen.isGuideAvailable);
+			safariNineteen.getSafariInfo();
 			
 			ForestSafari safariTwenty=new ForestSafari();
 			safariTwenty.safariId = 20;
@@ -299,14 +173,7 @@ class ForestSafariRunner{
 			safariTwenty.safariTimings = "10:00 AM to 12:00 PM";
 			safariTwenty.groupSizeLimit = 10;
 			safariTwenty.isGuideAvailable = false;
-			System.out.println();
-			System.out.println("safari twenty details :");
-			System.out.println("id of the safari is :"+safariTwenty.safariId);
-			System.out.println("name of the safari : "+safariTwenty.safariName);
-			System.out.println("type of safari : "+safariTwenty.safariType);
-			System.out.println("timings of safari : "+safariTwenty.safariTimings);
-			System.out.println("group size limit of safari is : "+safariTwenty.groupSizeLimit);
-			System.out.println("is guide avaialable? "+safariTwenty.isGuideAvailable);
+			safariTwenty.getSafariInfo();
 			
 		System.out.println("main ended");
 	}

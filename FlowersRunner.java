@@ -10,14 +10,7 @@ class FlowersRunner{
 			flowerOne.scientificName="Tulipa gesneriana";
 			flowerOne.nativeRegion="India";
 			flowerOne.lifespan="Annual";
-				System.out.println();
-				System.out.println("flower one details:");
-				System.out.println("id of the flower : "+flowerOne.flowerId);
-				System.out.println("name of the flower is : "+flowerOne.flowerName);
-				System.out.println("color of the flower is : "+flowerOne.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerOne.scientificName);
-				System.out.println("native region of the flower is : "+flowerOne.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerOne.lifespan);
+			flowerOne.getFlowersInfo();
 			
 			Flowers flowerTwo=new Flowers();
 			flowerTwo.flowerId = 2;
@@ -26,14 +19,7 @@ class FlowersRunner{
 			flowerTwo.scientificName = "Rosa";
 			flowerTwo.nativeRegion = "Asia";
 			flowerTwo.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower two details:");
-				System.out.println("id of the flower : "+flowerTwo.flowerId);
-				System.out.println("name of the flower is : "+flowerTwo.flowerName);
-				System.out.println("color of the flower is : "+flowerTwo.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerTwo.scientificName);
-				System.out.println("native region of the flower is : "+flowerTwo.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerTwo.lifespan);
+			flowerTwo.getFlowersInfo();
 			
 			Flowers flowerThree=new Flowers();
 			flowerThree.flowerId = 3;
@@ -42,14 +28,7 @@ class FlowersRunner{
 			flowerThree.scientificName = "Helianthus annuus";
 			flowerThree.nativeRegion = "North America";
 			flowerThree.lifespan = "Annual";
-				System.out.println();
-				System.out.println("flower three details:");
-				System.out.println("id of the flower : "+flowerThree.flowerId);
-				System.out.println("name of the flower is : "+flowerThree.flowerName);
-				System.out.println("color of the flower is : "+flowerThree.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerThree.scientificName);
-				System.out.println("native region of the flower is : "+flowerThree.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerThree.lifespan);
+			flowerThree.getFlowersInfo();
 			
 			Flowers flowerFour=new Flowers();
 			flowerFour.flowerId = 4;
@@ -58,14 +37,7 @@ class FlowersRunner{
 			flowerFour.scientificName = "Lilium";
 			flowerFour.nativeRegion = "Europe";
 			flowerFour.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower four details:");
-				System.out.println("id of the flower : "+flowerFour.flowerId);
-				System.out.println("name of the flower is : "+flowerFour.flowerName);
-				System.out.println("color of the flower is : "+flowerFour.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerFour.scientificName);
-				System.out.println("native region of the flower is : "+flowerFour.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerFour.lifespan);
+			flowerFour.getFlowersInfo();
 			
 			
 			Flowers flowerFive=new Flowers();
@@ -75,14 +47,7 @@ class FlowersRunner{
 			flowerFive.scientificName = "Orchidaceae";
 			flowerFive.nativeRegion = "Worldwide";
 			flowerFive.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower five details:");
-				System.out.println("id of the flower : "+flowerFive.flowerId);
-				System.out.println("name of the flower is : "+flowerFive.flowerName);
-				System.out.println("color of the flower is : "+flowerFive.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerFive.scientificName);
-				System.out.println("native region of the flower is : "+flowerFive.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerFive.lifespan);
+			flowerFive.getFlowersInfo();
 			
 			Flowers flowerSix=new Flowers();
 			flowerSix.flowerId = 6;
@@ -91,14 +56,7 @@ class FlowersRunner{
 			flowerSix.scientificName = "Tagetes";
 			flowerSix.nativeRegion = "Mexico";
 			flowerSix.lifespan = "Annual";
-				System.out.println();
-				System.out.println("flower six details:");
-				System.out.println("id of the flower : "+flowerSix.flowerId);
-				System.out.println("name of the flower is : "+flowerSix.flowerName);
-				System.out.println("color of the flower is : "+flowerSix.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerSix.scientificName);
-				System.out.println("native region of the flower is : "+flowerSix.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerSix.lifespan);
+			flowerSix.getFlowersInfo();
 			
 			Flowers flowerSeven=new Flowers();
 			flowerSeven.flowerId = 7;
@@ -107,14 +65,7 @@ class FlowersRunner{
 			flowerSeven.scientificName = "Narcissus";
 			flowerSeven.nativeRegion = "Europe";
 			flowerSeven.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower seven details:");
-				System.out.println("id of the flower : "+flowerSeven.flowerId);
-				System.out.println("name of the flower is : "+flowerSeven.flowerName);
-				System.out.println("color of the flower is : "+flowerSeven.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerSeven.scientificName);
-				System.out.println("native region of the flower is : "+flowerSeven.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerSeven.lifespan);
+			flowerSeven.getFlowersInfo();
 			
 			Flowers flowerEight=new Flowers();
 			flowerEight.flowerId = 8;
@@ -123,14 +74,7 @@ class FlowersRunner{
 			flowerEight.scientificName = "Hibiscus rosa-sinensis";
 			flowerEight.nativeRegion = "Asia";
 			flowerEight.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower eight details:");
-				System.out.println("id of the flower : "+flowerEight.flowerId);
-				System.out.println("name of the flower is : "+flowerEight.flowerName);
-				System.out.println("color of the flower is : "+flowerEight.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerEight.scientificName);
-				System.out.println("native region of the flower is : "+flowerEight.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerEight.lifespan);
+			flowerEight.getFlowersInfo();
 			
 			Flowers flowerNine=new Flowers();
 			flowerNine.flowerId = 9;
@@ -139,14 +83,7 @@ class FlowersRunner{
 			flowerNine.scientificName = "Bellis perennis";
 			flowerNine.nativeRegion = "Europe";
 			flowerNine.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower nine details:");
-				System.out.println("id of the flower : "+flowerNine.flowerId);
-				System.out.println("name of the flower is : "+flowerNine.flowerName);
-				System.out.println("color of the flower is : "+flowerNine.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerNine.scientificName);
-				System.out.println("native region of the flower is : "+flowerNine.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerNine.lifespan);
+			flowerNine.getFlowersInfo();
 			
 			Flowers flowerTen=new Flowers();
 			flowerTen.flowerId = 10;
@@ -155,14 +92,7 @@ class FlowersRunner{
 			flowerTen.scientificName = "Jasminum";
 			flowerTen.nativeRegion = "India";
 			flowerTen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower ten details:");
-				System.out.println("id of the flower : "+flowerTen.flowerId);
-				System.out.println("name of the flower is : "+flowerTen.flowerName);
-				System.out.println("color of the flower is : "+flowerTen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerTen.scientificName);
-				System.out.println("native region of the flower is : "+flowerTen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerTen.lifespan);
+			flowerNine.getFlowersInfo();
 			
 			Flowers flowerEleven=new Flowers();
 			flowerEleven.flowerId = 11;
@@ -171,14 +101,7 @@ class FlowersRunner{
 			flowerEleven.scientificName = "Lavandula";
 			flowerEleven.nativeRegion = "Mediterranean";
 			flowerEleven.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower eleven details:");
-				System.out.println("id of the flower : "+flowerEleven.flowerId);
-				System.out.println("name of the flower is : "+flowerEleven.flowerName);
-				System.out.println("color of the flower is : "+flowerEleven.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerEleven.scientificName);
-				System.out.println("native region of the flower is : "+flowerEleven.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerEleven.lifespan);
+			flowerEleven.getFlowersInfo();
 			
 			Flowers flowerTwelve=new Flowers();
 			flowerTwelve.flowerId = 12;
@@ -187,14 +110,7 @@ class FlowersRunner{
 			flowerTwelve.scientificName = "Nelumbo nucifera";
 			flowerTwelve.nativeRegion = "Asia";
 			flowerTwelve.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower twelve details:");
-				System.out.println("id of the flower : "+flowerTwelve.flowerId);
-				System.out.println("name of the flower is : "+flowerTwelve.flowerName);
-				System.out.println("color of the flower is : "+flowerTwelve.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerTwelve.scientificName);
-				System.out.println("native region of the flower is : "+flowerTwelve.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerTwelve.lifespan);
+			flowerTwelve.getFlowersInfo();
 			
 			Flowers flowerThirteen=new Flowers();
 			flowerThirteen.flowerId = 13;
@@ -203,14 +119,7 @@ class FlowersRunner{
 			flowerThirteen.scientificName = "Zinnia elegans";
 			flowerThirteen.nativeRegion = "Mexico";
 			flowerThirteen.lifespan = "Annual";
-				System.out.println();
-				System.out.println("flower thirteen details:");
-				System.out.println("id of the flower : "+flowerThirteen.flowerId);
-				System.out.println("name of the flower is : "+flowerThirteen.flowerName);
-				System.out.println("color of the flower is : "+flowerThirteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerThirteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerThirteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerThirteen.lifespan);
+			flowerThirteen.getFlowersInfo();
 			
 			Flowers flowerFourteen=new Flowers();
 			flowerFourteen.flowerId = 14;
@@ -219,14 +128,7 @@ class FlowersRunner{
 			flowerFourteen.scientificName = "Paeonia";
 			flowerFourteen.nativeRegion = "Asia";
 			flowerFourteen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower fourteen details:");
-				System.out.println("id of the flower : "+flowerFourteen.flowerId);
-				System.out.println("name of the flower is : "+flowerFourteen.flowerName);
-				System.out.println("color of the flower is : "+flowerFourteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerFourteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerFourteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerFourteen.lifespan);
+			flowerFourteen.getFlowersInfo();
 			
 			Flowers flowerFifteen=new Flowers();
 			flowerFifteen.flowerId = 15;
@@ -235,14 +137,7 @@ class FlowersRunner{
 			flowerFifteen.scientificName = "Chrysanthemum indicum";
 			flowerFifteen.nativeRegion = "China";
 			flowerFifteen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower fifteen details:");
-				System.out.println("id of the flower : "+flowerFifteen.flowerId);
-				System.out.println("name of the flower is : "+flowerFifteen.flowerName);
-				System.out.println("color of the flower is : "+flowerFifteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerFifteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerFifteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerFifteen.lifespan);
+			flowerFifteen.getFlowersInfo();
 			
 			Flowers flowerSixteen=new Flowers();
 			flowerSixteen.flowerId = 16;
@@ -251,14 +146,7 @@ class FlowersRunner{
 			flowerSixteen.scientificName = "Gladiolus hortulanus";
 			flowerSixteen.nativeRegion = "South Africa";
 			flowerSixteen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower sixteen details:");
-				System.out.println("id of the flower : "+flowerSixteen.flowerId);
-				System.out.println("name of the flower is : "+flowerSixteen.flowerName);
-				System.out.println("color of the flower is : "+flowerSixteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerSixteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerSixteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerSixteen.lifespan);
+			flowerSixteen.getFlowersInfo();
 			
 			Flowers flowerSeventeen=new Flowers();
 			flowerSeventeen.flowerId = 17;
@@ -267,14 +155,7 @@ class FlowersRunner{
 			flowerSeventeen.scientificName = "Papaver somniferum";
 			flowerSeventeen.nativeRegion = "Europe";
 			flowerSeventeen.lifespan = "Annual";
-				System.out.println();
-				System.out.println("flower seventeen details:");
-				System.out.println("id of the flower : "+flowerSeventeen.flowerId);
-				System.out.println("name of the flower is : "+flowerSeventeen.flowerName);
-				System.out.println("color of the flower is : "+flowerSeventeen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerSeventeen.scientificName);
-				System.out.println("native region of the flower is : "+flowerSeventeen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerSeventeen.lifespan);
+			flowerSeventeen.getFlowersInfo();
 			
 			Flowers flowerEighteen=new Flowers();
 			flowerEighteen.flowerId = 18;
@@ -283,14 +164,7 @@ class FlowersRunner{
 			flowerEighteen.scientificName = "Hyacinthoides non-scripta";
 			flowerEighteen.nativeRegion = "UK";
 			flowerEighteen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower eighteen details:");
-				System.out.println("id of the flower : "+flowerEighteen.flowerId);
-				System.out.println("name of the flower is : "+flowerEighteen.flowerName);
-				System.out.println("color of the flower is : "+flowerEighteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerEighteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerEighteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerEighteen.lifespan);
+			flowerEighteen.getFlowersInfo();
 			
 			Flowers flowerNineteen=new Flowers();
 			flowerNineteen.flowerId = 19;
@@ -299,14 +173,7 @@ class FlowersRunner{
 			flowerNineteen.scientificName = "Iris germanica";
 			flowerNineteen.nativeRegion = "Europe";
 			flowerNineteen.lifespan = "Perennial";
-				System.out.println();
-				System.out.println("flower nineteen details:");
-				System.out.println("id of the flower : "+flowerNineteen.flowerId);
-				System.out.println("name of the flower is : "+flowerNineteen.flowerName);
-				System.out.println("color of the flower is : "+flowerNineteen.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerNineteen.scientificName);
-				System.out.println("native region of the flower is : "+flowerNineteen.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerNineteen.lifespan);
+			
 				
 			Flowers flowerTwenty=new Flowers();
 			flowerTwenty.flowerId = 20;
@@ -315,15 +182,7 @@ class FlowersRunner{
 			flowerTwenty.scientificName = "Antirrhinum majus";
 			flowerTwenty.nativeRegion = "Mediterranean";
 			flowerTwenty.lifespan = "Annual";
-				System.out.println();
-				System.out.println("flower twenty details:");
-				System.out.println("id of the flower : "+flowerTwenty.flowerId);
-				System.out.println("name of the flower is : "+flowerTwenty.flowerName);
-				System.out.println("color of the flower is : "+flowerTwenty.flowerName);
-				System.out.println("scientificName of the flower is : "+flowerTwenty.scientificName);
-				System.out.println("native region of the flower is : "+flowerTwenty.nativeRegion);
-				System.out.println("lifespan of the flower is : "+flowerTwenty.lifespan);	
-			
+			flowerTwenty.getFlowersInfo();	
 				System.out.println("main ended");
 	}
 }

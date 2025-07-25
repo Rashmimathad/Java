@@ -8,14 +8,7 @@ class RodRunner{
 			rodOne.isMagnetic=false;
 			rodOne.weight=15.00;
 			rodOne.price=150.00;
-				System.out.println();
-				System.out.println("Rod one details are : ");
-				System.out.println("id of rod is : "+rodOne.rodId);
-				System.out.println("material  of rod is : "+rodOne.rodMaterial);
-				System.out.println("length of the rod is : "+rodOne.rodLength+" metres");
-				System.out.println("is Magnetic? "+rodOne.isMagnetic);
-				System.out.println("weight of the rod is : "+rodOne.weight+" Kg");
-				System.out.println("price of the rod is : "+rodOne.price);
+			rodOne.getRodInfo();
 			
 			Rod rodTwo = new Rod();
 			rodTwo.rodId = 2;
@@ -24,14 +17,7 @@ class RodRunner{
 			rodTwo.isMagnetic = false;
 			rodTwo.weight = 8.5;
 			rodTwo.price = 120.75;
-				System.out.println();
-				System.out.println("Rod two details are : ");
-				System.out.println("id of rod is : " + rodTwo.rodId);
-				System.out.println("material of rod is : " + rodTwo.rodMaterial);
-				System.out.println("length of the rod is : " + rodTwo.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodTwo.isMagnetic);
-				System.out.println("weight of the rod is : " + rodTwo.weight + " Kg");
-				System.out.println("price of the rod is : " + rodTwo.price);
+			rodTwo.getRodInfo();
 
 			Rod rodThree = new Rod();
 			rodThree.rodId = 3;
@@ -40,14 +26,7 @@ class RodRunner{
 			rodThree.isMagnetic = true;
 			rodThree.weight = 13.2;
 			rodThree.price = 135.50;
-				System.out.println();
-				System.out.println("Rod three details are : ");
-				System.out.println("id of rod is : " + rodThree.rodId);
-				System.out.println("material of rod is : " + rodThree.rodMaterial);
-				System.out.println("length of the rod is : " + rodThree.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodThree.isMagnetic);
-				System.out.println("weight of the rod is : " + rodThree.weight + " Kg");
-				System.out.println("price of the rod is : " + rodThree.price);
+			rodThree.getRodInfo();
 
 			Rod rodFour = new Rod();
 			rodFour.rodId = 4;
@@ -56,14 +35,7 @@ class RodRunner{
 			rodFour.isMagnetic = false;
 			rodFour.weight = 5.0;
 			rodFour.price = 200.00;
-				System.out.println();
-				System.out.println("Rod four details are : ");
-				System.out.println("id of rod is : " + rodFour.rodId);
-				System.out.println("material of rod is : " + rodFour.rodMaterial);
-				System.out.println("length of the rod is : " + rodFour.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodFour.isMagnetic);
-				System.out.println("weight of the rod is : " + rodFour.weight + " Kg");
-				System.out.println("price of the rod is : " + rodFour.price);
+			rodFour.getRodInfo();
 
 			Rod rodFive = new Rod();
 			rodFive.rodId = 5;
@@ -72,15 +44,8 @@ class RodRunner{
 			rodFive.isMagnetic = false;
 			rodFive.weight = 10.0;
 			rodFive.price = 350.99;
-				System.out.println();
-				System.out.println("Rod five details are : ");
-				System.out.println("id of rod is : " + rodFive.rodId);
-				System.out.println("material of rod is : " + rodFive.rodMaterial);
-				System.out.println("length of the rod is : " + rodFive.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodFive.isMagnetic);
-				System.out.println("weight of the rod is : " + rodFive.weight + " Kg");
-				System.out.println("price of the rod is :  "+rodFive.price);
-
+			rodFive.getRodInfo();
+			
 			Rod rodSix = new Rod();
 			rodSix.rodId = 6;
 			rodSix.rodMaterial = "Copper";
@@ -88,14 +53,7 @@ class RodRunner{
 			rodSix.isMagnetic = false;
 			rodSix.weight = 11.3;
 			rodSix.price = 180.25;
-				System.out.println();
-				System.out.println("Rod six details are : ");
-				System.out.println("id of rod is : " + rodSix.rodId);
-				System.out.println("material of rod is : " + rodSix.rodMaterial);
-				System.out.println("length of the rod is : " + rodSix.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodSix.isMagnetic);
-				System.out.println("weight of the rod is : " + rodSix.weight + " Kg");
-				System.out.println("price of the rod is : " + rodSix.price);
+			rodSix.getRodInfo();
 
 			Rod rodSeven = new Rod();
 			rodSeven.rodId = 7;
@@ -104,14 +62,7 @@ class RodRunner{
 			rodSeven.isMagnetic = false;
 			rodSeven.weight = 9.6;
 			rodSeven.price = 165.00;
-				System.out.println();
-				System.out.println("Rod seven details are : ");
-				System.out.println("id of rod is : " + rodSeven.rodId);
-				System.out.println("material of rod is : " + rodSeven.rodMaterial);
-				System.out.println("length of the rod is : " + rodSeven.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodSeven.isMagnetic);
-				System.out.println("weight of the rod is : " + rodSeven.weight + " Kg");
-				System.out.println("price of the rod is : " + rodSeven.price);
+			rodSeven.getRodInfo();
 
 			Rod rodEight = new Rod();
 			rodEight.rodId = 8;
@@ -120,14 +71,7 @@ class RodRunner{
 			rodEight.isMagnetic = false;
 			rodEight.weight = 7.4;
 			rodEight.price = 140.10;
-				System.out.println();
-				System.out.println("Rod eight details are : ");
-				System.out.println("id of rod is : " + rodEight.rodId);
-				System.out.println("material of rod is : " + rodEight.rodMaterial);
-				System.out.println("length of the rod is : " + rodEight.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodEight.isMagnetic);
-				System.out.println("weight of the rod is : " + rodEight.weight + " Kg");
-				System.out.println("price of the rod is : " + rodEight.price);
+			rodEight.getRodInfo();
 
 			Rod rodNine = new Rod();
 			rodNine.rodId = 9;
@@ -136,14 +80,7 @@ class RodRunner{
 			rodNine.isMagnetic = false;
 			rodNine.weight = 3.2;
 			rodNine.price = 75.00;
-				System.out.println();
-				System.out.println("Rod nine details are : ");
-				System.out.println("id of rod is : " + rodNine.rodId);
-				System.out.println("material of rod is : " + rodNine.rodMaterial);
-				System.out.println("length of the rod is : " + rodNine.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodNine.isMagnetic);
-				System.out.println("weight of the rod is : " + rodNine.weight + " Kg");
-				System.out.println("price of the rod is : " + rodNine.price);
+			rodNine.getRodInfo();
 
 			Rod rodTen = new Rod();
 			rodTen.rodId = 10;
@@ -152,14 +89,7 @@ class RodRunner{
 			rodTen.isMagnetic = true;
 			rodTen.weight = 10.8;
 			rodTen.price = 210.60;
-				System.out.println();
-				System.out.println("Rod ten details are : ");
-				System.out.println("id of rod is : " + rodTen.rodId);
-				System.out.println("material of rod is : " + rodTen.rodMaterial);
-				System.out.println("length of the rod is : " + rodTen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodTen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodTen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodTen.price);
+			rodTen.getRodInfo();
 
 
 			Rod rodEleven = new Rod();
@@ -169,14 +99,7 @@ class RodRunner{
 			rodEleven.isMagnetic = false;
 			rodEleven.weight = 6.5;
 			rodEleven.price = 320.75;
-				System.out.println();
-				System.out.println("Rod eleven details are : ");
-				System.out.println("id of rod is : " + rodEleven.rodId);
-				System.out.println("material of rod is : " + rodEleven.rodMaterial);
-				System.out.println("length of the rod is : " + rodEleven.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodEleven.isMagnetic);
-				System.out.println("weight of the rod is : " + rodEleven.weight + " Kg");
-				System.out.println("price of the rod is : " + rodEleven.price);
+			rodEleven.getRodInfo();
 
 			Rod rodTwelve = new Rod();
 			rodTwelve.rodId = 12;
@@ -185,14 +108,7 @@ class RodRunner{
 			rodTwelve.isMagnetic = false;
 			rodTwelve.weight = 8.2;
 			rodTwelve.price = 135.50;
-				System.out.println();
-				System.out.println("Rod twelve details are : ");
-				System.out.println("id of rod is : " + rodTwelve.rodId);
-				System.out.println("material of rod is : " + rodTwelve.rodMaterial);
-				System.out.println("length of the rod is : " + rodTwelve.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodTwelve.isMagnetic);
-				System.out.println("weight of the rod is : " + rodTwelve.weight + " Kg");
-				System.out.println("price of the rod is : " + rodTwelve.price);
+			rodTwelve.getRodInfo();
 
 			Rod rodThirteen = new Rod();
 			rodThirteen.rodId = 13;
@@ -201,14 +117,7 @@ class RodRunner{
 			rodThirteen.isMagnetic = false;
 			rodThirteen.weight = 5.7;
 			rodThirteen.price = 410.00;
-				System.out.println();
-				System.out.println("Rod thirteen details are : ");
-				System.out.println("id of rod is : " + rodThirteen.rodId);
-				System.out.println("material of rod is : " + rodThirteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodThirteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodThirteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodThirteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodThirteen.price);
+			rodThirteen.getRodInfo();
 
 			Rod rodFourteen = new Rod();
 			rodFourteen.rodId = 14;
@@ -217,14 +126,7 @@ class RodRunner{
 			rodFourteen.isMagnetic = true;
 			rodFourteen.weight = 10.0;
 			rodFourteen.price = 250.25;
-				System.out.println();
-				System.out.println("Rod fourteen details are : ");
-				System.out.println("id of rod is : " + rodFourteen.rodId);
-				System.out.println("material of rod is : " + rodFourteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodFourteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodFourteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodFourteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodFourteen.price);
+			rodFourteen.getRodInfo();
 
 			Rod rodFifteen = new Rod();
 			rodFifteen.rodId = 15;
@@ -233,14 +135,7 @@ class RodRunner{
 			rodFifteen.isMagnetic = false;
 			rodFifteen.weight = 4.6;
 			rodFifteen.price = 120.00;
-				System.out.println();
-				System.out.println("Rod fifteen details are : ");
-				System.out.println("id of rod is : " + rodFifteen.rodId);
-				System.out.println("material of rod is : " + rodFifteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodFifteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodFifteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodFifteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodFifteen.price);
+			rodFifteen.getRodInfo();
 
 			Rod rodSixteen = new Rod();
 			rodSixteen.rodId = 16;
@@ -249,14 +144,7 @@ class RodRunner{
 			rodSixteen.isMagnetic = false;
 			rodSixteen.weight = 13.2;
 			rodSixteen.price = 160.80;
-				System.out.println();
-				System.out.println("Rod sixteen details are : ");
-				System.out.println("id of rod is : " + rodSixteen.rodId);
-				System.out.println("material of rod is : " + rodSixteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodSixteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodSixteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodSixteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodSixteen.price);
+			rodSixteen.getRodInfo();
 
 			Rod rodSeventeen = new Rod();
 			rodSeventeen.rodId = 17;
@@ -265,14 +153,7 @@ class RodRunner{
 			rodSeventeen.isMagnetic = true;
 			rodSeventeen.weight = 17.9;
 			rodSeventeen.price = 190.00;
-				System.out.println();
-				System.out.println("Rod seventeen details are : ");
-				System.out.println("id of rod is : " + rodSeventeen.rodId);
-				System.out.println("material of rod is : " + rodSeventeen.rodMaterial);
-				System.out.println("length of the rod is : " + rodSeventeen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodSeventeen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodSeventeen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodSeventeen.price);
+			rodSeventeen.getRodInfo();
 
 			Rod rodEighteen = new Rod();
 			rodEighteen.rodId = 18;
@@ -281,14 +162,7 @@ class RodRunner{
 			rodEighteen.isMagnetic = false;
 			rodEighteen.weight = 6.8;
 			rodEighteen.price = 85.60;
-				System.out.println();
-				System.out.println("Rod eighteen details are : ");
-				System.out.println("id of rod is : " + rodEighteen.rodId);
-				System.out.println("material of rod is : " + rodEighteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodEighteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodEighteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodEighteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodEighteen.price);
+			rodEighteen.getRodInfo();
 
 			Rod rodNineteen = new Rod();
 			rodNineteen.rodId = 19;
@@ -297,15 +171,8 @@ class RodRunner{
 			rodNineteen.isMagnetic = false;
 			rodNineteen.weight = 12.1;
 			rodNineteen.price = 290.90;
-				System.out.println();
-				System.out.println("Rod nineteen details are : ");
-				System.out.println("id of rod is : " + rodNineteen.rodId);
-				System.out.println("material of rod is : " + rodNineteen.rodMaterial);
-				System.out.println("length of the rod is : " + rodNineteen.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodNineteen.isMagnetic);
-				System.out.println("weight of the rod is : " + rodNineteen.weight + " Kg");
-				System.out.println("price of the rod is : " + rodNineteen.price);
-
+			rodNineteen.getRodInfo();
+			
 			Rod rodTwenty = new Rod();
 			rodTwenty.rodId = 20;
 			rodTwenty.rodMaterial = "Silicon Bronze";
@@ -313,14 +180,7 @@ class RodRunner{
 			rodTwenty.isMagnetic = false;
 			rodTwenty.weight = 9.9;
 			rodTwenty.price = 230.00;
-				System.out.println();
-				System.out.println("Rod twenty details are : ");
-				System.out.println("id of rod is : " + rodTwenty.rodId);
-				System.out.println("material of rod is : " + rodTwenty.rodMaterial);
-				System.out.println("length of the rod is : " + rodTwenty.rodLength + " metres");
-				System.out.println("is Magnetic? " + rodTwenty.isMagnetic);
-				System.out.println("weight of the rod is : " + rodTwenty.weight + " Kg");
-				System.out.println("price of the rod is : " + rodTwenty.price);
+			rodTwenty.getRodInfo();
 
 			System.out.println();
 		System.out.println("main ended");

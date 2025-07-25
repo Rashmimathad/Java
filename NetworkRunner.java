@@ -11,14 +11,7 @@ class NetworkRunner{
 			networkOne.securityType="WPA2";
 			networkOne.bandwidth=100;
 			networkOne.isWireless=false;
-				System.out.println();
-				System.out.println("network one details : ");
-				System.out.println("id of network is : "+networkOne.networkId);
-				System.out.println("name of the network is : "+networkOne.networkName);
-				System.out.println("topology of the network is : "+networkOne.topology);
-				System.out.println("security type of the network is : "+networkOne.securityType);
-				System.out.println("bandwidth of the network : "+networkOne.bandwidth);
-				System.out.println("is network wireless? "+networkOne.isWireless);
+			networkOne.getNetworkInfo();
 				
 		    Network networkTwo = new Network();
 			networkTwo.networkId = 2;
@@ -27,14 +20,7 @@ class NetworkRunner{
 			networkTwo.securityType = "IPSec";
 			networkTwo.bandwidth = 1000;
 			networkTwo.isWireless = false;
-				System.out.println();
-				System.out.println("network two details : ");
-				System.out.println("id of network is : " + networkTwo.networkId);
-				System.out.println("name of the network is : " + networkTwo.networkName);
-				System.out.println("topology of the network is : " + networkTwo.topology);
-				System.out.println("security type of the network is : " + networkTwo.securityType);
-				System.out.println("bandwidth of the network : " + networkTwo.bandwidth);
-				System.out.println("is network wireless? " + networkTwo.isWireless);
+			networkTwo.getNetworkInfo();	
 
 			Network networkThree = new Network();
 			networkThree.networkId = 3;
@@ -43,14 +29,7 @@ class NetworkRunner{
 			networkThree.securityType = "WPA3";
 			networkThree.bandwidth = 600;
 			networkThree.isWireless = true;
-				System.out.println();
-				System.out.println("network three details : ");
-				System.out.println("id of network is : " + networkThree.networkId);
-				System.out.println("name of the network is : " + networkThree.networkName);
-				System.out.println("topology of the network is : " + networkThree.topology);
-				System.out.println("security type of the network is : " + networkThree.securityType);
-				System.out.println("bandwidth of the network : " + networkThree.bandwidth);
-				System.out.println("is network wireless? " + networkThree.isWireless);
+			networkThree.getNetworkInfo();
 
 			Network networkFour = new Network();
 			networkFour.networkId = 4;
@@ -59,14 +38,7 @@ class NetworkRunner{
 			networkFour.securityType = "SSL";
 			networkFour.bandwidth = 500;
 			networkFour.isWireless = false;
-				System.out.println();
-				System.out.println("network four details : ");
-				System.out.println("id of network is : " + networkFour.networkId);
-				System.out.println("name of the network is : " + networkFour.networkName);
-				System.out.println("topology of the network is : " + networkFour.topology);
-				System.out.println("security type of the network is : " + networkFour.securityType);
-				System.out.println("bandwidth of the network : " + networkFour.bandwidth);
-				System.out.println("is network wireless? " + networkFour.isWireless);
+			networkFour.getNetworkInfo();
 
 			Network networkFive = new Network();
 			networkFive.networkId = 5;
@@ -75,14 +47,7 @@ class NetworkRunner{
 			networkFive.securityType = "Bluetooth Encryption";
 			networkFive.bandwidth = 50;
 			networkFive.isWireless = true;
-				System.out.println();
-				System.out.println("network five details : ");
-				System.out.println("id of network is : " + networkFive.networkId);
-				System.out.println("name of the network is : " + networkFive.networkName);
-				System.out.println("topology of the network is : " + networkFive.topology);
-				System.out.println("security type of the network is : " + networkFive.securityType);
-				System.out.println("bandwidth of the network : " + networkFive.bandwidth);
-				System.out.println("is network wireless? " + networkFive.isWireless);
+			networkFive.getNetworkInfo();
 
 			Network networkSix = new Network();
 			networkSix.networkId = 6;
@@ -91,14 +56,7 @@ class NetworkRunner{
 			networkSix.securityType = "TLS/SSL";
 			networkSix.bandwidth = 200;
 			networkSix.isWireless = false;
-				System.out.println();
-				System.out.println("network six details : ");
-				System.out.println("id of network is : " + networkSix.networkId);
-				System.out.println("name of the network is : " + networkSix.networkName);
-				System.out.println("topology of the network is : " + networkSix.topology);
-				System.out.println("security type of the network is : " + networkSix.securityType);
-				System.out.println("bandwidth of the network : " + networkSix.bandwidth);
-				System.out.println("is network wireless? " + networkSix.isWireless);
+			networkSix.getNetworkInfo();
 
 			Network networkSeven = new Network();
 			networkSeven.networkId = 7;
@@ -107,14 +65,7 @@ class NetworkRunner{
 			networkSeven.securityType = "SIM Encryption";
 			networkSeven.bandwidth = 150;
 			networkSeven.isWireless = true;
-				System.out.println();
-				System.out.println("network seven details : ");
-				System.out.println("id of network is : " + networkSeven.networkId);
-				System.out.println("name of the network is : " + networkSeven.networkName);
-				System.out.println("topology of the network is : " + networkSeven.topology);
-				System.out.println("security type of the network is : " + networkSeven.securityType);
-				System.out.println("bandwidth of the network : " + networkSeven.bandwidth);
-				System.out.println("is network wireless? " + networkSeven.isWireless);
+			networkSeven.getNetworkInfo();
 
 			Network networkEight = new Network();
 			networkEight.networkId = 8;
@@ -123,14 +74,7 @@ class NetworkRunner{
 			networkEight.securityType = "AES";
 			networkEight.bandwidth = 300;
 			networkEight.isWireless = true;
-				System.out.println();
-				System.out.println("network eight details : ");
-				System.out.println("id of network is : " + networkEight.networkId);
-				System.out.println("name of the network is : " + networkEight.networkName);
-				System.out.println("topology of the network is : " + networkEight.topology);
-				System.out.println("security type of the network is : " + networkEight.securityType);
-				System.out.println("bandwidth of the network : " + networkEight.bandwidth);
-				System.out.println("is network wireless? " + networkEight.isWireless);
+			networkEight.getNetworkInfo();
 
 			Network networkNine = new Network();
 			networkNine.networkId = 9;
@@ -139,15 +83,8 @@ class NetworkRunner{
 			networkNine.securityType = "Secure Simple Pairing";
 			networkNine.bandwidth = 25;
 			networkNine.isWireless = true;
-				System.out.println();
-				System.out.println("network nine details : ");
-				System.out.println("id of network is : " + networkNine.networkId);
-				System.out.println("name of the network is : " + networkNine.networkName);
-				System.out.println("topology of the network is : " + networkNine.topology);
-				System.out.println("security type of the network is : " + networkNine.securityType);
-				System.out.println("bandwidth of the network : " + networkNine.bandwidth);
-				System.out.println("is network wireless? " + networkNine.isWireless);
-
+			networkNine.getNetworkInfo();
+			
 			Network networkTen = new Network();
 			networkTen.networkId = 10;
 			networkTen.networkName = "Zigbee";
@@ -155,14 +92,7 @@ class NetworkRunner{
 			networkTen.securityType = "128-bit AES";
 			networkTen.bandwidth = 250;
 			networkTen.isWireless = true;
-				System.out.println();
-				System.out.println("network ten details : ");
-				System.out.println("id of network is : " + networkTen.networkId);
-				System.out.println("name of the network is : " + networkTen.networkName);
-				System.out.println("topology of the network is : " + networkTen.topology);
-				System.out.println("security type of the network is : " + networkTen.securityType);
-				System.out.println("bandwidth of the network : " + networkTen.bandwidth);
-				System.out.println("is network wireless? " + networkTen.isWireless);
+			networkTen.getNetworkInfo();
 
 			Network networkEleven = new Network();
 			networkEleven.networkId = 11;
@@ -171,14 +101,7 @@ class NetworkRunner{
 			networkEleven.securityType = "128-NEA Encryption";
 			networkEleven.bandwidth = 10000;
 			networkEleven.isWireless = true;
-				System.out.println();
-				System.out.println("network eleven details : ");
-				System.out.println("id of network is : " + networkEleven.networkId);
-				System.out.println("name of the network is : " + networkEleven.networkName);
-				System.out.println("topology of the network is : " + networkEleven.topology);
-				System.out.println("security type of the network is : " + networkEleven.securityType);
-				System.out.println("bandwidth of the network : " + networkEleven.bandwidth);
-				System.out.println("is network wireless? " + networkEleven.isWireless);
+			networkEleven.getNetworkInfo();
 
 			Network networkTwelve = new Network();
 			networkTwelve.networkId = 12;
@@ -187,14 +110,7 @@ class NetworkRunner{
 			networkTwelve.securityType = "SNOW 3G";
 			networkTwelve.bandwidth = 1000;
 			networkTwelve.isWireless = true;
-				System.out.println();
-				System.out.println("network twelve details : ");
-				System.out.println("id of network is : " + networkTwelve.networkId);
-				System.out.println("name of the network is : " + networkTwelve.networkName);
-				System.out.println("topology of the network is : " + networkTwelve.topology);
-				System.out.println("security type of the network is : " + networkTwelve.securityType);
-				System.out.println("bandwidth of the network : " + networkTwelve.bandwidth);
-				System.out.println("is network wireless? " + networkTwelve.isWireless);
+			networkTwelve.getNetworkInfo();
 
 			Network networkThirteen = new Network();
 			networkThirteen.networkId = 13;
@@ -203,14 +119,7 @@ class NetworkRunner{
 			networkThirteen.securityType = "MACSec";
 			networkThirteen.bandwidth = 100;
 			networkThirteen.isWireless = false;
-				System.out.println();
-				System.out.println("network thirteen details : ");
-				System.out.println("id of network is : " + networkThirteen.networkId);
-				System.out.println("name of the network is : " + networkThirteen.networkName);
-				System.out.println("topology of the network is : " + networkThirteen.topology);
-				System.out.println("security type of the network is : " + networkThirteen.securityType);
-				System.out.println("bandwidth of the network : " + networkThirteen.bandwidth);
-				System.out.println("is network wireless? " + networkThirteen.isWireless);
+			networkThirteen.getNetworkInfo();
 
 			Network networkFourteen = new Network();
 			networkFourteen.networkId = 14;
@@ -219,14 +128,7 @@ class NetworkRunner{
 			networkFourteen.securityType = "AES-128";
 			networkFourteen.bandwidth = 50;
 			networkFourteen.isWireless = true;
-				System.out.println();
-				System.out.println("network fourteen details : ");
-				System.out.println("id of network is : " + networkFourteen.networkId);
-				System.out.println("name of the network is : " + networkFourteen.networkName);
-				System.out.println("topology of the network is : " + networkFourteen.topology);
-				System.out.println("security type of the network is : " + networkFourteen.securityType);
-				System.out.println("bandwidth of the network : " + networkFourteen.bandwidth);
-				System.out.println("is network wireless? " + networkFourteen.isWireless);
+			networkFourteen.getNetworkInfo();
 
 			Network networkFifteen = new Network();
 			networkFifteen.networkId = 15;
@@ -235,14 +137,7 @@ class NetworkRunner{
 			networkFifteen.securityType = "PKMv2";
 			networkFifteen.bandwidth = 300;
 			networkFifteen.isWireless = true;
-				System.out.println();
-				System.out.println("network fifteen details : ");
-				System.out.println("id of network is : " + networkFifteen.networkId);
-				System.out.println("name of the network is : " + networkFifteen.networkName);
-				System.out.println("topology of the network is : " + networkFifteen.topology);
-				System.out.println("security type of the network is : " + networkFifteen.securityType);
-				System.out.println("bandwidth of the network : " + networkFifteen.bandwidth);
-				System.out.println("is network wireless? " + networkFifteen.isWireless);
+			networkFifteen.getNetworkInfo();
 
 			Network networkSixteen = new Network();
 			networkSixteen.networkId = 16;
@@ -251,14 +146,7 @@ class NetworkRunner{
 			networkSixteen.securityType = "Basic IR Encoding";
 			networkSixteen.bandwidth = 4;
 			networkSixteen.isWireless = true;
-				System.out.println();
-				System.out.println("network sixteen details : ");
-				System.out.println("id of network is : " + networkSixteen.networkId);
-				System.out.println("name of the network is : " + networkSixteen.networkName);
-				System.out.println("topology of the network is : " + networkSixteen.topology);
-				System.out.println("security type of the network is : " + networkSixteen.securityType);
-				System.out.println("bandwidth of the network : " + networkSixteen.bandwidth);
-				System.out.println("is network wireless? " + networkSixteen.isWireless);
+			networkSixteen.getNetworkInfo();
 
 			Network networkSeventeen = new Network();
 			networkSeventeen.networkId = 17;
@@ -267,14 +155,7 @@ class NetworkRunner{
 			networkSeventeen.securityType = "PPP Authentication";
 			networkSeventeen.bandwidth = 20;
 			networkSeventeen.isWireless = false;
-				System.out.println();
-				System.out.println("network seventeen details : ");
-				System.out.println("id of network is : " + networkSeventeen.networkId);
-				System.out.println("name of the network is : " + networkSeventeen.networkName);
-				System.out.println("topology of the network is : " + networkSeventeen.topology);
-				System.out.println("security type of the network is : " + networkSeventeen.securityType);
-				System.out.println("bandwidth of the network : " + networkSeventeen.bandwidth);
-				System.out.println("is network wireless? " + networkSeventeen.isWireless);
+			networkSeventeen.getNetworkInfo();
 
 			Network networkEighteen = new Network();
 			networkEighteen.networkId = 18;
@@ -283,14 +164,7 @@ class NetworkRunner{
 			networkEighteen.securityType = "Optical Encryption";
 			networkEighteen.bandwidth = 10000;
 			networkEighteen.isWireless = false;
-				System.out.println();
-				System.out.println("network eighteen details : ");
-				System.out.println("id of network is : " + networkEighteen.networkId);
-				System.out.println("name of the network is : " + networkEighteen.networkName);
-				System.out.println("topology of the network is : " + networkEighteen.topology);
-				System.out.println("security type of the network is : " + networkEighteen.securityType);
-				System.out.println("bandwidth of the network : " + networkEighteen.bandwidth);
-				System.out.println("is network wireless? " + networkEighteen.isWireless);
+			networkEighteen.getNetworkInfo();
 
 			Network networkNineteen = new Network();
 			networkNineteen.networkId = 19;
@@ -299,14 +173,7 @@ class NetworkRunner{
 			networkNineteen.securityType = "LTE Encryption";
 			networkNineteen.bandwidth = 250;
 			networkNineteen.isWireless = true;
-				System.out.println();
-				System.out.println("network nineteen details : ");
-				System.out.println("id of network is : " + networkNineteen.networkId);
-				System.out.println("name of the network is : " + networkNineteen.networkName);
-				System.out.println("topology of the network is : " + networkNineteen.topology);
-				System.out.println("security type of the network is : " + networkNineteen.securityType);
-				System.out.println("bandwidth of the network : " + networkNineteen.bandwidth);
-				System.out.println("is network wireless? " + networkNineteen.isWireless);
+			networkNineteen.getNetworkInfo();
 
 			Network networkTwenty = new Network();
 			networkTwenty.networkId = 20;
@@ -315,14 +182,7 @@ class NetworkRunner{
 			networkTwenty.securityType = "Industrial Encryption Protocols";
 			networkTwenty.bandwidth = 150;
 			networkTwenty.isWireless = false;
-				System.out.println();
-				System.out.println("network twenty details : ");
-				System.out.println("id of network is : " + networkTwenty.networkId);
-				System.out.println("name of the network is : " + networkTwenty.networkName);
-				System.out.println("topology of the network is : " + networkTwenty.topology);
-				System.out.println("security type of the network is : " + networkTwenty.securityType);
-				System.out.println("bandwidth of the network : " + networkTwenty.bandwidth);
-				System.out.println("is network wireless? " + networkTwenty.isWireless);
+			networkTwenty.getNetworkInfo();
 
 		System.out.println("main ended");
 	}

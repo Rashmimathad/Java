@@ -9,15 +9,7 @@ class CourtCaseRunner{
 			caseOne.filingDate="23/07/2025";
 			caseOne.plaintiffName="Rashmi";
 			caseOne.defendantName="BBMP";
-				System.out.println();
-				System.out.println("first court case details :");
-				System.out.println("id of the case is : "+caseOne.caseId);
-				System.out.println("type of the case is : "+caseOne.caseType);
-				System.out.println("title of the case is : "+caseOne.caseTitle);
-				System.out.println("name of the court is : "+caseOne.courtName);
-				System.out.println("filing date of the case is : "+caseOne.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseOne.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseOne.defendantName);
+			caseOne.getCaseInfo();
 			
 			CourtCase caseTwo= new CourtCase();
 			caseTwo.caseId = 2;
@@ -27,15 +19,7 @@ class CourtCaseRunner{
 			caseTwo.filingDate = "12/06/2024";
 			caseTwo.plaintiffName = "Government of India";
 			caseTwo.defendantName = "Rahul K";
-				System.out.println();
-				System.out.println("second court case details :");
-				System.out.println("id of the case is : "+caseTwo.caseId);
-				System.out.println("type of the case is : "+caseTwo.caseType);
-				System.out.println("title of the case is : "+caseTwo.caseTitle);
-				System.out.println("name of the court is : "+caseTwo.courtName);
-				System.out.println("filing date of the case is : "+caseTwo.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseTwo.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseTwo.defendantName);
+			caseTwo.getCaseInfo();
 			
 			CourtCase caseThree= new CourtCase();
 			caseThree.caseId = 3;
@@ -45,15 +29,7 @@ class CourtCaseRunner{
 			caseThree.filingDate = "01/03/2023";
 			caseThree.plaintiffName = "Anjali M";
 			caseThree.defendantName = "Mohan B";
-				System.out.println();
-				System.out.println("third court case details :");
-				System.out.println("id of the case is : "+caseThree.caseId);
-				System.out.println("type of the case is : "+caseThree.caseType);
-				System.out.println("title of the case is : "+caseThree.caseTitle);
-				System.out.println("name of the court is : "+caseThree.courtName);
-				System.out.println("filing date of the case is : "+caseThree.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseThree.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseThree.defendantName);
+			caseThree.getCaseInfo();
 			
 			CourtCase caseFour= new CourtCase();
 			caseFour.caseId = 4;
@@ -63,15 +39,7 @@ class CourtCaseRunner{
 			caseFour.filingDate = "19/08/2022";
 			caseFour.plaintiffName = "Shruthi H";
 			caseFour.defendantName = "BBMP";
-				System.out.println();
-				System.out.println("fourth court case details :");
-				System.out.println("id of the case is : "+caseFour.caseId);
-				System.out.println("type of the case is : "+caseFour.caseType);
-				System.out.println("title of the case is : "+caseFour.caseTitle);
-				System.out.println("name of the court is : "+caseFour.courtName);
-				System.out.println("filing date of the case is : "+caseFour.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseFour.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseFour.defendantName);
+			caseFour.getCaseInfo();
 			
 			CourtCase caseFive= new CourtCase();
 			caseFive.caseId = 5;
@@ -81,15 +49,7 @@ class CourtCaseRunner{
 			caseFive.filingDate = "10/11/2021";
 			caseFive.plaintiffName = "State Police";
 			caseFive.defendantName = "Arjun K";
-				System.out.println();
-				System.out.println("fifth court case details :");
-				System.out.println("id of the case is : "+caseFive.caseId);
-				System.out.println("type of the case is : "+caseFive.caseType);
-				System.out.println("title of the case is : "+caseFive.caseTitle);
-				System.out.println("name of the court is : "+caseFive.courtName);
-				System.out.println("filing date of the case is : "+caseFive.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseFive.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseFive.defendantName);
+			caseFive.getCaseInfo();	
 			
 			CourtCase caseSix= new CourtCase();
 			caseSix.caseId = 6;
@@ -99,15 +59,7 @@ class CourtCaseRunner{
 			caseSix.filingDate = "15/01/2022";
 			caseSix.plaintiffName = "TCS Ltd.";
 			caseSix.defendantName = "Infosys Ltd.";
-				System.out.println();
-				System.out.println("sixth court case details :");
-				System.out.println("id of the case is : "+caseSix.caseId);
-				System.out.println("type of the case is : "+caseSix.caseType);
-				System.out.println("title of the case is : "+caseSix.caseTitle);
-				System.out.println("name of the court is : "+caseSix.courtName);
-				System.out.println("filing date of the case is : "+caseSix.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseSix.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseSix.defendantName);
+			caseSix.getCaseInfo();	
 			
 			CourtCase caseSeven= new CourtCase();
 			caseSeven.caseId = 7;
@@ -117,15 +69,7 @@ class CourtCaseRunner{
 			caseSeven.filingDate = "08/04/2023";
 			caseSeven.plaintiffName = "Shiva N";
 			caseSeven.defendantName = "ABC Pvt Ltd";
-				System.out.println();
-				System.out.println("seventh court case details :");
-				System.out.println("id of the case is : "+caseSeven.caseId);
-				System.out.println("type of the case is : "+caseSeven.caseType);
-				System.out.println("title of the case is : "+caseSeven.caseTitle);
-				System.out.println("name of the court is : "+caseSeven.courtName);
-				System.out.println("filing date of the case is : "+caseSeven.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseSeven.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseSeven.defendantName);
+			caseSeven.getCaseInfo();
 			
 			CourtCase caseEight= new CourtCase();
 			caseEight.caseId = 8;
@@ -135,15 +79,7 @@ class CourtCaseRunner{
 			caseEight.filingDate = "27/02/2024";
 			caseEight.plaintiffName = "Ravi P";
 			caseEight.defendantName = "Ramesh R";
-				System.out.println();
-				System.out.println("eighth court case details :");
-				System.out.println("id of the case is : "+caseEight.caseId);
-				System.out.println("type of the case is : "+caseEight.caseType);
-				System.out.println("title of the case is : "+caseEight.caseTitle);
-				System.out.println("name of the court is : "+caseEight.courtName);
-				System.out.println("filing date of the case is : "+caseEight.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseEight.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseEight.defendantName);
+			caseEight.getCaseInfo();
 			
 			CourtCase caseNine= new CourtCase();
 			caseNine.caseId = 9;
@@ -153,15 +89,7 @@ class CourtCaseRunner{
 			caseNine.filingDate = "30/09/2021";
 			caseNine.plaintiffName = "Suma M";
 			caseNine.defendantName = "Manju V";
-				System.out.println();
-				System.out.println("ninth court case details :");
-				System.out.println("id of the case is : "+caseNine.caseId);
-				System.out.println("type of the case is : "+caseNine.caseType);
-				System.out.println("title of the case is : "+caseNine.caseTitle);
-				System.out.println("name of the court is : "+caseNine.courtName);
-				System.out.println("filing date of the case is : "+caseNine.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseNine.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseNine.defendantName);
+			caseNine.getCaseInfo();	
 			
 			CourtCase caseTen= new CourtCase();
 			caseTen.caseId = 10;
@@ -171,15 +99,7 @@ class CourtCaseRunner{
 			caseTen.filingDate = "05/06/2024";
 			caseTen.plaintiffName = "Cyber Cell";
 			caseTen.defendantName = "Unknown";
-				System.out.println();
-				System.out.println("tenth court case details :");
-				System.out.println("id of the case is : "+caseTen.caseId);
-				System.out.println("type of the case is : "+caseTen.caseType);
-				System.out.println("title of the case is : "+caseTen.caseTitle);
-				System.out.println("name of the court is : "+caseTen.courtName);
-				System.out.println("filing date of the case is : "+caseTen.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseTen.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseTen.defendantName);
+			caseTen.getCaseInfo();	
 			
 			CourtCase caseEleven= new CourtCase();
 			caseEleven.caseId = 11;
@@ -188,15 +108,7 @@ class CourtCaseRunner{
 			caseEleven.courtName = "High Court";
 			caseEleven.filingDate = "11/01/2023";
 			caseEleven.plaintiffName = "Priya D";
-				System.out.println();
-				System.out.println("eleventh court case details :");
-				System.out.println("id of the case is : "+caseEleven.caseId);
-				System.out.println("type of the case is : "+caseEleven.caseType);
-				System.out.println("title of the case is : "+caseEleven.caseTitle);
-				System.out.println("name of the court is : "+caseEleven.courtName);
-				System.out.println("filing date of the case is : "+caseEleven.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseEleven.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseEleven.defendantName);
+			caseEleven.getCaseInfo();
 			
 			CourtCase caseTwelve= new CourtCase();
 			caseTwelve.caseId = 12;
@@ -206,15 +118,7 @@ class CourtCaseRunner{
 			caseTwelve.filingDate = "09/12/2022";
 			caseTwelve.plaintiffName = "Police Department";
 			caseTwelve.defendantName = "Sagar R";
-				System.out.println();
-				System.out.println("twelveth court case details :");
-				System.out.println("id of the case is : "+caseTwelve.caseId);
-				System.out.println("type of the case is : "+caseTwelve.caseType);
-				System.out.println("title of the case is : "+caseOne.caseTitle);
-				System.out.println("name of the court is : "+caseTwelve.courtName);
-				System.out.println("filing date of the case is : "+caseTwelve.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseTwelve.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseTwelve.defendantName);
+			caseTwelve.getCaseInfo();
 			
 			CourtCase caseThirteen= new CourtCase();
 			caseThirteen.caseId = 13;
@@ -224,15 +128,7 @@ class CourtCaseRunner{
 			caseThirteen.filingDate = "03/10/2023";
 			caseThirteen.plaintiffName = "Nithin V";
 			caseThirteen.defendantName = "Shilpa S";
-				System.out.println();
-				System.out.println("first court case details :");
-				System.out.println("id of the case is : "+caseThirteen.caseId);
-				System.out.println("type of the case is : "+caseThirteen.caseType);
-				System.out.println("title of the case is : "+caseThirteen.caseTitle);
-				System.out.println("name of the court is : "+caseThirteen.courtName);
-				System.out.println("filing date of the case is : "+caseThirteen.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseThirteen.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseThirteen.defendantName);
+			caseThirteen.getCaseInfo();	
 			
 			CourtCase caseFourteen= new CourtCase();
 			caseFourteen.caseId = 14;
@@ -242,15 +138,7 @@ class CourtCaseRunner{
 			caseFourteen.filingDate = "20/05/2024";
 			caseFourteen.plaintiffName = "Green Future NGO";
 			caseFourteen.defendantName = "Factory X Pvt Ltd";
-				System.out.println();
-				System.out.println("first court case details :");
-				System.out.println("id of the case is : "+caseFourteen.caseId);
-				System.out.println("type of the case is : "+caseFourteen.caseType);
-				System.out.println("title of the case is : "+caseFourteen.caseTitle);
-				System.out.println("name of the court is : "+caseFourteen.courtName);
-				System.out.println("filing date of the case is : "+caseFourteen.filingDate);
-				System.out.println("plaintiffName of the case is : "+caseFourteen.plaintiffName);
-				System.out.println("defendantName of the case is : "+caseFourteen.defendantName);
+			caseFourteen.getCaseInfo();
 			
 			CourtCase caseFifteen= new CourtCase();
 			caseFifteen.caseId = 15;
@@ -260,15 +148,7 @@ class CourtCaseRunner{
 			caseFifteen.filingDate = "14/02/2022";
 			caseFifteen.plaintiffName = "Rohit G";
 			caseFifteen.defendantName = "QuickShop Ltd";
-			System.out.println();
-			System.out.println("fifteenth court case details :");
-			System.out.println("id of the case is : "+caseFifteen.caseId);
-			System.out.println("type of the case is : "+caseFifteen.caseType);
-			System.out.println("title of the case is : "+caseFifteen.caseTitle);
-			System.out.println("name of the court is : "+caseFifteen.courtName);
-			System.out.println("filing date of the case is : "+caseFifteen.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseFifteen.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseFifteen.defendantName);
+			caseFifteen.getCaseInfo();
 			
 			CourtCase caseSixteen= new CourtCase();
 			caseSixteen.caseId = 16;
@@ -278,15 +158,7 @@ class CourtCaseRunner{
 			caseSixteen.filingDate = "21/07/2023";
 			caseSixteen.plaintiffName = "Rural Committee";
 			caseSixteen.defendantName = "Skyline Developers";
-			System.out.println();
-			System.out.println("sixteenth court case details :");
-			System.out.println("id of the case is : "+caseSixteen.caseId);
-			System.out.println("type of the case is : "+caseSixteen.caseType);
-			System.out.println("title of the case is : "+caseSixteen.caseTitle);
-			System.out.println("name of the court is : "+caseSixteen.courtName);
-			System.out.println("filing date of the case is : "+caseSixteen.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseSixteen.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseSixteen.defendantName);
+			caseSixteen.getCaseInfo();
 			
 			CourtCase caseSeventeen= new CourtCase();
 			caseSeventeen.caseId = 17;
@@ -296,15 +168,7 @@ class CourtCaseRunner{
 			caseSeventeen.filingDate = "18/12/2021";
 			caseSeventeen.plaintiffName = "State Prosecutor";
 			caseSeventeen.defendantName = "Devraj P";
-			System.out.println();
-			System.out.println("seventeenth court case details :");
-			System.out.println("id of the case is : "+caseSeventeen.caseId);
-			System.out.println("type of the case is : "+caseSeventeen.caseType);
-			System.out.println("title of the case is : "+caseSeventeen.caseTitle);
-			System.out.println("name of the court is : "+caseSeventeen.courtName);
-			System.out.println("filing date of the case is : "+caseSeventeen.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseSeventeen.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseSeventeen.defendantName);
+			caseSeventeen.getCaseInfo();
 			
 			CourtCase caseEighteen= new CourtCase();
 			caseEighteen.caseId = 18;
@@ -314,15 +178,7 @@ class CourtCaseRunner{
 			caseEighteen.filingDate = "04/03/2022";
 			caseEighteen.plaintiffName = "Kiran B";
 			caseEighteen.defendantName = "Siblings";
-			System.out.println();
-			System.out.println("eighteenth court case details :");
-			System.out.println("id of the case is : "+caseEighteen.caseId);
-			System.out.println("type of the case is : "+caseEighteen.caseType);
-			System.out.println("title of the case is : "+caseEighteen.caseTitle);
-			System.out.println("name of the court is : "+caseEighteen.courtName);
-			System.out.println("filing date of the case is : "+caseEighteen.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseEighteen.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseEighteen.defendantName);
+			caseEighteen.getCaseInfo();
 			
 			CourtCase caseNineteen= new CourtCase();
 			caseNineteen.caseId = 19;
@@ -332,15 +188,7 @@ class CourtCaseRunner{
 			caseNineteen.filingDate = "07/09/2023";
 			caseNineteen.plaintiffName = "BrandX Ltd";
 			caseNineteen.defendantName = "CopyCo Pvt Ltd";
-			System.out.println();
-			System.out.println("nineteenth court case details :");
-			System.out.println("id of the case is : "+caseNineteen.caseId);
-			System.out.println("type of the case is : "+caseNineteen.caseType);
-			System.out.println("title of the case is : "+caseNineteen.caseTitle);
-			System.out.println("name of the court is : "+caseNineteen.courtName);
-			System.out.println("filing date of the case is : "+caseNineteen.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseNineteen.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseNineteen.defendantName);
+			caseNineteen.getCaseInfo();
 			
 			CourtCase caseTwenty= new CourtCase();
 			caseTwenty.caseId = 20;
@@ -350,15 +198,7 @@ class CourtCaseRunner{
 			caseTwenty.filingDate = "25/06/2024";
 			caseTwenty.plaintiffName = "Employee A";
 			caseTwenty.defendantName = "Company B Pvt Ltd";
-			System.out.println();
-			System.out.println("first court case details :");
-			System.out.println("id of the case is : "+caseTwenty.caseId);
-			System.out.println("type of the case is : "+caseTwenty.caseType);
-			System.out.println("title of the case is : "+caseTwenty.caseTitle);
-			System.out.println("name of the court is : "+caseTwenty.courtName);
-			System.out.println("filing date of the case is : "+caseTwenty.filingDate);
-			System.out.println("plaintiffName of the case is : "+caseTwenty.plaintiffName);
-			System.out.println("defendantName of the case is : "+caseTwenty.defendantName);
+			caseTwenty.getCaseInfo();
 		System.out.println("main ended");
 	}
 

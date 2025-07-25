@@ -9,14 +9,7 @@ class FishRunner{
 			fishOne.bodyShape="Flat";
 			fishOne.finType="Dorsal";
 			fishOne.isAquariumFriendly=false;
-				System.out.println();
-				System.out.println("fish one details : ");
-				System.out.println("id of fish is : "+fishOne.fishId);
-				System.out.println("name of the fish is : "+fishOne.fishName);
-				System.out.println("category of the fish is : "+fishOne.category);
-				System.out.println("body shape of the fish is : "+fishOne.bodyShape);
-				System.out.println("fin ype of fish is : "+fishOne.finType);
-				System.out.println("IS Aquarium friendly? "+fishOne.isAquariumFriendly);
+			fishOne.getFishInfo();	
 			
 			Fish fishTwo=new Fish();
 			fishTwo.fishId = 2;
@@ -25,14 +18,7 @@ class FishRunner{
 			fishTwo.bodyShape = "Round";
 			fishTwo.finType = "Fan";
 			fishTwo.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish two details : ");
-				System.out.println("id of fish is : "+fishTwo.fishId);
-				System.out.println("name of the fish is : "+fishTwo.fishName);
-				System.out.println("category of the fish is : "+fishTwo.category);
-				System.out.println("body shape of the fish is : "+fishTwo.bodyShape);
-				System.out.println("fin ype of fish is : "+fishTwo.finType);
-				System.out.println("IS Aquarium friendly? "+fishTwo.isAquariumFriendly);
+			fishTwo.getFishInfo();
 			
 			Fish fishThree=new Fish();
 			fishThree.fishId = 3;
@@ -41,14 +27,7 @@ class FishRunner{
 			fishThree.bodyShape = "Oval";
 			fishThree.finType = "Dorsal";
 			fishThree.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish three details : ");
-				System.out.println("id of fish is : "+fishThree.fishId);
-				System.out.println("name of the fish is : "+fishThree.fishName);
-				System.out.println("category of the fish is : "+fishThree.category);
-				System.out.println("body shape of the fish is : "+fishThree.bodyShape);
-				System.out.println("fin ype of fish is : "+fishThree.finType);
-				System.out.println("IS Aquarium friendly? "+fishThree.isAquariumFriendly);
+			fishThree.getFishInfo();
 			
 			Fish fishFour=new Fish();
 			fishFour.fishId = 4;
@@ -57,14 +36,7 @@ class FishRunner{
 			fishFour.bodyShape = "Slim";
 			fishFour.finType = "Fan";
 			fishFour.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish four details : ");
-				System.out.println("id of fish is : "+fishFour.fishId);
-				System.out.println("name of the fish is : "+fishFour.fishName);
-				System.out.println("category of the fish is : "+fishFour.category);
-				System.out.println("body shape of the fish is : "+fishFour.bodyShape);
-				System.out.println("fin ype of fish is : "+fishFour.finType);
-				System.out.println("IS Aquarium friendly? "+fishFour.isAquariumFriendly);
+			fishFour.getFishInfo();
 			
 			Fish fishFive=new Fish();
 			fishFive.fishId = 5;
@@ -73,14 +45,7 @@ class FishRunner{
 			fishFive.bodyShape = "Flat-bottomed";
 			fishFive.finType = "Spine";
 			fishFive.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish five details : ");
-				System.out.println("id of fish is : "+fishFive.fishId);
-				System.out.println("name of the fish is : "+fishFive.fishName);
-				System.out.println("category of the fish is : "+fishFive.category);
-				System.out.println("body shape of the fish is : "+fishFive.bodyShape);
-				System.out.println("fin ype of fish is : "+fishFive.finType);
-				System.out.println("IS Aquarium friendly? "+fishFive.isAquariumFriendly);
+			fishFive.getFishInfo();
 			
 			
 			Fish fishSix=new Fish();
@@ -90,14 +55,7 @@ class FishRunner{
 			fishSix.bodyShape = "Torpedo";
 			fishSix.finType = "Dorsal";
 			fishSix.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish six details : ");
-				System.out.println("id of fish is : "+fishSix.fishId);
-				System.out.println("name of the fish is : "+fishSix.fishName);
-				System.out.println("category of the fish is : "+fishSix.category);
-				System.out.println("body shape of the fish is : "+fishSix.bodyShape);
-				System.out.println("fin ype of fish is : "+fishSix.finType);
-				System.out.println("IS Aquarium friendly? "+fishSix.isAquariumFriendly);
+			fishSix.getFishInfo();
 			
 			Fish fishSeven=new Fish();
 			fishSeven.fishId = 7;
@@ -106,14 +64,7 @@ class FishRunner{
 			fishSeven.bodyShape = "Slim";
 			fishSeven.finType = "Fan";
 			fishSeven.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish one details : ");
-				System.out.println("id of fish is : "+fishSeven.fishId);
-				System.out.println("name of the fish is : "+fishSeven.fishName);
-				System.out.println("category of the fish is : "+fishSeven.category);
-				System.out.println("body shape of the fish is : "+fishSeven.bodyShape);
-				System.out.println("fin ype of fish is : "+fishSeven.finType);
-				System.out.println("IS Aquarium friendly? "+fishSeven.isAquariumFriendly);
+			fishSeven.getFishInfo();
 			
 			Fish fishEight=new Fish();
 			fishEight.fishId = 8;
@@ -122,14 +73,7 @@ class FishRunner{
 			fishEight.bodyShape = "Streamlined";
 			fishEight.finType = "Cartilaginous";
 			fishEight.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish eight details : ");
-				System.out.println("id of fish is : "+fishEight.fishId);
-				System.out.println("name of the fish is : "+fishEight.fishName);
-				System.out.println("category of the fish is : "+fishEight.category);
-				System.out.println("body shape of the fish is : "+fishEight.bodyShape);
-				System.out.println("fin ype of fish is : "+fishEight.finType);
-				System.out.println("IS Aquarium friendly? "+fishEight.isAquariumFriendly);
+			fishEight.getFishInfo();
 			
 			Fish fishNine=new Fish();
 			fishNine.fishId = 9;
@@ -138,14 +82,7 @@ class FishRunner{
 			fishNine.bodyShape = "Oval";
 			fishNine.finType = "Fan";
 			fishNine.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish nine details : ");
-				System.out.println("id of fish is : "+fishNine.fishId);
-				System.out.println("name of the fish is : "+fishNine.fishName);
-				System.out.println("category of the fish is : "+fishNine.category);
-				System.out.println("body shape of the fish is : "+fishNine.bodyShape);
-				System.out.println("fin ype of fish is : "+fishNine.finType);
-				System.out.println("IS Aquarium friendly? "+fishNine.isAquariumFriendly);
+			fishNine.getFishInfo();
 			
 			Fish fishTen=new Fish();
 			fishTen.fishId = 10;
@@ -154,14 +91,7 @@ class FishRunner{
 			fishTen.bodyShape = "Long";
 			fishTen.finType = "Dorsal";
 			fishTen.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish ten details : ");
-				System.out.println("id of fish is : "+fishTen.fishId);
-				System.out.println("name of the fish is : "+fishTen.fishName);
-				System.out.println("category of the fish is : "+fishTen.category);
-				System.out.println("body shape of the fish is : "+fishTen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishTen.finType);
-				System.out.println("IS Aquarium friendly? "+fishTen.isAquariumFriendly);
+			fishTen.getFishInfo();
 			
 			Fish fishEleven=new Fish();
 			fishEleven.fishId = 11;
@@ -170,14 +100,7 @@ class FishRunner{
 			fishEleven.bodyShape = "Disk";
 			fishEleven.finType = "Fan";
 			fishEleven.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish eleven details : ");
-				System.out.println("id of fish is : "+fishEleven.fishId);
-				System.out.println("name of the fish is : "+fishEleven.fishName);
-				System.out.println("category of the fish is : "+fishEleven.category);
-				System.out.println("body shape of the fish is : "+fishEleven.bodyShape);
-				System.out.println("fin ype of fish is : "+fishEleven.finType);
-				System.out.println("IS Aquarium friendly? "+fishEleven.isAquariumFriendly);
+			fishEleven.getFishInfo();
 			
 			Fish fishTwelve=new Fish();
 			fishTwelve.fishId = 12;
@@ -186,14 +109,7 @@ class FishRunner{
 			fishTwelve.bodyShape = "Flat";
 			fishTwelve.finType = "Spine";
 			fishTwelve.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish twelve details : ");
-				System.out.println("id of fish is : "+fishTwelve.fishId);
-				System.out.println("name of the fish is : "+fishTwelve.fishName);
-				System.out.println("category of the fish is : "+fishTwelve.category);
-				System.out.println("body shape of the fish is : "+fishTwelve.bodyShape);
-				System.out.println("fin ype of fish is : "+fishTwelve.finType);
-				System.out.println("IS Aquarium friendly? "+fishTwelve.isAquariumFriendly);
+			fishTwelve.getFishInfo();
 			
 			Fish fishThirteen=new Fish();
 			fishThirteen.fishId = 13;
@@ -202,14 +118,7 @@ class FishRunner{
 			fishThirteen.bodyShape = "Round";
 			fishThirteen.finType = "Dorsal";
 			fishThirteen.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish thirteen details : ");
-				System.out.println("id of fish is : "+fishThirteen.fishId);
-				System.out.println("name of the fish is : "+fishThirteen.fishName);
-				System.out.println("category of the fish is : "+fishThirteen.category);
-				System.out.println("body shape of the fish is : "+fishThirteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishThirteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishThirteen.isAquariumFriendly);
+			fishThirteen.getFishInfo();
 			
 			Fish fishFourteen=new Fish();
 			fishFourteen.fishId = 14;
@@ -218,14 +127,7 @@ class FishRunner{
 			fishFourteen.bodyShape = "Slim";
 			fishFourteen.finType = "Fan";
 			fishFourteen.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish fourteen details : ");
-				System.out.println("id of fish is : "+fishFourteen.fishId);
-				System.out.println("name of the fish is : "+fishFourteen.fishName);
-				System.out.println("category of the fish is : "+fishFourteen.category);
-				System.out.println("body shape of the fish is : "+fishFourteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishFourteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishFourteen.isAquariumFriendly);
+			fishFourteen.getFishInfo();
 			
 			Fish fishFifteen=new Fish();
 			fishFifteen.fishId = 15;
@@ -234,14 +136,7 @@ class FishRunner{
 			fishFifteen.bodyShape = "Oval";
 			fishFifteen.finType = "Fan";
 			fishFifteen.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish fifteen details : ");
-				System.out.println("id of fish is : "+fishFifteen.fishId);
-				System.out.println("name of the fish is : "+fishFifteen.fishName);
-				System.out.println("category of the fish is : "+fishFifteen.category);
-				System.out.println("body shape of the fish is : "+fishFifteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishFifteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishFifteen.isAquariumFriendly);
+			fishFifteen.getFishInfo();
 			
 			Fish fishSixteen=new Fish();
 			fishSixteen.fishId = 16;
@@ -250,14 +145,7 @@ class FishRunner{
 			fishSixteen.bodyShape = "Torpedo";
 			fishSixteen.finType = "Dorsal";
 			fishSixteen.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish sixteen details : ");
-				System.out.println("id of fish is : "+fishSixteen.fishId);
-				System.out.println("name of the fish is : "+fishSixteen.fishName);
-				System.out.println("category of the fish is : "+fishSixteen.category);
-				System.out.println("body shape of the fish is : "+fishSixteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishSixteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishSixteen.isAquariumFriendly);
+			fishSixteen.getFishInfo();
 			
 			Fish fishSeventeen=new Fish();
 			fishSeventeen.fishId = 17;
@@ -266,14 +154,7 @@ class FishRunner{
 			fishSeventeen.bodyShape = "Slim";
 			fishSeventeen.finType = "Fan";
 			fishSeventeen.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish seventeen details : ");
-				System.out.println("id of fish is : "+fishSeventeen.fishId);
-				System.out.println("name of the fish is : "+fishSeventeen.fishName);
-				System.out.println("category of the fish is : "+fishSeventeen.category);
-				System.out.println("body shape of the fish is : "+fishSeventeen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishSeventeen.finType);
-				System.out.println("IS Aquarium friendly? "+fishSeventeen.isAquariumFriendly);
+			fishSeventeen.getFishInfo();
 			
 			Fish fishEighteen=new Fish();
 			fishEighteen.fishId = 18;
@@ -282,14 +163,7 @@ class FishRunner{
 			fishEighteen.bodyShape = "Oval";
 			fishEighteen.finType = "Spine";
 			fishEighteen.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish eighteen details : ");
-				System.out.println("id of fish is : "+fishEighteen.fishId);
-				System.out.println("name of the fish is : "+fishEighteen.fishName);
-				System.out.println("category of the fish is : "+fishEighteen.category);
-				System.out.println("body shape of the fish is : "+fishEighteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishEighteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishEighteen.isAquariumFriendly);
+			fishEighteen.getFishInfo();
 			
 			Fish fishNineteen=new Fish();
 			fishNineteen.fishId = 19;
@@ -298,14 +172,7 @@ class FishRunner{
 			fishNineteen.bodyShape = "Round";
 			fishNineteen.finType = "Fan";
 			fishNineteen.isAquariumFriendly = false;
-				System.out.println();
-				System.out.println("fish nineteen details : ");
-				System.out.println("id of fish is : "+fishNineteen.fishId);
-				System.out.println("name of the fish is : "+fishNineteen.fishName);
-				System.out.println("category of the fish is : "+fishNineteen.category);
-				System.out.println("body shape of the fish is : "+fishNineteen.bodyShape);
-				System.out.println("fin ype of fish is : "+fishNineteen.finType);
-				System.out.println("IS Aquarium friendly? "+fishNineteen.isAquariumFriendly);
+			fishNineteen.getFishInfo();
 			
 			Fish fishTwenty=new Fish();
 			fishTwenty.fishId = 20;
@@ -314,14 +181,7 @@ class FishRunner{
 			fishTwenty.bodyShape = "Curved";
 			fishTwenty.finType = "Small dorsal";
 			fishTwenty.isAquariumFriendly = true;
-				System.out.println();
-				System.out.println("fish twenty details : ");
-				System.out.println("id of fish is : "+fishTwenty.fishId);
-				System.out.println("name of the fish is : "+fishTwenty.fishName);
-				System.out.println("category of the fish is : "+fishTwenty.category);
-				System.out.println("body shape of the fish is : "+fishTwenty.bodyShape);
-				System.out.println("fin ype of fish is : "+fishTwenty.finType);
-				System.out.println("IS Aquarium friendly? "+fishTwenty.isAquariumFriendly);
+			fishTwenty.getFishInfo();
 		System.out.println("main ended");
 	}
 }

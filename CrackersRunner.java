@@ -9,14 +9,7 @@ class CrackersRunner{
 		crackerOne.explosiveContent="Potassium nitrate";
 		crackerOne.soundLevel=45;
 		crackerOne.price=100.0;
-			System.out.println();
-			System.out.println("crackers one details: ");
-			System.out.println("id of cracker is :"+crackerOne.crackerId);
-			System.out.println("name of the cracker is : "+crackerOne.crackerName);
-			System.out.println("type of the crackers : "+crackerOne.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerOne.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerOne.soundLevel);
-			System.out.println("price of the crackers are : "+crackerOne.price);
+		crackerOne.getCrackersInfo();
 			
 		Crackers crackerTwo=new Crackers();
 		crackerTwo.crackerId = 2;
@@ -25,14 +18,7 @@ class CrackersRunner{
 		crackerTwo.explosiveContent = "Aluminium powder";
 		crackerTwo.soundLevel = 30;
 		crackerTwo.price = 80.0;
-			System.out.println();
-			System.out.println("crackers two details: ");
-			System.out.println("id of cracker is :"+crackerTwo.crackerId);
-			System.out.println("name of the cracker is : "+crackerTwo.crackerName);
-			System.out.println("type of the crackers : "+crackerTwo.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerTwo.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerTwo.soundLevel);
-			System.out.println("price of the crackers are : "+crackerTwo.price);
+		crackerTwo.getCrackersInfo();
 			
 		Crackers crackerThree=new Crackers();
 		crackerThree.crackerId = 3;
@@ -41,14 +27,7 @@ class CrackersRunner{
 		crackerThree.explosiveContent = "Black powder";
 		crackerThree.soundLevel = 75;
 		crackerThree.price = 150.0;
-			System.out.println();
-			System.out.println("crackers three details: ");
-			System.out.println("id of cracker is :"+crackerThree.crackerId);
-			System.out.println("name of the cracker is : "+crackerThree.crackerName);
-			System.out.println("type of the crackers : "+crackerThree.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerThree.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerThree.soundLevel);
-			System.out.println("price of the crackers are : "+crackerThree.price);
+		crackerThree.getCrackersInfo();
 			
 		Crackers crackerFour=new Crackers();
 		crackerFour.crackerId = 4;
@@ -57,14 +36,7 @@ class CrackersRunner{
 		crackerFour.explosiveContent = "Flash powder";
 		crackerFour.soundLevel = 95;
 		crackerFour.price = 200.0;
-			System.out.println();
-			System.out.println("crackers four details: ");
-			System.out.println("id of cracker is :"+crackerFour.crackerId);
-			System.out.println("name of the cracker is : "+crackerFour.crackerName);
-			System.out.println("type of the crackers : "+crackerFour.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerFour.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerFour.soundLevel);
-			System.out.println("price of the crackers are : "+crackerFour.price);
+		crackerFour.getCrackersInfo();	
 			
 		Crackers crackerFive=new Crackers();
 		crackerFive.crackerId = 5;
@@ -73,14 +45,7 @@ class CrackersRunner{
 		crackerFive.explosiveContent = "Potassium chlorate";
 		crackerFive.soundLevel = 110;
 		crackerFive.price = 250.0;
-			System.out.println();
-			System.out.println("crackers five details: ");
-			System.out.println("id of cracker is :"+crackerFive.crackerId);
-			System.out.println("name of the cracker is : "+crackerFive.crackerName);
-			System.out.println("type of the crackers : "+crackerFive.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerFive.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerFive.soundLevel);
-			System.out.println("price of the crackers are : "+crackerFive.price);
+		crackerFive.getCrackersInfo();	
 			
 		Crackers crackerSix=new Crackers();
 		crackerSix.crackerId = 6;
@@ -89,14 +54,7 @@ class CrackersRunner{
 		crackerSix.explosiveContent = "Magnesium";
 		crackerSix.soundLevel = 20;
 		crackerSix.price = 30.0;
-			System.out.println();
-			System.out.println("crackers six details: ");
-			System.out.println("id of cracker is :"+crackerSix.crackerId);
-			System.out.println("name of the cracker is : "+crackerSix.crackerName);
-			System.out.println("type of the crackers : "+crackerSix.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerSix.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerSix.soundLevel);
-			System.out.println("price of the crackers are : "+crackerSix.price);
+			
 			
 		Crackers crackerSeven=new Crackers();
 		crackerSeven.crackerId = 7;
@@ -105,14 +63,7 @@ class CrackersRunner{
 		crackerSeven.explosiveContent = "Strontium nitrate";
 		crackerSeven.soundLevel = 70;
 		crackerSeven.price = 160.0;
-			System.out.println();
-			System.out.println("crackers seven details: ");
-			System.out.println("id of cracker is :"+crackerSeven.crackerId);
-			System.out.println("name of the cracker is : "+crackerSeven.crackerName);
-			System.out.println("type of the crackers : "+crackerSeven.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerSeven.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerSeven.soundLevel);
-			System.out.println("price of the crackers are : "+crackerSeven.price);
+		crackerSeven.getCrackersInfo();	
 			
 		Crackers crackerEight=new Crackers();
 		crackerEight.crackerId = 8;
@@ -121,14 +72,7 @@ class CrackersRunner{
 		crackerEight.explosiveContent = "Iron filings";
 		crackerEight.soundLevel = 35;
 		crackerEight.price = 60.0;
-			System.out.println();
-			System.out.println("crackers eight details: ");
-			System.out.println("id of cracker is :"+crackerEight.crackerId);
-			System.out.println("name of the cracker is : "+crackerEight.crackerName);
-			System.out.println("type of the crackers : "+crackerEight.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerEight.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerEight.soundLevel);
-			System.out.println("price of the crackers are : "+crackerEight.price);
+		crackerEight.getCrackersInfo();
 			
 		Crackers crackerNine=new Crackers();
 		crackerNine.crackerId = 9;
@@ -137,14 +81,7 @@ class CrackersRunner{
 		crackerNine.explosiveContent = "Flash powder";
 		crackerNine.soundLevel = 85;
 		crackerNine.price = 40.0;
-			System.out.println();
-			System.out.println("crackers nine details: ");
-			System.out.println("id of cracker is :"+crackerNine.crackerId);
-			System.out.println("name of the cracker is : "+crackerNine.crackerName);
-			System.out.println("type of the crackers : "+crackerNine.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerNine.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerNine.soundLevel);
-			System.out.println("price of the crackers are : "+crackerNine.price);
+		crackerNine.getCrackersInfo();
 			
 		Crackers crackerTen=new Crackers();
 		crackerTen.crackerId = 10;
@@ -153,14 +90,7 @@ class CrackersRunner{
 		crackerTen.explosiveContent = "Zinc sulphide";
 		crackerTen.soundLevel = 65;
 		crackerTen.price = 180.0;
-			System.out.println();
-			System.out.println("crackers ten details: ");
-			System.out.println("id of cracker is :"+crackerTen.crackerId);
-			System.out.println("name of the cracker is : "+crackerTen.crackerName);
-			System.out.println("type of the crackers : "+crackerTen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerTen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerTen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerTen.price);
+		crackerTen.getCrackersInfo();
 	
 		Crackers crackerEleven=new Crackers();
 		crackerEleven.crackerId = 11;
@@ -169,15 +99,8 @@ class CrackersRunner{
 		crackerEleven.explosiveContent = "Aluminium and sulphur";
 		crackerEleven.soundLevel = 50;
 		crackerEleven.price = 90.0;
-			System.out.println();
-			System.out.println("crackers eleven details: ");
-			System.out.println("id of cracker is :"+crackerEleven.crackerId);
-			System.out.println("name of the cracker is : "+crackerEleven.crackerName);
-			System.out.println("type of the crackers : "+crackerEleven.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerEleven.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerEleven.soundLevel);
-			System.out.println("price of the crackers are : "+crackerEleven.price);
-
+		crackerEleven.getCrackersInfo();	
+			
 		Crackers crackerTwelve=new Crackers();
 		crackerTwelve.crackerId = 12;
 		crackerTwelve.crackerName = "Snake Tablet";
@@ -185,14 +108,7 @@ class CrackersRunner{
 		crackerTwelve.explosiveContent = "Sugar and baking soda";
 		crackerTwelve.soundLevel = 10;
 		crackerTwelve.price = 25.0;
-			System.out.println();
-			System.out.println("crackers twelve details: ");
-			System.out.println("id of cracker is :"+crackerTwelve.crackerId);
-			System.out.println("name of the cracker is : "+crackerTwelve.crackerName);
-			System.out.println("type of the crackers : "+crackerTwelve.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerTwelve.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerTwelve.soundLevel);
-			System.out.println("price of the crackers are : "+crackerTwelve.price);
+		crackerTwelve.getCrackersInfo();
 
 		Crackers crackerThirteen=new Crackers();
 		crackerThirteen.crackerId = 13;
@@ -201,14 +117,7 @@ class CrackersRunner{
 		crackerThirteen.explosiveContent = "Potassium perchlorate";
 		crackerThirteen.soundLevel = 78;
 		crackerThirteen.price = 170.0;
-			System.out.println();
-			System.out.println("crackers thirteen details: ");
-			System.out.println("id of cracker is :"+crackerThirteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerThirteen.crackerName);
-			System.out.println("type of the crackers : "+crackerThirteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerThirteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerThirteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerThirteen.price);
+		crackerThirteen.getCrackersInfo	();
 
 		Crackers crackerFourteen=new Crackers();
 		crackerFourteen.crackerId = 14;
@@ -217,14 +126,7 @@ class CrackersRunner{
 		crackerFourteen.explosiveContent = "Barium nitrate";
 		crackerFourteen.soundLevel = 55;
 		crackerFourteen.price = 130.0;
-			System.out.println();
-			System.out.println("crackers fourteen details: ");
-			System.out.println("id of cracker is :"+crackerFourteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerFourteen.crackerName);
-			System.out.println("type of the crackers : "+crackerFourteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerFourteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerFourteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerFourteen.price);
+		crackerFourteen.getCrackersInfo();  
 
 		Crackers crackerFifteen=new Crackers();
 		crackerFifteen.crackerId = 15;
@@ -233,14 +135,7 @@ class CrackersRunner{
 		crackerFifteen.explosiveContent = "Red phosphorous";
 		crackerFifteen.soundLevel = 115;
 		crackerFifteen.price = 260.0;
-			System.out.println();
-			System.out.println("crackers fifteen details: ");
-			System.out.println("id of cracker is :"+crackerFifteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerFifteen.crackerName);
-			System.out.println("type of the crackers : "+crackerFifteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerFifteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerFifteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerFifteen.price);
+		crackerFifteen.getCrackersInfo();
 
 		Crackers crackerSixteen=new Crackers();
 		crackerSixteen.crackerId = 16;
@@ -249,14 +144,7 @@ class CrackersRunner{
 		crackerSixteen.explosiveContent = "Flash powder";
 		crackerSixteen.soundLevel = 65;
 		crackerSixteen.price = 90.0;
-			System.out.println();
-			System.out.println("crackers sixteen details: ");
-			System.out.println("id of cracker is :"+crackerSixteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerSixteen.crackerName);
-			System.out.println("type of the crackers : "+crackerSixteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerSixteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerSixteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerSixteen.price);
+		crackerSixteen.getCrackersInfo();
 
 		Crackers crackerSeventeen=new Crackers();
 		crackerSeventeen.crackerId = 17;
@@ -265,14 +153,7 @@ class CrackersRunner{
 		crackerSeventeen.explosiveContent = "Strontium carbonate";
 		crackerSeventeen.soundLevel = 25;
 		crackerSeventeen.price = 110.0;
-			System.out.println();
-			System.out.println("crackers seventeen details: ");
-			System.out.println("id of cracker is :"+crackerSeventeen.crackerId);
-			System.out.println("name of the cracker is : "+crackerSeventeen.crackerName);
-			System.out.println("type of the crackers : "+crackerSeventeen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerSeventeen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerSeventeen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerSeventeen.price);
+		crackerSeventeen.getCrackersInfo();
 			
 		Crackers crackerEighteen=new Crackers();
 		crackerEighteen.crackerId = 18;
@@ -281,15 +162,8 @@ class CrackersRunner{
 		crackerEighteen.explosiveContent = "Potassium nitrate";
 		crackerEighteen.soundLevel = 105;
 		crackerEighteen.price = 230.0;
-			System.out.println();
-			System.out.println("crackers eighteen details: ");
-			System.out.println("id of cracker is :"+crackerEighteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerEighteen.crackerName);
-			System.out.println("type of the crackers : "+crackerEighteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerEighteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerEighteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerEighteen.price);
-			
+		crackerEighteen.getCrackersInfo();
+		
 		Crackers crackerNineteen=new Crackers();
 		crackerNineteen.crackerId = 19;
 		crackerNineteen.crackerName = "Laser Rocket";
@@ -297,14 +171,7 @@ class CrackersRunner{
 		crackerNineteen.explosiveContent = "Magnesium and oxidizers";
 		crackerNineteen.soundLevel = 90;
 		crackerNineteen.price = 190.0;
-			System.out.println();
-			System.out.println("crackers nineteen details: ");
-			System.out.println("id of cracker is :"+crackerNineteen.crackerId);
-			System.out.println("name of the cracker is : "+crackerNineteen.crackerName);
-			System.out.println("type of the crackers : "+crackerNineteen.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerNineteen.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerNineteen.soundLevel);
-			System.out.println("price of the crackers are : "+crackerNineteen.price);
+		crackerNineteen.getCrackersInfo();
 		
 		Crackers crackerTwenty=new Crackers();
 		crackerTwenty.crackerId = 20;
@@ -313,14 +180,7 @@ class CrackersRunner{
 		crackerTwenty.explosiveContent = "Low-emission chemicals";
 		crackerTwenty.soundLevel = 40;
 		crackerTwenty.price = 120.0;
-			System.out.println();
-			System.out.println("crackers twenty details: ");
-			System.out.println("id of cracker is :"+crackerTwenty.crackerId);
-			System.out.println("name of the cracker is : "+crackerTwenty.crackerName);
-			System.out.println("type of the crackers : "+crackerTwenty.crackerType);
-			System.out.println("explosiveContent inn crackers is : "+crackerTwenty.explosiveContent);
-			System.out.println("sound level of crackers are : "+crackerTwenty.soundLevel);
-			System.out.println("price of the crackers are : "+crackerTwenty.price);			
+		crackerTwenty.getCrackersInfo();
 		System.out.println("main ended");
 	}
 }

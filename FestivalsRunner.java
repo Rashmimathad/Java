@@ -9,14 +9,7 @@ class FestivalsRunner{
 		festivalOne.religion = "Hindu";
 		festivalOne.date = "20/10";
 		festivalOne.hasPublicHoliday = true;	
-			System.out.println();
-			System.out.println("festival one details: ");
-			System.out.println(" id of festival is:"+festivalOne.festivalId);
-			System.out.println(" name of festival is:"+festivalOne.name);
-			System.out.println("Festival country is:"+festivalOne.country);
-			System.out.println("Festival religion is:"+festivalOne.religion);
-			System.out.println("Festival date is:"+festivalOne.date);
-			System.out.println("Festival has Public Holiday:"+festivalOne.hasPublicHoliday);
+		festivalOne.getFestivalInfo();
 		
 		Festivals festivalTwo=new Festivals();
 		festivalTwo.festivalId = 2;
@@ -25,14 +18,7 @@ class FestivalsRunner{
 		festivalTwo.religion = "Christianity";
 		festivalTwo.date = "25/12";
 		festivalTwo.hasPublicHoliday = true;
-			System.out.println();
-			System.out.println("festival two details: ");
-			System.out.println("id of festival is:"+festivalTwo.festivalId);
-			System.out.println("name of festival is:"+festivalTwo.name);
-			System.out.println("Festival country is:"+festivalTwo.country);
-			System.out.println("Festival religion is:"+festivalTwo.religion);
-			System.out.println("Festival date is:"+festivalTwo.date);
-			System.out.println("Festival has Public Holiday:"+festivalTwo.hasPublicHoliday);
+		festivalTwo.getFestivalInfo();	
 		
 		Festivals festivalThree=new Festivals();
 		festivalThree.festivalId = 3;
@@ -41,14 +27,7 @@ class FestivalsRunner{
 		festivalThree.religion = "Islam";
 		festivalThree.date = "10/04";
 		festivalThree.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival three details: ");
-			System.out.println("id of festival is:"+festivalThree.festivalId);
-			System.out.println("name of festival is:"+festivalThree.name);
-			System.out.println("Festival country is:"+festivalThree.country);
-			System.out.println("Festival religion is:"+festivalThree.religion);
-			System.out.println("Festival date is:"+festivalThree.date);
-			System.out.println("Festival has Public Holiday:"+festivalThree.hasPublicHoliday);
+		festivalThree.getFestivalInfo();		
 			
 		Festivals festivalFour=new Festivals();
 		festivalFour.festivalId = 4;
@@ -57,14 +36,7 @@ class FestivalsRunner{
 		festivalFour.religion = "Hindu";
 		festivalFour.date = "08/03";
 		festivalFour.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival four details: ");
-			System.out.println("id of festival  is:"+festivalFour.festivalId);
-			System.out.println("name of festival is:"+festivalFour.name);
-			System.out.println("Festival country is:"+festivalFour.country);
-			System.out.println("Festival religion is:"+festivalFour.religion);
-			System.out.println("Festival date is:"+festivalFour.date);
-			System.out.println("Festival has Public Holiday:"+festivalFour.hasPublicHoliday);
+		festivalFour.getFestivalInfo();	
 		
 		Festivals festivalFive=new Festivals();
 		festivalFive.festivalId = 5;
@@ -73,15 +45,8 @@ class FestivalsRunner{
 		festivalFive.religion = "Secular";
 		festivalFive.date = "24/11";
 		festivalFive.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival five details: ");
-			System.out.println("id of festival is:"+festivalFive.festivalId);
-			System.out.println("name of festival is:"+festivalFive.name);
-			System.out.println("Festival country is:"+festivalFive.country);
-			System.out.println("Festival religion is:"+festivalFive.religion);
-			System.out.println("Festival date is:"+festivalFive.date);
-			System.out.println("Festival has Public Holiday:"+festivalFive.hasPublicHoliday);
-		
+		festivalFive.getFestivalInfo();
+			
 		Festivals festivalSix=new Festivals();
 		festivalSix.festivalId = 6;
 		festivalSix.name = "Hanukkah";
@@ -89,14 +54,7 @@ class FestivalsRunner{
 		festivalSix.religion = "Judaism";
 		festivalSix.date = "18/12";
 		festivalSix.hasPublicHoliday = false;
-				System.out.println();
-			System.out.println("festival six details: ");
-			System.out.println("id of festival is:"+festivalSix.festivalId);
-			System.out.println("name of festival is:"+festivalSix.name);
-			System.out.println("Festival country is:"+festivalSix.country);
-			System.out.println("Festival religion is:"+festivalSix.religion);
-			System.out.println("Festival date is:"+festivalSix.date);
-			System.out.println("Festival has Public Holiday:"+festivalSix.hasPublicHoliday);
+		festivalSix.getFestivalInfo();		
 		
 		Festivals festivalSeven=new Festivals();
 		festivalSeven.festivalId = 7;
@@ -105,14 +63,7 @@ class FestivalsRunner{
 		festivalSeven.religion = "Islam";
 		festivalSeven.date = "01/04";
 		festivalSeven.hasPublicHoliday = false;
-			System.out.println();
-			System.out.println("festival seven details: ");
-			System.out.println("id of festival is:"+festivalSeven.festivalId);
-			System.out.println("name of festival is:"+festivalSeven.name);
-			System.out.println("Festival country is:"+festivalSeven.country);
-			System.out.println("Festival religion is:"+festivalSeven.religion);
-			System.out.println("Festival date is:"+festivalSeven.date);
-			System.out.println("Festival has Public Holiday:"+festivalSeven.hasPublicHoliday);
+		festivalSeven.getFestivalInfo();
 		
 		Festivals festivalEight=new Festivals();
 		festivalEight.festivalId = 8;
@@ -121,14 +72,7 @@ class FestivalsRunner{
 		festivalEight.religion = "Buddhism";
 		festivalEight.date = "05/05";
 		festivalEight.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival eight details: ");
-			System.out.println("id of festival is:"+festivalEight.festivalId);
-			System.out.println("name of festival is:"+festivalEight.name);
-			System.out.println("Festival country is:"+festivalEight.country);
-			System.out.println("Festival religion is:"+festivalEight.religion);
-			System.out.println("Festival date is:"+festivalEight.date);
-			System.out.println("Festival has Public Holiday:"+festivalEight.hasPublicHoliday);
+		festivalEight.getFestivalInfo();	
 		
 		Festivals festivalNine=new Festivals();
 		festivalNine.festivalId = 9;
@@ -137,14 +81,7 @@ class FestivalsRunner{
 		festivalNine.religion = "Sikhism";
 		festivalNine.date = "14/04";
 		festivalNine.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival nine details: ");
-			System.out.println("id of festival is:"+festivalNine.festivalId);
-			System.out.println("name of festival is:"+festivalNine.name);
-			System.out.println("Festival country is:"+festivalNine.country);
-			System.out.println("Festival religion is:"+festivalNine.religion);
-			System.out.println("Festival date is:"+festivalNine.date);
-			System.out.println("Festival has Public Holiday:"+festivalNine.hasPublicHoliday);
+		festivalNine.getFestivalInfo();		
 		
 		Festivals festivalTen=new Festivals();
 		festivalTen.festivalId = 10;
@@ -153,14 +90,7 @@ class FestivalsRunner{
 		festivalTen.religion = "Christianity";
 		festivalTen.date = "31/03";
 		festivalTen.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival ten details: ");
-			System.out.println("id of festival is:"+festivalTen.festivalId);
-			System.out.println("name of festival is:"+festivalTen.name);
-			System.out.println("Festival country is:"+festivalTen.country);
-			System.out.println("Festival religion is:"+festivalTen.religion);
-			System.out.println("Festival date is:"+festivalTen.date);
-			System.out.println("Festival has Public Holiday:"+festivalTen.hasPublicHoliday);
+		festivalTen.getFestivalInfo();		
 		
 		Festivals festivalEleven=new Festivals();
 		festivalEleven.festivalId = 11;
@@ -169,14 +99,7 @@ class FestivalsRunner{
 		festivalEleven.religion = "Chinese Folk";
 		festivalEleven.date = "10/02";
 		festivalEleven.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival eleven details: ");
-			System.out.println("id of festival is:"+festivalEleven.festivalId);
-			System.out.println("name of festival is:"+festivalEleven.name);
-			System.out.println("Festival country is:"+festivalEleven.country);
-			System.out.println("Festival religion is:"+festivalEleven.religion);
-			System.out.println("Festival date is:"+festivalEleven.date);
-			System.out.println("Festival has Public Holiday:"+festivalEleven.hasPublicHoliday);
+		festivalEleven.getFestivalInfo();		
 		
 		Festivals festivalTwelve=new Festivals();
 		festivalTwelve.festivalId = 12;
@@ -185,14 +108,7 @@ class FestivalsRunner{
 		festivalTwelve.religion = "Christianity";
 		festivalTwelve.date = "18/04";
 		festivalTwelve.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival twelve details: ");
-			System.out.println("id of festival is:"+festivalTwelve.festivalId);
-			System.out.println("name of festival is:"+festivalTwelve.name);
-			System.out.println("Festival country is:"+festivalTwelve.country);
-			System.out.println("Festival religion is:"+festivalTwelve.religion);
-			System.out.println("Festival date is:"+festivalTwelve.date);
-			System.out.println("Festival has Public Holiday:"+festivalTwelve.hasPublicHoliday);
+		festivalTwelve.getFestivalInfo();		
 		
 		Festivals festivalThirteen=new Festivals();
 		festivalThirteen.festivalId = 13;
@@ -201,14 +117,7 @@ class FestivalsRunner{
 		festivalThirteen.religion = "Hindu";
 		festivalThirteen.date = "29/08";
 		festivalThirteen.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival thirteen details: ");
-			System.out.println("id of festival is:"+festivalThirteen.festivalId);
-			System.out.println("name of festival is:"+festivalThirteen.name);
-			System.out.println("Festival country is:"+festivalThirteen.country);
-			System.out.println("Festival religion is:"+festivalThirteen.religion);
-			System.out.println("Festival date is:"+festivalThirteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalThirteen.hasPublicHoliday);
+		festivalThirteen.getFestivalInfo();		
 		
 		Festivals festivalFourteen=new Festivals();
 		festivalFourteen.festivalId = 14;
@@ -217,14 +126,7 @@ class FestivalsRunner{
 		festivalFourteen.religion = "Hindu";
 		festivalFourteen.date = "19/08";
 		festivalFourteen.hasPublicHoliday = false;
-				System.out.println();
-			System.out.println("festival fourteen details: ");
-			System.out.println("id of festival is:"+festivalFourteen.festivalId);
-			System.out.println("name of festival is:"+festivalFourteen.name);
-			System.out.println("Festival country is:"+festivalFourteen.country);
-			System.out.println("Festival religion is:"+festivalFourteen.religion);
-			System.out.println("Festival date is:"+festivalFourteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalFourteen.hasPublicHoliday);
+		festivalFourteen.getFestivalInfo();		
 		
 		Festivals festivalFifteen=new Festivals();
 		festivalFifteen.festivalId = 15;
@@ -233,14 +135,7 @@ class FestivalsRunner{
 		festivalFifteen.religion = "Hindu";
 		festivalFifteen.date = "09/04";
 		festivalFifteen.hasPublicHoliday = false;
-				System.out.println();
-			System.out.println("festival fifteen details: ");
-			System.out.println("id of festival is:"+festivalFifteen.festivalId);
-			System.out.println("name of festival is:"+festivalFifteen.name);
-			System.out.println("Festival country is:"+festivalFifteen.country);
-			System.out.println("Festival religion is:"+festivalFifteen.religion);
-			System.out.println("Festival date is:"+festivalFifteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalFifteen.hasPublicHoliday);
+		festivalFifteen.getFestivalInfo();	
 		
 		Festivals festivalSixteen=new Festivals();
 		festivalSixteen.festivalId = 16;
@@ -249,14 +144,7 @@ class FestivalsRunner{
 		festivalSixteen.religion = "Hindu";
 		festivalSixteen.date = "05/10";
 		festivalSixteen.hasPublicHoliday = false;
-				System.out.println();
-			System.out.println("festival sixteen details: ");
-			System.out.println("id of festival is:"+festivalSixteen.festivalId);
-			System.out.println("name of festival is:"+festivalSixteen.name);
-			System.out.println("Festival country is:"+festivalSixteen.country);
-			System.out.println("Festival religion is:"+festivalSixteen.religion);
-			System.out.println("Festival date is:"+festivalSixteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalSixteen.hasPublicHoliday);
+		festivalSixteen.getFestivalInfo();	
 		
 		Festivals festivalSeventeen=new Festivals();
 		festivalSeventeen.festivalId = 17;
@@ -265,14 +153,7 @@ class FestivalsRunner{
 		festivalSeventeen.religion = "Secular";
 		festivalSeventeen.date = "26/12";
 		festivalSeventeen.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival seventeen details: ");
-			System.out.println("id of festival is:"+festivalSeventeen.festivalId);
-			System.out.println("name of festival is:"+festivalSeventeen.name);
-			System.out.println("Festival country is:"+festivalSeventeen.country);
-			System.out.println("Festival religion is:"+festivalSeventeen.religion);
-			System.out.println("Festival date is:"+festivalSeventeen.date);
-			System.out.println("Festival has Public Holiday:"+festivalSeventeen.hasPublicHoliday);
+		festivalSeventeen.getFestivalInfo();		
 		
 		Festivals festivalEighteen=new Festivals();
 		festivalEighteen.festivalId = 18;
@@ -281,14 +162,7 @@ class FestivalsRunner{
 		festivalEighteen.religion = "Judaism";
 		festivalEighteen.date = "03/10";
 		festivalEighteen.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival eighteen details: ");
-			System.out.println("id of festival is:"+festivalEighteen.festivalId);
-			System.out.println("name of festival is:"+festivalEighteen.name);
-			System.out.println("Festival country is:"+festivalEighteen.country);
-			System.out.println("Festival religion is:"+festivalEighteen.religion);
-			System.out.println("Festival date is:"+festivalEighteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalEighteen.hasPublicHoliday);
+		festivalEighteen.getFestivalInfo();		
 		
 		Festivals festivalNineteen=new Festivals();
 		festivalNineteen.festivalId = 19;
@@ -297,14 +171,7 @@ class FestivalsRunner{
 		festivalNineteen.religion = "Hindu";
 		festivalNineteen.date = "15/01";
 		festivalNineteen.hasPublicHoliday = true;
-				System.out.println();
-			System.out.println("festival nineteen details: ");
-			System.out.println("id of festival is:"+festivalNineteen.festivalId);
-			System.out.println("name of festival is:"+festivalNineteen.name);
-			System.out.println("Festival country is:"+festivalNineteen.country);
-			System.out.println("Festival religion is:"+festivalNineteen.religion);
-			System.out.println("Festival date is:"+festivalNineteen.date);
-			System.out.println("Festival has Public Holiday:"+festivalNineteen.hasPublicHoliday);
+		festivalNineteen.getFestivalInfo();
 		
 		Festivals festivalTwenty=new Festivals();
 		festivalTwenty.festivalId = 20;
@@ -313,14 +180,7 @@ class FestivalsRunner{
 		festivalTwenty.religion = "Buddhism";
 		festivalTwenty.date = "15/08";
 		festivalTwenty.hasPublicHoliday = false;
-				System.out.println();
-			System.out.println("festival twenty details: ");
-			System.out.println("id of festival is:"+festivalTwenty.festivalId);
-			System.out.println("name of festival is:"+festivalTwenty.name);
-			System.out.println("Festival country is:"+festivalTwenty.country);
-			System.out.println("Festival religion is:"+festivalTwenty.religion);
-			System.out.println("Festival date is:"+festivalTwenty.date);
-			System.out.println("Festival has Public Holiday:"+festivalTwenty.hasPublicHoliday);
+		festivalTwenty.getFestivalInfo();
 	
 	System.out.println("\nmain ended");
 	}

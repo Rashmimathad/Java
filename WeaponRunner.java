@@ -9,14 +9,7 @@ class WeaponRunner{
 			weaponOne.price=15000.00;
 			weaponOne.manufacturedYear=1847;
 			weaponOne.range=200;
-				System.out.println();
-				System.out.println("first weapon details :");
-				System.out.println("id of weapon is : "+weaponOne.weaponId);
-				System.out.println("name of the weapon is : "+weaponOne.weaponName);
-				System.out.println("material of the weapon is : "+weaponOne.weaponMaterial);
-				System.out.println("price of the weapon is  : "+weaponOne.price);
-				System.out.println("manufactured year of the weapon is : "+weaponOne.manufacturedYear);
-				System.out.println("range of the weapon is : "+weaponOne.range+" m");
+			weaponOne.getWeaponInfo();
 				
 			Weapon weaponTwo = new Weapon();
 			weaponTwo.weaponId = 2;
@@ -25,14 +18,7 @@ class WeaponRunner{
 			weaponTwo.price = 18000.00;
 			weaponTwo.manufacturedYear = 1964;
 			weaponTwo.range = 550;
-				System.out.println();
-				System.out.println("Second weapon details :");
-				System.out.println("id of weapon is : " + weaponTwo.weaponId);
-				System.out.println("name of the weapon is : " + weaponTwo.weaponName);
-				System.out.println("material of the weapon is : " + weaponTwo.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponTwo.price);
-				System.out.println("manufactured year of the weapon is : " + weaponTwo.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponTwo.range + " m");
+			weaponTwo.getWeaponInfo();
 
 			Weapon weaponThree = new Weapon();
 			weaponThree.weaponId = 3;
@@ -41,14 +27,7 @@ class WeaponRunner{
 			weaponThree.price = 7000.00;
 			weaponThree.manufacturedYear = 1982;
 			weaponThree.range = 50;
-				System.out.println();
-				System.out.println("Third weapon details :");
-				System.out.println("id of weapon is : " + weaponThree.weaponId);
-				System.out.println("name of the weapon is : " + weaponThree.weaponName);
-				System.out.println("material of the weapon is : " + weaponThree.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponThree.price);
-				System.out.println("manufactured year of the weapon is : " + weaponThree.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponThree.range + " m");
+			weaponThree.getWeaponInfo();
 
 			Weapon weaponFour = new Weapon();
 			weaponFour.weaponId = 4;
@@ -57,14 +36,7 @@ class WeaponRunner{
 			weaponFour.price = 25000.00;
 			weaponFour.manufacturedYear = 2001;
 			weaponFour.range = 1200;
-				System.out.println();
-				System.out.println("Fourth weapon details :");
-				System.out.println("id of weapon is : " + weaponFour.weaponId);
-				System.out.println("name of the weapon is : " + weaponFour.weaponName);
-				System.out.println("material of the weapon is : " + weaponFour.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponFour.price);
-				System.out.println("manufactured year of the weapon is : " + weaponFour.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponFour.range + " m");
+			weaponFour.getWeaponInfo();
 
 			Weapon weaponFive = new Weapon();
 			weaponFive.weaponId = 5;
@@ -73,14 +45,7 @@ class WeaponRunner{
 			weaponFive.price = 12000.00;
 			weaponFive.manufacturedYear = 1983;
 			weaponFive.range = 200;
-				System.out.println();
-				System.out.println("Fifth weapon details :");
-				System.out.println("id of weapon is : " + weaponFive.weaponId);
-				System.out.println("name of the weapon is : " + weaponFive.weaponName);
-				System.out.println("material of the weapon is : " + weaponFive.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponFive.price);
-				System.out.println("manufactured year of the weapon is : " + weaponFive.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponFive.range + " m");
+			weaponFive.getWeaponInfo();
 
 			Weapon weaponSix = new Weapon();
 			weaponSix.weaponId = 6;
@@ -89,14 +54,7 @@ class WeaponRunner{
 			weaponSix.price = 18000.00;
 			weaponSix.manufacturedYear = 1963;
 			weaponSix.range = 550;
-				System.out.println();
-				System.out.println("Sixth weapon details :");
-				System.out.println("id of weapon is : " + weaponSix.weaponId);
-				System.out.println("name of the weapon is : " + weaponSix.weaponName);
-				System.out.println("material of the weapon is : " + weaponSix.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponSix.price);
-				System.out.println("manufactured year of the weapon is : " + weaponSix.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponSix.range + " m");
+			weaponSix.getWeaponInfo();
 
 			Weapon weaponSeven = new Weapon();
 			weaponSeven.weaponId = 7;
@@ -105,14 +63,7 @@ class WeaponRunner{
 			weaponSeven.price = 20000.00;
 			weaponSeven.manufacturedYear = 1994;
 			weaponSeven.range = 600;
-				System.out.println();
-				System.out.println("Seventh weapon details :");
-				System.out.println("id of weapon is : " + weaponSeven.weaponId);
-				System.out.println("name of the weapon is : " + weaponSeven.weaponName);
-				System.out.println("material of the weapon is : " + weaponSeven.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponSeven.price);
-				System.out.println("manufactured year of the weapon is : " + weaponSeven.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponSeven.range + " m");
+			weaponSeven.getWeaponInfo();
 
 			Weapon weaponEight = new Weapon();
 			weaponEight.weaponId = 8;
@@ -121,14 +72,7 @@ class WeaponRunner{
 			weaponEight.price = 5000.00;
 			weaponEight.manufacturedYear = 1982;
 			weaponEight.range = 50;
-				System.out.println();
-				System.out.println("Eighth weapon details :");
-				System.out.println("id of weapon is : " + weaponEight.weaponId);
-				System.out.println("name of the weapon is : " + weaponEight.weaponName);
-				System.out.println("material of the weapon is : " + weaponEight.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponEight.price);
-				System.out.println("manufactured year of the weapon is : " + weaponEight.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponEight.range + " m");
+			weaponEight.getWeaponInfo();
 
 			Weapon weaponNine = new Weapon();
 			weaponNine.weaponId = 9;
@@ -137,14 +81,7 @@ class WeaponRunner{
 			weaponNine.price = 12000.00;
 			weaponNine.manufacturedYear = 1983;
 			weaponNine.range = 200;
-				System.out.println();
-				System.out.println("Ninth weapon details :");
-				System.out.println("id of weapon is : " + weaponNine.weaponId);
-				System.out.println("name of the weapon is : " + weaponNine.weaponName);
-				System.out.println("material of the weapon is : " + weaponNine.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponNine.price);
-				System.out.println("manufactured year of the weapon is : " + weaponNine.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponNine.range + " m");
+			weaponNine.getWeaponInfo();
 
 			Weapon weaponTen = new Weapon();
 			weaponTen.weaponId = 10;
@@ -153,14 +90,7 @@ class WeaponRunner{
 			weaponTen.price = 30000.00;
 			weaponTen.manufacturedYear = 2001;
 			weaponTen.range = 1500;
-				System.out.println();
-				System.out.println("Tenth weapon details :");
-				System.out.println("id of weapon is : " + weaponTen.weaponId);
-				System.out.println("name of the weapon is : " + weaponTen.weaponName);
-				System.out.println("material of the weapon is : " + weaponTen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponTen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponTen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponTen.range + " m");
+			weaponTen.getWeaponInfo();
 
 			Weapon weaponEleven = new Weapon();
 			weaponEleven.weaponId = 11;
@@ -169,14 +99,7 @@ class WeaponRunner{
 			weaponEleven.price = 9000.00;
 			weaponEleven.manufacturedYear = 1966;
 			weaponEleven.range = 200;
-				System.out.println();
-				System.out.println("Eleventh weapon details :");
-				System.out.println("id of weapon is : " + weaponEleven.weaponId);
-				System.out.println("name of the weapon is : " + weaponEleven.weaponName);
-				System.out.println("material of the weapon is : " + weaponEleven.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponEleven.price);
-				System.out.println("manufactured year of the weapon is : " + weaponEleven.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponEleven.range + " m");
+			weaponEleven.getWeaponInfo();
 
 			Weapon weaponTwelve = new Weapon();
 			weaponTwelve.weaponId = 12;
@@ -185,14 +108,7 @@ class WeaponRunner{
 			weaponTwelve.price = 6000.00;
 			weaponTwelve.manufacturedYear = 1950;
 			weaponTwelve.range = 150;
-				System.out.println();
-				System.out.println("Twelfth weapon details :");
-				System.out.println("id of weapon is : " + weaponTwelve.weaponId);
-				System.out.println("name of the weapon is : " + weaponTwelve.weaponName);
-				System.out.println("material of the weapon is : " + weaponTwelve.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponTwelve.price);
-				System.out.println("manufactured year of the weapon is : " + weaponTwelve.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponTwelve.range + " m");
+			weaponTwelve.getWeaponInfo();
 
 			Weapon weaponThirteen = new Weapon();
 			weaponThirteen.weaponId = 13;
@@ -201,14 +117,7 @@ class WeaponRunner{
 			weaponThirteen.price = 4500.00;
 			weaponThirteen.manufacturedYear = 1951;
 			weaponThirteen.range = 50;
-				System.out.println();
-				System.out.println("Thirteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponThirteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponThirteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponThirteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponThirteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponThirteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponThirteen.range + " m");
+			weaponThirteen.getWeaponInfo();
 
 			Weapon weaponFourteen = new Weapon();
 			weaponFourteen.weaponId = 14;
@@ -217,14 +126,7 @@ class WeaponRunner{
 			weaponFourteen.price = 7500.00;
 			weaponFourteen.manufacturedYear = 1985;
 			weaponFourteen.range = 100;
-				System.out.println();
-				System.out.println("Fourteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponFourteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponFourteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponFourteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponFourteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponFourteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponFourteen.range + " m");
+			weaponFourteen.getWeaponInfo();
 
 			Weapon weaponFifteen = new Weapon();
 			weaponFifteen.weaponId = 15;
@@ -233,14 +135,7 @@ class WeaponRunner{
 			weaponFifteen.price = 22000.00;
 			weaponFifteen.manufacturedYear = 2004;
 			weaponFifteen.range = 800;
-				System.out.println();
-				System.out.println("Fifteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponFifteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponFifteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponFifteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponFifteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponFifteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponFifteen.range + " m");
+			weaponFifteen.getWeaponInfo();
 
 			Weapon weaponSixteen = new Weapon();
 			weaponSixteen.weaponId = 16;
@@ -249,14 +144,7 @@ class WeaponRunner{
 			weaponSixteen.price = 14000.00;
 			weaponSixteen.manufacturedYear = 1990;
 			weaponSixteen.range = 200;
-				System.out.println();
-				System.out.println("Sixteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponSixteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponSixteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponSixteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponSixteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponSixteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponSixteen.range + " m");
+			weaponSixteen.getWeaponInfo();
 
 			Weapon weaponSeventeen = new Weapon();
 			weaponSeventeen.weaponId = 17;
@@ -265,14 +153,7 @@ class WeaponRunner{
 			weaponSeventeen.price = 26000.00;
 			weaponSeventeen.manufacturedYear = 1942;
 			weaponSeventeen.range = 1000;
-				System.out.println();
-				System.out.println("Seventeenth weapon details :");
-				System.out.println("id of weapon is : " + weaponSeventeen.weaponId);
-				System.out.println("name of the weapon is : " + weaponSeventeen.weaponName);
-				System.out.println("material of the weapon is : " + weaponSeventeen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponSeventeen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponSeventeen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponSeventeen.range + " m");
+			weaponSeventeen.getWeaponInfo();
 
 			Weapon weaponEighteen = new Weapon();
 			weaponEighteen.weaponId = 18;
@@ -281,14 +162,7 @@ class WeaponRunner{
 			weaponEighteen.price = 12000.00;
 			weaponEighteen.manufacturedYear = 1920;
 			weaponEighteen.range = 150;
-				System.out.println();
-				System.out.println("Eighteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponEighteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponEighteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponEighteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponEighteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponEighteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponEighteen.range + " m");
+			weaponEighteen.getWeaponInfo();
 
 			Weapon weaponNineteen = new Weapon();
 			weaponNineteen.weaponId = 19;
@@ -297,14 +171,7 @@ class WeaponRunner{
 			weaponNineteen.price = 30000.00;
 			weaponNineteen.manufacturedYear = 1961;
 			weaponNineteen.range = 500;
-				System.out.println();
-				System.out.println("Nineteenth weapon details :");
-				System.out.println("id of weapon is : " + weaponNineteen.weaponId);
-				System.out.println("name of the weapon is : " + weaponNineteen.weaponName);
-				System.out.println("material of the weapon is : " + weaponNineteen.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponNineteen.price);
-				System.out.println("manufactured year of the weapon is : " + weaponNineteen.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponNineteen.range + " m");
+			weaponNineteen.getWeaponInfo();
 
 			Weapon weaponTwenty = new Weapon();
 			weaponTwenty.weaponId = 20;
@@ -313,14 +180,7 @@ class WeaponRunner{
 			weaponTwenty.price = 8000.00;
 			weaponTwenty.manufacturedYear = 1960;
 			weaponTwenty.range = 45;
-				System.out.println();
-				System.out.println("Twentieth weapon details :");
-				System.out.println("id of weapon is : " + weaponTwenty.weaponId);
-				System.out.println("name of the weapon is : " + weaponTwenty.weaponName);
-				System.out.println("material of the weapon is : " + weaponTwenty.weaponMaterial);
-				System.out.println("price of the weapon is  : " + weaponTwenty.price);
-				System.out.println("manufactured year of the weapon is : " + weaponTwenty.manufacturedYear);
-				System.out.println("range of the weapon is : " + weaponTwenty.range + " m");
+			weaponTwenty.getWeaponInfo();
 				
 		System.out.println("main ended");
 	}

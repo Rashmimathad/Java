@@ -9,14 +9,7 @@ class HatRunner{
 		firstHat.brandName="Adidas";
 		firstHat.price=499.00;
 		firstHat.material="cotton";
-			System.out.println();
-			System.out.println("first hat details : ");
-			System.out.println("id of hat is :"+firstHat.hatId);
-			System.out.println("type of the hat is : "+firstHat.hatType);
-			System.out.println("color of the hat is : "+firstHat.hatColor);
-			System.out.println("brand name of the hat is : "+firstHat.brandName);
-			System.out.println("price of the hat is : "+firstHat.price);
-			System.out.println("material of the hat is : "+firstHat.material);
+		firstHat.getHatInfo();
 			
 		Hat secondHat= new Hat();
 		secondHat.hatId = 2;
@@ -25,14 +18,7 @@ class HatRunner{
 		secondHat.brandName = "Nike";
 		secondHat.price = 399.00;
 		secondHat.material = "Polyester";
-			System.out.println();
-			System.out.println("second hat details : ");
-			System.out.println("id of hat is :"+secondHat.hatId);
-			System.out.println("type of the hat is : "+secondHat.hatType);
-			System.out.println("color of the hat is : "+secondHat.hatColor);
-			System.out.println("brand name of the hat is : "+secondHat.brandName);
-			System.out.println("price of the hat is : "+secondHat.price);
-			System.out.println("material of the hat is : "+secondHat.material);
+		secondHat.getHatInfo();
 			
 		Hat thirdHat= new Hat();
 		thirdHat.hatId = 3;
@@ -41,14 +27,7 @@ class HatRunner{
 		thirdHat.brandName = "Puma";
 		thirdHat.price = 299.00;
 		thirdHat.material = "Wool";
-			System.out.println();
-			System.out.println("third hat details : ");
-			System.out.println("id of hat is :"+thirdHat.hatId);
-			System.out.println("type of the hat is : "+thirdHat.hatType);
-			System.out.println("color of the hat is : "+thirdHat.hatColor);
-			System.out.println("brand name of the hat is : "+thirdHat.brandName);
-			System.out.println("price of the hat is : "+thirdHat.price);
-			System.out.println("material of the hat is : "+thirdHat.material);
+		thirdHat.getHatInfo();
 			
 		Hat fourthHat= new Hat();
 		fourthHat.hatId = 4;
@@ -57,14 +36,7 @@ class HatRunner{
 		fourthHat.brandName = "H&M";
 		fourthHat.price = 699.00;
 		fourthHat.material = "Straw";
-			System.out.println();
-			System.out.println("fourth hat details : ");
-			System.out.println("id of hat is :"+fourthHat.hatId);
-			System.out.println("type of the hat is : "+fourthHat.hatType);
-			System.out.println("color of the hat is : "+fourthHat.hatColor);
-			System.out.println("brand name of the hat is : "+fourthHat.brandName);
-			System.out.println("price of the hat is : "+fourthHat.price);
-			System.out.println("material of the hat is : "+fourthHat.material);
+		fourthHat.getHatInfo();
 			
 		Hat fifthHat= new Hat();
 		fifthHat.hatId = 5;
@@ -73,14 +45,7 @@ class HatRunner{
 		fifthHat.brandName = "Zara";
 		fifthHat.price = 549.00;
 		fifthHat.material = "Wool";
-			System.out.println();
-			System.out.println("fifth hat details : ");
-			System.out.println("id of hat is :"+fifthHat.hatId);
-			System.out.println("type of the hat is : "+fifthHat.hatType);
-			System.out.println("color of the hat is : "+fifthHat.hatColor);
-			System.out.println("brand name of the hat is : "+fifthHat.brandName);
-			System.out.println("price of the hat is : "+fifthHat.price);
-			System.out.println("material of the hat is : "+fifthHat.material);
+		fifthHat.getHatInfo();
 			
 		Hat sixthHat= new Hat();
 		sixthHat.hatId = 6;
@@ -89,14 +54,7 @@ class HatRunner{
 		sixthHat.brandName = "Levi’s";
 		sixthHat.price = 449.00;
 		sixthHat.material = "Canvas";
-			System.out.println();
-			System.out.println("sixth hat details : ");
-			System.out.println("id of hat is :"+sixthHat.hatId);
-			System.out.println("type of the hat is : "+sixthHat.hatType);
-			System.out.println("color of the hat is : "+sixthHat.hatColor);
-			System.out.println("brand name of the hat is : "+sixthHat.brandName);
-			System.out.println("price of the hat is : "+sixthHat.price);
-			System.out.println("material of the hat is : "+sixthHat.material);
+		sixthHat.getHatInfo();
 			
 		Hat seventhHat= new Hat();		
 		seventhHat.hatId = 7;
@@ -105,14 +63,7 @@ class HatRunner{
 		seventhHat.brandName = "New Era";
 		seventhHat.price = 499.00;
 		seventhHat.material = "Cotton Blend";
-			System.out.println();
-			System.out.println("seventh hat details : ");
-			System.out.println("id of hat is :"+seventhHat.hatId);
-			System.out.println("type of the hat is : "+seventhHat.hatType);
-			System.out.println("color of the hat is : "+seventhHat.hatColor);
-			System.out.println("brand name of the hat is : "+seventhHat.brandName);
-			System.out.println("price of the hat is : "+seventhHat.price);
-			System.out.println("material of the hat is : "+seventhHat.material);
+		seventhHat.getHatInfo();
 			
 		Hat eighthHat= new Hat();
 		eighthHat.hatId = 8;
@@ -121,14 +72,7 @@ class HatRunner{
 		eighthHat.brandName = "Forever 21";
 		eighthHat.price = 599.00;
 		eighthHat.material = "Straw";
-			System.out.println();
-			System.out.println("eighth hat details : ");
-			System.out.println("id of hat is :"+eighthHat.hatId);
-			System.out.println("type of the hat is : "+eighthHat.hatType);
-			System.out.println("color of the hat is : "+eighthHat.hatColor);
-			System.out.println("brand name of the hat is : "+eighthHat.brandName);
-			System.out.println("price of the hat is : "+eighthHat.price);
-			System.out.println("material of the hat is : "+eighthHat.material);
+		eighthHat.getHatInfo();
 			
 		Hat ninthHat= new Hat();
 		ninthHat.hatId = 9;
@@ -137,14 +81,7 @@ class HatRunner{
 		ninthHat.brandName = "Woodland";
 		ninthHat.price = 699.00;
 		ninthHat.material = "Wool Blend";
-			System.out.println();
-			System.out.println("ninth hat details : ");
-			System.out.println("id of hat is :"+ninthHat.hatId);
-			System.out.println("type of the hat is : "+ninthHat.hatType);
-			System.out.println("color of the hat is : "+ninthHat.hatColor);
-			System.out.println("brand name of the hat is : "+ninthHat.brandName);
-			System.out.println("price of the hat is : "+ninthHat.price);
-			System.out.println("material of the hat is : "+ninthHat.material);
+		ninthHat.getHatInfo();
 			
 		Hat tenthHat= new Hat();
 		tenthHat.hatId = 10;
@@ -153,14 +90,7 @@ class HatRunner{
 		tenthHat.brandName = "Wrangler";
 		tenthHat.price = 799.00;
 		tenthHat.material = "Leather";
-			System.out.println();
-			System.out.println("tenth hat details : ");
-			System.out.println("id of hat is :"+tenthHat.hatId);
-			System.out.println("type of the hat is : "+tenthHat.hatType);
-			System.out.println("color of the hat is : "+tenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+tenthHat.brandName);
-			System.out.println("price of the hat is : "+tenthHat.price);
-			System.out.println("material of the hat is : "+tenthHat.material);
+		tenthHat.getHatInfo();
 			
 		Hat eleventhHat= new Hat();
 		eleventhHat.hatId = 11;
@@ -169,14 +99,7 @@ class HatRunner{
 		eleventhHat.brandName = "Gap";
 		eleventhHat.price = 499.00;
 		eleventhHat.material = "Tweed";
-			System.out.println();
-			System.out.println("eleventh hat details : ");
-			System.out.println("id of hat is :"+eleventhHat.hatId);
-			System.out.println("type of the hat is : "+eleventhHat.hatType);
-			System.out.println("color of the hat is : "+eleventhHat.hatColor);
-			System.out.println("brand name of the hat is : "+eleventhHat.brandName);
-			System.out.println("price of the hat is : "+eleventhHat.price);
-			System.out.println("material of the hat is : "+eleventhHat.material);
+		eleventhHat.getHatInfo();
 			
 		Hat twelfthHat= new Hat();
 		twelfthHat.hatId = 12;
@@ -185,14 +108,7 @@ class HatRunner{
 		twelfthHat.brandName = "Marks & Spencer";
 		twelfthHat.price = 699.00;
 		twelfthHat.material = "Linen";
-			System.out.println();
-			System.out.println("twelfth hat details : ");
-			System.out.println("id of hat is :"+twelfthHat.hatId);
-			System.out.println("type of the hat is : "+twelfthHat.hatType);
-			System.out.println("color of the hat is : "+twelfthHat.hatColor);
-			System.out.println("brand name of the hat is : "+twelfthHat.brandName);
-			System.out.println("price of the hat is : "+twelfthHat.price);
-			System.out.println("material of the hat is : "+twelfthHat.material);
+		twelfthHat.getHatInfo();
 			
 		Hat thirteenthHat= new Hat();
 		thirteenthHat.hatId = 13;
@@ -201,14 +117,7 @@ class HatRunner{
 		thirteenthHat.brandName = "Vintage Wear";
 		thirteenthHat.price = 999.00;
 		thirteenthHat.material = "Satin";
-			System.out.println();
-			System.out.println("thirteenth hat details : ");
-			System.out.println("id of hat is :"+thirteenthHat.hatId);
-			System.out.println("type of the hat is : "+thirteenthHat.hatType);
-			System.out.println("color of the hat is : "+thirteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+thirteenthHat.brandName);
-			System.out.println("price of the hat is : "+thirteenthHat.price);
-			System.out.println("material of the hat is : "+thirteenthHat.material);
+		thirteenthHat.getHatInfo();
 			
 		Hat fourteenthHat= new Hat();
 		fourteenthHat.hatId = 14;
@@ -217,14 +126,7 @@ class HatRunner{
 		fourteenthHat.brandName = "Reebok";
 		fourteenthHat.price = 399.00;
 		fourteenthHat.material = "Nylon";
-			System.out.println();
-			System.out.println("fourteenth hat details : ");
-			System.out.println("id of hat is :"+fourteenthHat.hatId);
-			System.out.println("type of the hat is : "+fourteenthHat.hatType);
-			System.out.println("color of the hat is : "+fourteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+fourteenthHat.brandName);
-			System.out.println("price of the hat is : "+fourteenthHat.price);
-			System.out.println("material of the hat is : "+fourteenthHat.material);
+		fourteenthHat.getHatInfo();
 			
 		Hat fifteenthHat= new Hat();
 		fifteenthHat.hatId = 15;
@@ -233,14 +135,7 @@ class HatRunner{
 		fifteenthHat.brandName = "Columbia";
 		fifteenthHat.price = 749.00;
 		fifteenthHat.material = "Canvas";
-			System.out.println();
-			System.out.println("fifteenth hat details : ");
-			System.out.println("id of hat is :"+fifteenthHat.hatId);
-			System.out.println("type of the hat is : "+fifteenthHat.hatType);
-			System.out.println("color of the hat is : "+fifteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+fifteenthHat.brandName);
-			System.out.println("price of the hat is : "+fifteenthHat.price);
-			System.out.println("material of the hat is : "+fifteenthHat.material);
+		fifteenthHat.getHatInfo();
 			
 		Hat sixteenthHat= new Hat();
 		sixteenthHat.hatId = 16;
@@ -249,14 +144,7 @@ class HatRunner{
 		sixteenthHat.brandName = "Chanel";
 		sixteenthHat.price = 1299.00;
 		sixteenthHat.material = "Wool Felt";
-			System.out.println();
-			System.out.println("sixteenth hat details : ");
-			System.out.println("id of hat is :"+sixteenthHat.hatId);
-			System.out.println("type of the hat is : "+sixteenthHat.hatType);
-			System.out.println("color of the hat is : "+sixteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+sixteenthHat.brandName);
-			System.out.println("price of the hat is : "+sixteenthHat.price);
-			System.out.println("material of the hat is : "+sixteenthHat.material);
+		sixteenthHat.getHatInfo();
 			
 		Hat seventeenthHat= new Hat();
 		seventeenthHat.hatId = 17;
@@ -265,14 +153,7 @@ class HatRunner{
 		seventeenthHat.brandName = "Gucci";
 		seventeenthHat.price = 1399.00;
 		seventeenthHat.material = "Leather";
-			System.out.println();
-			System.out.println("seventeenth hat details : ");
-			System.out.println("id of hat is :"+seventeenthHat.hatId);
-			System.out.println("type of the hat is : "+seventeenthHat.hatType);
-			System.out.println("color of the hat is : "+seventeenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+seventeenthHat.brandName);
-			System.out.println("price of the hat is : "+seventeenthHat.price);
-			System.out.println("material of the hat is : "+seventeenthHat.material);
+		seventeenthHat.getHatInfo();
 			
 		Hat eighteenthHat= new Hat();
 		eighteenthHat.hatId = 18;
@@ -281,14 +162,7 @@ class HatRunner{
 		eighteenthHat.brandName = "Lacoste";
 		eighteenthHat.price = 849.00;
 		eighteenthHat.material = "Wool Blend";
-			System.out.println();
-			System.out.println("eighteenth hat details : ");
-			System.out.println("id of hat is :"+eighteenthHat.hatId);
-			System.out.println("type of the hat is : "+eighteenthHat.hatType);
-			System.out.println("color of the hat is : "+eighteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+eighteenthHat.brandName);
-			System.out.println("price of the hat is : "+eighteenthHat.price);
-			System.out.println("material of the hat is : "+eighteenthHat.material);
+		eighteenthHat.getHatInfo();
 			
 		Hat nineteenthHat= new Hat();
 		nineteenthHat.hatId = 19;
@@ -297,14 +171,7 @@ class HatRunner{
 		nineteenthHat.brandName = "Dior";
 		nineteenthHat.price = 1599.00;
 		nineteenthHat.material = "Velvet";
-			System.out.println();
-			System.out.println("nineteenth hat details : ");
-			System.out.println("id of hat is :"+nineteenthHat.hatId);
-			System.out.println("type of the hat is : "+nineteenthHat.hatType);
-			System.out.println("color of the hat is : "+nineteenthHat.hatColor);
-			System.out.println("brand name of the hat is : "+nineteenthHat.brandName);
-			System.out.println("price of the hat is : "+nineteenthHat.price);
-			System.out.println("material of the hat is : "+nineteenthHat.material);
+		nineteenthHat.getHatInfo();
 			
 		Hat twentiethHat= new Hat();
 		twentiethHat.hatId = 20;
@@ -313,14 +180,7 @@ class HatRunner{
 		twentiethHat.brandName = "Sherlock Gear";
 		twentiethHat.price = 999.00;
 		twentiethHat.material = "Wool Tweed";
-			System.out.println();
-			System.out.println("twentieth hat details : ");
-			System.out.println("id of hat is :"+twentiethHat.hatId);
-			System.out.println("type of the hat is : "+twentiethHat.hatType);
-			System.out.println("color of the hat is : "+twentiethHat.hatColor);
-			System.out.println("brand name of the hat is : "+twentiethHat.brandName);
-			System.out.println("price of the hat is : "+twentiethHat.price);
-			System.out.println("material of the hat is : "+twentiethHat.material);
+		twentiethHat.getHatInfo();
 			
 	System.out.println("main ended");
 	}

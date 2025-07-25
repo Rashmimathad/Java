@@ -10,15 +10,7 @@ class GymEquipmentRunner{
 			firstGymEquipment.equipmentPowerSource="Manual";
 			firstGymEquipment.costOfEquipment=5000.00;
 			firstGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("First Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+firstGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+firstGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+firstGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+firstGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+firstGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+firstGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+firstGymEquipment.equipmentMaterial);
+			firstGymEquipment.getEquipmentInfo();	
 				
 			GymEquipment secondGymEquipment = new GymEquipment();
 			secondGymEquipment.equipmentId=2;
@@ -28,15 +20,7 @@ class GymEquipmentRunner{
 			secondGymEquipment.equipmentPowerSource="Electric";
 			secondGymEquipment.costOfEquipment=15000.00;
 			secondGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("Second Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+secondGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+secondGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+secondGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+secondGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+secondGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+secondGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+secondGymEquipment.equipmentMaterial);
+			secondGymEquipment.getEquipmentInfo();
 			
 			GymEquipment thirdGymEquipment = new GymEquipment();
 			thirdGymEquipment.equipmentId=3;
@@ -46,15 +30,7 @@ class GymEquipmentRunner{
 			thirdGymEquipment.equipmentPowerSource="Manual";
 			thirdGymEquipment.costOfEquipment=2000.00;
 			thirdGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("Third Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+thirdGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+thirdGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+thirdGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+thirdGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+thirdGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+thirdGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+thirdGymEquipment.equipmentMaterial);
+			thirdGymEquipment.getEquipmentInfo();
 				
 			GymEquipment fourthGymEquipment = new GymEquipment();
 			fourthGymEquipment.equipmentId=4;
@@ -64,15 +40,7 @@ class GymEquipmentRunner{
 			fourthGymEquipment.equipmentPowerSource="Battery";
 			fourthGymEquipment.costOfEquipment=20000.00;
 			fourthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("fourth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+fourthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+fourthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+fourthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+fourthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+fourthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+fourthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+fourthGymEquipment.equipmentMaterial);
+			fourthGymEquipment.getEquipmentInfo();
 			
 			GymEquipment fifthGymEquipment = new GymEquipment();
 			fifthGymEquipment.equipmentId=5;
@@ -82,15 +50,7 @@ class GymEquipmentRunner{
 			fifthGymEquipment.equipmentPowerSource="Manual";
 			fifthGymEquipment.costOfEquipment=25000.00;
 			fifthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("fifth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+fifthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+fifthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+fifthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+fifthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+fifthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+fifthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+fifthGymEquipment.equipmentMaterial);
+			fifthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment sixthGymEquipment = new GymEquipment();
 			sixthGymEquipment.equipmentId=6;
@@ -100,15 +60,7 @@ class GymEquipmentRunner{
 			sixthGymEquipment.equipmentPowerSource="Manual";
 			sixthGymEquipment.costOfEquipment=7000.00;
 			sixthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("sixth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+sixthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+sixthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+sixthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+sixthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+sixthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+sixthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+sixthGymEquipment.equipmentMaterial);
+			sixthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment sevenGymEquipment = new GymEquipment();
 			sevenGymEquipment.equipmentId=7;
@@ -118,15 +70,7 @@ class GymEquipmentRunner{
 			sevenGymEquipment.equipmentPowerSource="Manual";
 			sevenGymEquipment.costOfEquipment=1000.00;
 			sevenGymEquipment.equipmentMaterial="Rubber";
-				System.out.println();
-				System.out.println("seventh Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+sevenGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+sevenGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+sevenGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+sevenGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+sevenGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+sevenGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+sevenGymEquipment.equipmentMaterial);
+			sevenGymEquipment.getEquipmentInfo();
 				
 			GymEquipment eighthGymEquipment = new GymEquipment();
 			eighthGymEquipment.equipmentId=8;
@@ -136,15 +80,7 @@ class GymEquipmentRunner{
 			eighthGymEquipment.equipmentPowerSource="Manual";
 			eighthGymEquipment.costOfEquipment=1500.00;
 			eighthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("Eighth  Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+eighthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+eighthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+eighthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+eighthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+eighthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+eighthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+eighthGymEquipment.equipmentMaterial);
+			eighthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment ninthGymEquipment = new GymEquipment();
 			ninthGymEquipment.equipmentId=9;
@@ -154,15 +90,7 @@ class GymEquipmentRunner{
 			ninthGymEquipment.equipmentPowerSource="Manual";
 			ninthGymEquipment.costOfEquipment=5500.00;
 			ninthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("Ninth  Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+ninthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+ninthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+ninthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+ninthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+ninthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+ninthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+ninthGymEquipment.equipmentMaterial);
+			ninthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment tenthGymEquipment = new GymEquipment();
 			tenthGymEquipment.equipmentId=10;
@@ -172,15 +100,7 @@ class GymEquipmentRunner{
 			tenthGymEquipment.equipmentPowerSource="Manual";
 			tenthGymEquipment.costOfEquipment=10500.00;
 			tenthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("tenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+tenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+tenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+tenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+tenthGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+tenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+tenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+tenthGymEquipment.equipmentMaterial);
+			tenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment eleventhGymEquipment = new GymEquipment();
 			eleventhGymEquipment.equipmentId=11;
@@ -190,15 +110,7 @@ class GymEquipmentRunner{
 			eleventhGymEquipment.equipmentPowerSource="Electric";
 			eleventhGymEquipment.costOfEquipment=12500.00;
 			eleventhGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("eleventh Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+eleventhGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+eleventhGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+eleventhGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+eleventhGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+eleventhGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+eleventhGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+eleventhGymEquipment.equipmentMaterial);
+			eleventhGymEquipment.getEquipmentInfo();
 				
 			GymEquipment twelvethGymEquipment = new GymEquipment();
 			twelvethGymEquipment.equipmentId=12;
@@ -208,15 +120,7 @@ class GymEquipmentRunner{
 			twelvethGymEquipment.equipmentPowerSource="Manual";
 			twelvethGymEquipment.costOfEquipment=9500.00;
 			twelvethGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("twelveth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+twelvethGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+twelvethGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+twelvethGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+twelvethGymEquipment.equipmentWeight+" Kg");
-				System.out.println("power source of the gym equipment is  : "+twelvethGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+twelvethGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+twelvethGymEquipment.equipmentMaterial);
+			twelvethGymEquipment.getEquipmentInfo();
 				
 			GymEquipment thirteenthGymEquipment = new GymEquipment();
 			thirteenthGymEquipment.equipmentId=13;
@@ -226,15 +130,7 @@ class GymEquipmentRunner{
 			thirteenthGymEquipment.equipmentPowerSource="Manual";
 			thirteenthGymEquipment.costOfEquipment=1400.00;
 			thirteenthGymEquipment.equipmentMaterial="Rubber";
-				System.out.println();
-				System.out.println("thirteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+thirteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+thirteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+thirteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+thirteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+thirteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+thirteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+thirteenthGymEquipment.equipmentMaterial);
+			thirteenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment fourteenthGymEquipment = new GymEquipment();
 			fourteenthGymEquipment.equipmentId=14;
@@ -244,15 +140,7 @@ class GymEquipmentRunner{
 			fourteenthGymEquipment.equipmentPowerSource="Manual";
 			fourteenthGymEquipment.costOfEquipment=1500.00;
 			fourteenthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("fourteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+fourteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+fourteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+fourteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+fourteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+fourteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+fourteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+fourteenthGymEquipment.equipmentMaterial);
+			fourteenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment fifteenthGymEquipment = new GymEquipment();
 			fifteenthGymEquipment.equipmentId=15;
@@ -262,15 +150,7 @@ class GymEquipmentRunner{
 			fifteenthGymEquipment.equipmentPowerSource="Manual";
 			fifteenthGymEquipment.costOfEquipment=3500.00;
 			fifteenthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("fifteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+fifteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+fifteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+fifteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+fifteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+fifteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+fifteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+fifteenthGymEquipment.equipmentMaterial);
+			fifteenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment sixteenthGymEquipment = new GymEquipment();
 			sixteenthGymEquipment.equipmentId=16;
@@ -280,15 +160,7 @@ class GymEquipmentRunner{
 			sixteenthGymEquipment.equipmentPowerSource="Manual";
 			sixteenthGymEquipment.costOfEquipment=6500.00;
 			sixteenthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("sixteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+sixteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+sixteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+sixteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+sixteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+sixteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+sixteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+sixteenthGymEquipment.equipmentMaterial);
+			sixteenthGymEquipment.getEquipmentInfo();
 			
 			GymEquipment seventeenthGymEquipment = new GymEquipment();
 			seventeenthGymEquipment.equipmentId=17;
@@ -298,16 +170,8 @@ class GymEquipmentRunner{
 			seventeenthGymEquipment.equipmentPowerSource="Manual";
 			seventeenthGymEquipment.costOfEquipment=40000.00;
 			seventeenthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("seventeenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+seventeenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+seventeenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+seventeenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+seventeenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+seventeenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+seventeenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+seventeenthGymEquipment.equipmentMaterial);
-				
+			seventeenthGymEquipment.getEquipmentInfo();
+			
 			GymEquipment eighteenthGymEquipment = new GymEquipment();
 			eighteenthGymEquipment.equipmentId=18;
 			eighteenthGymEquipment.equipmentName="Leg Curl Machine";
@@ -316,15 +180,7 @@ class GymEquipmentRunner{
 			eighteenthGymEquipment.equipmentPowerSource="Manual";
 			eighteenthGymEquipment.costOfEquipment=11000.00;
 			eighteenthGymEquipment.equipmentMaterial="Steel";
-				System.out.println();
-				System.out.println("eighteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+eighteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+eighteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+eighteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+eighteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+eighteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+eighteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+eighteenthGymEquipment.equipmentMaterial);
+			eighteenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment nineteenthGymEquipment = new GymEquipment();
 			nineteenthGymEquipment.equipmentId=19;
@@ -334,15 +190,7 @@ class GymEquipmentRunner{
 			nineteenthGymEquipment.equipmentPowerSource="Manual";
 			nineteenthGymEquipment.costOfEquipment=21000.00;
 			nineteenthGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("nineteenth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+nineteenthGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+nineteenthGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+nineteenthGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+nineteenthGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+nineteenthGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+nineteenthGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+nineteenthGymEquipment.equipmentMaterial);
+			nineteenthGymEquipment.getEquipmentInfo();
 				
 			GymEquipment twentiethGymEquipment = new GymEquipment();
 			twentiethGymEquipment.equipmentId=20;
@@ -352,15 +200,7 @@ class GymEquipmentRunner{
 			twentiethGymEquipment.equipmentPowerSource="Manual";
 			twentiethGymEquipment.costOfEquipment=25000.00;
 			twentiethGymEquipment.equipmentMaterial="Aluminium";
-				System.out.println();
-				System.out.println("twentieth Gym equipment Details : ");
-				System.out.println("id of the gym equipment is : "+twentiethGymEquipment.equipmentId);
-				System.out.println("name of the gym equipment is : "+twentiethGymEquipment.equipmentName);
-				System.out.println("type of the gym equipment is : "+twentiethGymEquipment.equipmentType);
-				System.out.println("weight of the gym equipment is : "+twentiethGymEquipment.equipmentWeight+" g");
-				System.out.println("power source of the gym equipment is  : "+twentiethGymEquipment.equipmentPowerSource);
-				System.out.println("cost of the gym equipment is : "+twentiethGymEquipment.costOfEquipment);
-				System.out.println("material of the equipment is  : "+twentiethGymEquipment.equipmentMaterial);
+			twentiethGymEquipment.getEquipmentInfo();
 				System.out.println();
 		System.out.println("main ended");
 	}

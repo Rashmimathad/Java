@@ -6,4 +6,16 @@ class Jewellery{
 	double jewelleryPrice;
 	String jewelleryDesignStyle;
 	int warrantyPeriod;
+	
+	public void getJewelleryInfo(){
+			System.out.println();
+			System.out.println("Jewellery  details : ");
+			System.out.println("id of jewellery is : "+jewelleryId);
+			System.out.println("the type of the jewellery is : "+jewelleryType);
+			System.out.println("the jewellery name is : "+jewelleryName);
+			System.out.println("the making charges of the jewellery is : "+makingCharges+" %");
+			System.out.println("the price of the jewellery is : "+jewelleryPrice);
+			System.out.println("the design style of the jewellery is : "+jewelleryDesignStyle);
+			System.out.println("the warranty period of the jewellery is  : "+warrantyPeriod);
+	}
 }

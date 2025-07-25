@@ -10,15 +10,7 @@ class KingRunner{
 			kingOne.capitalCity="Vijayanagar";
 			kingOne.reignStart="26 July 1509";
 			kingOne.reignEnd="17 October 1529";
-				System.out.println();
-				System.out.println("King One details : ");
-				System.out.println("id of the king : "+kingOne.kingId);
-				System.out.println("name of the king is : "+kingOne.kingName);
-				System.out.println("name of the dynasty of the king : "+kingOne.dynastyName);
-				System.out.println("name of the kingdom : "+kingOne.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingOne.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingOne.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingOne.reignEnd);
+			kingOne.getKingInfo();
 
 			King kingTwo=new King();
 			kingTwo.kingId=2;
@@ -28,15 +20,7 @@ class KingRunner{
 			kingTwo.capitalCity="Pataliputra";
 			kingTwo.reignStart="268 BCE";
 			kingTwo.reignEnd="232 BCE";
-				System.out.println();
-				System.out.println("King Two details : ");
-				System.out.println("id of the king : "+kingTwo.kingId);
-				System.out.println("name of the king is : "+kingTwo.kingName);
-				System.out.println("name of the dynasty of the king : "+kingTwo.dynastyName);
-				System.out.println("name of the kingdom : "+kingTwo.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingTwo.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingTwo.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingTwo.reignEnd);
+			kingTwo.getKingInfo();
 
 			King kingThree=new King();
 			kingThree.kingId=3;
@@ -46,15 +30,7 @@ class KingRunner{
 			kingThree.capitalCity="Agra";
 			kingThree.reignStart="11 February 1556";
 			kingThree.reignEnd="27 October 1605";
-				System.out.println();
-				System.out.println("King Three details : ");
-				System.out.println("id of the king : "+kingThree.kingId);
-				System.out.println("name of the king is : "+kingThree.kingName);
-				System.out.println("name of the dynasty of the king : "+kingThree.dynastyName);
-				System.out.println("name of the kingdom : "+kingThree.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingThree.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingThree.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingThree.reignEnd);
+			kingThree.getKingInfo();
 
 			King kingFour=new King();
 			kingFour.kingId=4;
@@ -64,15 +40,7 @@ class KingRunner{
 			kingFour.capitalCity="Pataliputra";
 			kingFour.reignStart="321 BCE";
 			kingFour.reignEnd="297 BCE";
-				System.out.println();
-				System.out.println("King Four details : ");
-				System.out.println("id of the king : "+kingFour.kingId);
-				System.out.println("name of the king is : "+kingFour.kingName);
-				System.out.println("name of the dynasty of the king : "+kingFour.dynastyName);
-				System.out.println("name of the kingdom : "+kingFour.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingFour.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingFour.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingFour.reignEnd);
+			kingFour.getKingInfo();
 
 			King kingFive=new King();
 			kingFive.kingId=5;
@@ -82,15 +50,7 @@ class KingRunner{
 			kingFive.capitalCity="Thanjavur";
 			kingFive.reignStart="985 CE";
 			kingFive.reignEnd="1014 CE";
-				System.out.println();
-				System.out.println("King Five details : ");
-				System.out.println("id of the king : "+kingFive.kingId);
-				System.out.println("name of the king is : "+kingFive.kingName);
-				System.out.println("name of the dynasty of the king : "+kingFive.dynastyName);
-				System.out.println("name of the kingdom : "+kingFive.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingFive.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingFive.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingFive.reignEnd);
+			kingFive.getKingInfo();
 			
 			King kingSix=new King();
 			kingSix.kingId=6;
@@ -100,16 +60,8 @@ class KingRunner{
 			kingSix.capitalCity="Raigad";
 			kingSix.reignStart="1674";
 			kingSix.reignEnd="1680";
-				System.out.println();
-				System.out.println("King Six details : ");
-				System.out.println("id of the king : "+kingSix.kingId);
-				System.out.println("name of the king is : "+kingSix.kingName);
-				System.out.println("name of the dynasty of the king : "+kingSix.dynastyName);
-				System.out.println("name of the kingdom : "+kingSix.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingSix.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingSix.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingSix.reignEnd);
-
+			kingSix.getKingInfo();
+			
 			King kingSeven=new King();
 			kingSeven.kingId=7;
 			kingSeven.kingName="Harsha";
@@ -118,15 +70,7 @@ class KingRunner{
 			kingSeven.capitalCity="Kannauj";
 			kingSeven.reignStart="606 CE";
 			kingSeven.reignEnd="647 CE";
-				System.out.println();
-				System.out.println("King Seven details : ");
-				System.out.println("id of the king : "+kingSeven.kingId);
-				System.out.println("name of the king is : "+kingSeven.kingName);
-				System.out.println("name of the dynasty of the king : "+kingSeven.dynastyName);
-				System.out.println("name of the kingdom : "+kingSeven.kingdomName);
-				System.out.println("capitalCity of the kingdom is : "+kingSeven.capitalCity);
-				System.out.println("reign starte of the kingdom is : "+kingSeven.reignStart);
-				System.out.println("reign end of the kingdom is : "+kingSeven.reignEnd);
+			kingSeven.getKingInfo();
 			
 			King kingEight = new King();
 			kingEight.kingId = 8;
@@ -136,15 +80,7 @@ class KingRunner{
 			kingEight.capitalCity = "Thanjavur";
 			kingEight.reignStart = "985 CE";
 			kingEight.reignEnd = "1014 CE";
-				System.out.println();
-				System.out.println("King Eight details : ");
-				System.out.println("id of the king : " + kingEight.kingId);
-				System.out.println("name of the king is : " + kingEight.kingName);
-				System.out.println("name of the dynasty of the king : " + kingEight.dynastyName);
-				System.out.println("name of the kingdom : " + kingEight.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingEight.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingEight.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingEight.reignEnd);
+			kingEight.getKingInfo();
 
 			King kingNine = new King();
 			kingNine.kingId = 9;
@@ -154,15 +90,7 @@ class KingRunner{
 			kingNine.capitalCity = "Pataliputra";
 			kingNine.reignStart = "c. 335 CE";
 			kingNine.reignEnd = "c. 375 CE";
-				System.out.println();
-				System.out.println("King Nine details : ");
-				System.out.println("id of the king : " + kingNine.kingId);
-				System.out.println("name of the king is : " + kingNine.kingName);
-				System.out.println("name of the dynasty of the king : " + kingNine.dynastyName);
-				System.out.println("name of the kingdom : " + kingNine.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingNine.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingNine.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingNine.reignEnd);
+			kingNine.getKingInfo();
 
 			King kingTen = new King();
 			kingTen.kingId = 10;
@@ -172,15 +100,7 @@ class KingRunner{
 			kingTen.capitalCity = "Pataliputra";
 			kingTen.reignStart = "321 BCE";
 			kingTen.reignEnd = "297 BCE";
-				System.out.println();
-				System.out.println("King Ten details : ");
-				System.out.println("id of the king : " + kingTen.kingId);
-				System.out.println("name of the king is : " + kingTen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingTen.dynastyName);
-				System.out.println("name of the kingdom : " + kingTen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingTen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingTen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingTen.reignEnd);
+			kingTen.getKingInfo();
 
 			King kingEleven = new King();
 			kingEleven.kingId = 11;
@@ -190,15 +110,7 @@ class KingRunner{
 			kingEleven.capitalCity = "Thanesar";
 			kingEleven.reignStart = "606 CE";
 			kingEleven.reignEnd = "647 CE";
-				System.out.println();
-				System.out.println("King Eleven details : ");
-				System.out.println("id of the king : " + kingEleven.kingId);
-				System.out.println("name of the king is : " + kingEleven.kingName);
-				System.out.println("name of the dynasty of the king : " + kingEleven.dynastyName);
-				System.out.println("name of the kingdom : " + kingEleven.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingEleven.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingEleven.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingEleven.reignEnd);
+			kingEleven.getKingInfo();
 
 			King kingTwelve = new King();
 			kingTwelve.kingId = 12;
@@ -208,15 +120,7 @@ class KingRunner{
 			kingTwelve.capitalCity = "Chittorgarh";
 			kingTwelve.reignStart = "1572";
 			kingTwelve.reignEnd = "1597";
-				System.out.println();
-				System.out.println("King Twelve details : ");
-				System.out.println("id of the king : " + kingTwelve.kingId);
-				System.out.println("name of the king is : " + kingTwelve.kingName);
-				System.out.println("name of the dynasty of the king : " + kingTwelve.dynastyName);
-				System.out.println("name of the kingdom : " + kingTwelve.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingTwelve.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingTwelve.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingTwelve.reignEnd);
+			kingTwelve.getKingInfo();
 
 			King kingThirteen = new King();
 			kingThirteen.kingId = 13;
@@ -226,15 +130,7 @@ class KingRunner{
 			kingThirteen.capitalCity = "Pataliputra";
 			kingThirteen.reignStart = "268 BCE";
 			kingThirteen.reignEnd = "232 BCE";
-				System.out.println();
-				System.out.println("King Thirteen details : ");
-				System.out.println("id of the king : " + kingThirteen.kingId);
-				System.out.println("name of the king is : " + kingThirteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingThirteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingThirteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingThirteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingThirteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingThirteen.reignEnd);
+			kingThirteen.getKingInfo();
 			
 			King kingFourteen = new King();
 			kingFourteen.kingId = 14;
@@ -244,15 +140,7 @@ class KingRunner{
 			kingFourteen.capitalCity = "Vijayanagara";
 			kingFourteen.reignStart = "1509";
 			kingFourteen.reignEnd = "1529";
-				System.out.println();
-				System.out.println("King Fourteen details : ");
-				System.out.println("id of the king : " + kingFourteen.kingId);
-				System.out.println("name of the king is : " + kingFourteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingFourteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingFourteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingFourteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingFourteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingFourteen.reignEnd);
+			kingFourteen.getKingInfo();
 
 			King kingFifteen = new King();
 			kingFifteen.kingId = 15;
@@ -262,15 +150,7 @@ class KingRunner{
 			kingFifteen.capitalCity = "Vatapi";
 			kingFifteen.reignStart = "610 CE";
 			kingFifteen.reignEnd = "642 CE";
-				System.out.println();
-				System.out.println("King Fifteen details : ");
-				System.out.println("id of the king : " + kingFifteen.kingId);
-				System.out.println("name of the king is : " + kingFifteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingFifteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingFifteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingFifteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingFifteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingFifteen.reignEnd);
+			kingFifteen.getKingInfo();
 
 			King kingSixteen = new King();
 			kingSixteen.kingId = 16;
@@ -280,15 +160,7 @@ class KingRunner{
 			kingSixteen.capitalCity = "Gangaikonda Cholapuram";
 			kingSixteen.reignStart = "1014 CE";
 			kingSixteen.reignEnd = "1044 CE";
-				System.out.println();
-				System.out.println("King Sixteen details : ");
-				System.out.println("id of the king : " + kingSixteen.kingId);
-				System.out.println("name of the king is : " + kingSixteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingSixteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingSixteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingSixteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingSixteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingSixteen.reignEnd);
+			kingSixteen.getKingInfo();
 
 			King kingSeventeen = new King();
 			kingSeventeen.kingId = 17;
@@ -298,16 +170,8 @@ class KingRunner{
 			kingSeventeen.capitalCity = "Rajagriha";
 			kingSeventeen.reignStart = "544 BCE";
 			kingSeventeen.reignEnd = "492 BCE";
-				System.out.println();
-				System.out.println("King Seventeen details : ");
-				System.out.println("id of the king : " + kingSeventeen.kingId);
-				System.out.println("name of the king is : " + kingSeventeen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingSeventeen.dynastyName);
-				System.out.println("name of the kingdom : " + kingSeventeen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingSeventeen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingSeventeen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingSeventeen.reignEnd);
-
+			kingSeventeen.getKingInfo();
+			
 			King kingEighteen = new King();
 			kingEighteen.kingId = 18;
 			kingEighteen.kingName = "Ajatashatru";
@@ -316,15 +180,7 @@ class KingRunner{
 			kingEighteen.capitalCity = "Pataliputra";
 			kingEighteen.reignStart = "492 BCE";
 			kingEighteen.reignEnd = "460 BCE";
-				System.out.println();
-				System.out.println("King Eighteen details : ");
-				System.out.println("id of the king : " + kingEighteen.kingId);
-				System.out.println("name of the king is : " + kingEighteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingEighteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingEighteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingEighteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingEighteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingEighteen.reignEnd);
+			kingEighteen.getKingInfo();	
 
 			King kingNineteen = new King();
 			kingNineteen.kingId = 19;
@@ -334,16 +190,8 @@ class KingRunner{
 			kingNineteen.capitalCity = "Pataliputra";
 			kingNineteen.reignStart = "c. 345 BCE";
 			kingNineteen.reignEnd = "c. 329 BCE";
-				System.out.println();
-				System.out.println("King Nineteen details : ");
-				System.out.println("id of the king : " + kingNineteen.kingId);
-				System.out.println("name of the king is : " + kingNineteen.kingName);
-				System.out.println("name of the dynasty of the king : " + kingNineteen.dynastyName);
-				System.out.println("name of the kingdom : " + kingNineteen.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingNineteen.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingNineteen.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingNineteen.reignEnd);
-
+			kingNineteen.getKingInfo();
+			
 			King kingTwenty = new King();
 			kingTwenty.kingId = 20;
 			kingTwenty.kingName = "Bindusara";
@@ -352,15 +200,7 @@ class KingRunner{
 			kingTwenty.capitalCity = "Pataliputra";
 			kingTwenty.reignStart = "297 BCE";
 			kingTwenty.reignEnd = "273 BCE";
-				System.out.println();
-				System.out.println("King Twenty details : ");
-				System.out.println("id of the king : " + kingTwenty.kingId);
-				System.out.println("name of the king is : " + kingTwenty.kingName);
-				System.out.println("name of the dynasty of the king : " + kingTwenty.dynastyName);
-				System.out.println("name of the kingdom : " + kingTwenty.kingdomName);
-				System.out.println("capitalCity of the kingdom is : " + kingTwenty.capitalCity);
-				System.out.println("reign start of the kingdom is : " + kingTwenty.reignStart);
-				System.out.println("reign end of the kingdom is : " + kingTwenty.reignEnd);
+			kingTwenty.getKingInfo();
 
 
 		System.out.println("main ended");
