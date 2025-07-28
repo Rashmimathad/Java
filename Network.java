@@ -6,8 +6,23 @@ class Network{
 	int bandwidth;
 	boolean isWireless;
 	
-	public void getNetworkInfo(){
+	Network(){
 		System.out.println();
+		System.out.println("Network constructor without parameters loaded");
+	}
+	
+	Network(int networkId,String networkName,String topology,String securityType,int bandwidth,boolean isWireless){
+		System.out.println();
+		System.out.println("Network constructor with parameters loaded");
+		this.networkId=networkId;
+		this.networkName=networkName;
+		this.topology=topology;
+		this.securityType=securityType;
+		this.bandwidth=bandwidth;
+		this.isWireless=isWireless;
+	}
+	
+	public void getNetworkInfo(){
 		System.out.println("network  details : ");
 		System.out.println("id of network is : "+networkId);
 		System.out.println("name of the network is : "+networkName);

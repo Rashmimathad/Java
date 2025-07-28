@@ -7,8 +7,23 @@ class Rod{
 	boolean isMagnetic;
 	double price;
 	
+	Rod(){
+		System.out.println();
+		System.out.println("Rod constructor without parameters loaded");
+	}
+	
+	Rod(int rodId,String rodMaterial,double rodLength,boolean isMagnetic,double weight,double price){
+		System.out.println();
+		System.out.println("Rod constructor with parameters loaded");
+		this.rodId=rodId;
+		this.rodMaterial=rodMaterial;
+		this.rodLength=rodLength;
+		this.isMagnetic=isMagnetic;
+		this.weight=weight;
+		this.price=price;
+	}
+	
 	public void getRodInfo(){
-			System.out.println();
 			System.out.println("Rod  details  : ");
 			System.out.println("id of rod is : "+rodId);
 			System.out.println("material  of rod is : "+rodMaterial);

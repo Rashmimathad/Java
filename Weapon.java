@@ -6,8 +6,23 @@ class Weapon{
 	int manufacturedYear;
 	int range;
 	
-	public void getWeaponInfo(){
+	Weapon(){
 		System.out.println();
+		System.out.println("Weapon constructor without parameters loaded");
+	}
+	
+	Weapon(int weaponId,String weaponName,String weaponMaterial,double price,int manufacturedYear,int range){
+		System.out.println();
+		System.out.println("Weapon constructor with parameters loaded");
+		this.weaponId=weaponId;
+		this.weaponName=weaponName;
+		this.weaponMaterial=weaponMaterial;
+		this.price=price;
+		this.manufacturedYear=manufacturedYear;
+		this.range=range;
+	}
+	
+	public void getWeaponInfo(){
 		System.out.println(" weapon details :");
 		System.out.println("id of weapon is : "+weaponId);
 		System.out.println("name of the weapon is : "+weaponName);

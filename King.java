@@ -7,8 +7,24 @@ class King{
 	String reignStart;
 	String reignEnd;
 	
-	public void getKingInfo(){
+	King(){
 		System.out.println();
+		System.out.println("King constructor without parameters loaded");
+	}
+	
+	King(int kingId,String kingName,String dynastyName,String kingdomName,String capitalCity,String reignStart,String reignEnd){
+		System.out.println();
+		System.out.println("King constructor with parameters loaded");
+		this.kingId=kingId;
+		this.kingName=kingName;
+		this.dynastyName=dynastyName;
+		this.kingdomName=kingdomName;
+		this.capitalCity=capitalCity;
+		this.reignStart=reignStart;
+		this.reignEnd=reignEnd;
+	}
+	
+	public void getKingInfo(){
 		System.out.println("King  details : ");
 		System.out.println("id of the king : "+kingId);
 		System.out.println("name of the king is : "+kingName);

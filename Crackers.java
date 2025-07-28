@@ -7,8 +7,24 @@ class Crackers{
 	int soundLevel;
 	double price;
 	
-	public void getCrackersInfo(){
+	Crackers(){
 		System.out.println();
+		System.out.println("Crackers constructor without parameters loaded");
+	}
+	
+	Crackers(int crackerId,String crackerName,String crackerType,String explosiveContent,int soundLevel,double price){
+		System.out.println();
+		System.out.println("Crackers constructor with parameters loaded");
+		this.crackerId=crackerId;
+		this.crackerName=crackerName;
+		this.crackerType=crackerType;
+		this.explosiveContent=explosiveContent;
+		this.soundLevel=soundLevel;
+		this.price=price;
+	}
+	
+	
+	public void getCrackersInfo(){
 		System.out.println("crackers one details: ");
 		System.out.println("id of cracker is :"+crackerId);
 		System.out.println("name of the cracker is : "+crackerName);

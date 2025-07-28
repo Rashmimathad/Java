@@ -5,10 +5,25 @@ class Fish {
 	String bodyShape;
 	String finType;
 	boolean isAquariumFriendly;
+	
+	Fish(){
+		System.out.println();
+		System.out.println("Fish constructor without parameters loaded");
+	}
+	
+	Fish(int fishId,String fishName,String category,String bodyShape,String finType,boolean isAquariumFriendly){
+		System.out.println();
+		System.out.println("Fish constructor with parameters loaded");
+		this.fishId=fishId;
+		this.fishName=fishName;
+		this.category=category;
+		this.bodyShape=bodyShape;
+		this.finType=finType;
+		this.isAquariumFriendly=isAquariumFriendly;
+	}
 
 	public void getFishInfo(){
-		System.out.println();
-		System.out.println("fish one details : ");
+		System.out.println("fish  details : ");
 		System.out.println("id of fish is : "+fishId);
 		System.out.println("name of the fish is : "+fishName);
 		System.out.println("category of the fish is : "+category);

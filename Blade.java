@@ -7,8 +7,24 @@ class Blade{
 	String bladeType;
 	String sharpnessLevel;
 	
-	public void getBladeInfo(){
+	Blade(){
 		System.out.println();
+		System.out.println("Blade constructor without parameters loaded");
+	}
+	
+	Blade(int bladeId,double bladeWeight,double bladeThickness,String bladeMaterial,double bladeLength,String bladeType,String sharpnessLevel){
+		System.out.println();
+		System.out.println("Blade constructor with parameters loaded");
+		this.bladeId=bladeId;
+		this.bladeWeight=bladeWeight;
+		this.bladeThickness=bladeThickness;
+		this.bladeMaterial=bladeMaterial;
+		this.bladeLength=bladeLength;
+		this.bladeType=bladeType;
+		this.sharpnessLevel=sharpnessLevel;
+	}
+	
+	public void getBladeInfo(){
 		System.out.println("Blade  details : ");
 		System.out.println("id of blade is : "+bladeId);
 		System.out.println("weight of the blade is : "+bladeWeight+" g");

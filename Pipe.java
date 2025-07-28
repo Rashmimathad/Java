@@ -6,8 +6,23 @@ class Pipe{
 	String color;
 	double cost;
 	
-	public void getPipeInfo(){
+	Pipe(){
 		System.out.println();
+		System.out.println("Pipe constructor without parameters loaded");
+	}
+	
+	Pipe(int pipeId,String pipeMaterial,int length,int flowRate,String color,double cost){
+		System.out.println();
+		System.out.println("Pipe constructor with parameters loaded");
+		this.pipeId=pipeId;
+		this.pipeMaterial=pipeMaterial;
+		this.length=length;
+		this.flowRate=flowRate;
+		this.color=color;
+		this.cost=cost;
+	}
+	
+	public void getPipeInfo(){
 		System.out.println("pipe  details : ");
 		System.out.println("id of pipe is : "+pipeId);
 		System.out.println("material of the type is : "+pipeMaterial);

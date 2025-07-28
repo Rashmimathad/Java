@@ -6,9 +6,24 @@ class GiTag{
 	int period;
 	String registeredYear;
 	
-	public void getTagInfo(){
+	GiTag(){
 		System.out.println();
-		System.out.println("gi tag  details: ");
+		System.out.println("GiTag contructor without parameters loaded");		
+	}
+	
+	GiTag(int GiTagId,String name,String state,String catogory,int period,String registeredYear){
+		System.out.println();
+		System.out.println("GiTag contructor with parameters loaded");
+		this.GiTagId=GiTagId;
+		this.name=name;
+		this.state=state;
+		this.catogory=catogory;
+		this.period=period;
+		this.registeredYear=registeredYear;
+	}
+	
+	public void getTagInfo(){
+		System.out.println("Gi Tag  details: ");
 		System.out.println("id of GiTag is"+GiTagId);
 		System.out.println("name of GiTag is"+name);
 		System.out.println("GiTag state is"+state);

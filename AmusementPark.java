@@ -6,8 +6,22 @@ class AmusementPark{
 	String closingTime;
 	double entryFee;
 	
-	public void getParkInfo(){
+	AmusementPark(){
 		System.out.println();
+		System.out.println("AmusementPark constructor without parameteres invoked");
+	}
+	
+	AmusementPark(int parkId,String name,String location,String openingTime,String closingTime,double entryFee){
+		System.out.println();
+		System.out.println("AmusementPark constructor with  parameteres invoked");
+		this.parkId=parkId;
+		this.name=name;
+		this.location=location;
+		this.openingTime=openingTime;
+		this.closingTime=closingTime;
+	}
+	
+	public void getParkInfo(){
 		System.out.println("Park details: ");
 		System.out.println("id of park is:"+parkId);
 		System.out.println("name of the park is:"+name);

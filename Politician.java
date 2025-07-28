@@ -8,8 +8,24 @@ class Politician{
 	String position;
 	String termStarted;
 	
-	public void getPoliticianInfo(){
+	Politician(){
 		System.out.println();
+		System.out.println("Politician constructor without parameters loaded");
+	}
+	
+	Politician(int politicianId,String politicianName,String dateOfBirth,char gender,String politicalParty,String position,String termStarted){
+		System.out.println();
+		System.out.println("Politician constructor with parameters loaded");
+		this.politicianId=politicianId;
+		this.politicianName=politicianName;
+		this.dateOfBirth=dateOfBirth;
+		this.gender=gender;
+		this.politicalParty=politicalParty;
+		this.position=position;
+		this.termStarted=termStarted;
+	}
+	
+	public void getPoliticianInfo(){
 		System.out.println("Politician details : ");
 		System.out.println("id of politician is : "+politicianId);
 		System.out.println("name of the politician : "+politicianName);

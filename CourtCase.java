@@ -7,9 +7,25 @@ class CourtCase{
 	String plaintiffName;
 	String defendantName;
 	
-	public void getCaseInfo(){
+	CourtCase(){
 		System.out.println();
-		System.out.println(" court case details :");
+		System.out.println("court case constructor without parameter loaded");		
+	}
+	
+	CourtCase(int caseId,String caseType,String caseTitle,String courtName,String filingDate,String plaintiffName,String defendantName){
+		System.out.println();
+		System.out.println("court case constructor with parameter loaded");		
+		this.caseId=caseId;
+		this.caseTitle=caseTitle;
+		this.courtName=courtName;
+		this.filingDate=filingDate;
+		this.plaintiffName=plaintiffName;
+		this.defendantName=defendantName;
+	}
+	
+	public void getCaseInfo(){
+
+		System.out.println("court case details :");
 		System.out.println("id of the case is : "+caseId);
 		System.out.println("type of the case is : "+caseType);
 		System.out.println("title of the case is : "+caseTitle);

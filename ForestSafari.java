@@ -6,8 +6,23 @@ class ForestSafari{
 	int groupSizeLimit;
 	boolean isGuideAvailable;
 	
-	public void getSafariInfo(){
+	ForestSafari(){
 		System.out.println();
+		System.out.println("Forest safari constructor without parameters loaded");
+	}
+	
+	ForestSafari(int safariId,String safariName,String safariType,String safariTimings,int groupSizeLimit,boolean isGuideAvailable){
+		System.out.println();
+		System.out.println("Forest safari constructor with parameters loaded");
+		this.safariId=safariId;
+		this.safariName=safariName;
+		this.safariType=safariType;
+		this.safariTimings=safariTimings;
+		this.groupSizeLimit=groupSizeLimit;
+		this.isGuideAvailable=isGuideAvailable;
+	}
+	
+	public void getSafariInfo(){
 		System.out.println("safari  details :");
 		System.out.println("id of the safari is :"+safariId);
 		System.out.println("name of the safari : "+safariName);

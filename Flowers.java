@@ -6,9 +6,24 @@ class Flowers{
 	String nativeRegion;
 	String lifespan;
 
-	public void getFlowersInfo(){
+	Flowers(){
 		System.out.println();
-		System.out.println("flower one details:");
+		System.out.println("Flowers constructor without parameters loaded");
+	}
+	
+	Flowers(int flowerId,String flowerName,String scientificName,String color,String nativeRegion,String lifespan){
+		System.out.println();
+		System.out.println("Flowers constructor with parameters loaded");
+		this.flowerId=flowerId;
+		this.flowerName=flowerName;
+		this.scientificName=scientificName;
+		this.color=color;
+		this.nativeRegion=nativeRegion;
+		this.lifespan=lifespan;
+	}
+	
+	public void getFlowersInfo(){
+		System.out.println("flower  details:");
 		System.out.println("id of the flower : "+flowerId);
 		System.out.println("name of the flower is : "+flowerName);
 		System.out.println("color of the flower is : "+flowerName);
