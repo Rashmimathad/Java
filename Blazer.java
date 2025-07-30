@@ -13,6 +13,29 @@ class Blazer{
 		System.out.println("Blazer constructer without parameters loaded");
 	}
 	
+	Blazer(	int blazerId,String brandName){
+		System.out.println();
+		System.out.println("Blazer constructer with(int,String) parameters loaded");
+		this.blazerId=blazerId;
+		this.brandName=brandName;
+	}
+	
+	Blazer(String size,String color,String materialType){
+		System.out.println();
+		System.out.println("Blazer constructer with(String,String,String) parameters loaded");
+		this.size=size;
+		this.color=color;
+		this.materialType=materialType;
+	}
+	
+	Blazer(String brandName,int noOfButtons,String fitType){
+		System.out.println();
+		System.out.println("Blazer constructer with(String,int,String) parameters loaded");
+		this.brandName=brandName;
+		this.noOfButtons=noOfButtons;
+		this.fitType=fitType;
+	}
+	
 	Blazer(int blazerId,String brandName,String size,String color,String materialType,int noOfButtons,String fitType){
 		System.out.println();
 		System.out.println("Blazer constructer with parameters loaded");

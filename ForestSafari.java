@@ -11,6 +11,30 @@ class ForestSafari{
 		System.out.println("Forest safari constructor without parameters loaded");
 	}
 	
+	ForestSafari(int safariId,String safariName,String safariType){
+		System.out.println();
+		System.out.println("Forest safari constructor with(int,String,String) parameters loaded");
+		this.safariId=safariId;
+		this.safariName=safariName;
+		this.safariType=safariType;
+	}
+	
+	ForestSafari(String safariTimings,int groupSizeLimit,boolean isGuideAvailable){
+		System.out.println();
+		System.out.println("Forest safari constructor with(String,int,boolean) parameters loaded");
+		this.safariTimings=safariTimings;
+		this.groupSizeLimit=groupSizeLimit;
+		this.isGuideAvailable=isGuideAvailable;
+	}
+	
+	ForestSafari(String safariName,String safariType,String safariTimings){
+		System.out.println();
+		System.out.println("Forest safari constructor with(String,String,String) parameters loaded");
+		this.safariName=safariName;
+		this.safariType=safariType;
+		this.safariTimings=safariTimings;
+	}
+	
 	ForestSafari(int safariId,String safariName,String safariType,String safariTimings,int groupSizeLimit,boolean isGuideAvailable){
 		System.out.println();
 		System.out.println("Forest safari constructor with parameters loaded");

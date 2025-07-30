@@ -12,6 +12,28 @@ class Marble{
 		System.out.println("Marble costructor without parameters loaded");
 	}
 	
+	Marble(int marbleId,String marbleName){
+		System.out.println();
+		System.out.println("Marble costructor with(int,String) parameters loaded");
+		this.marbleId=marbleId;
+		this.marbleName=marbleName;
+	}
+	
+	Marble(String texture,String porosity,String pattern){
+		System.out.println();
+		System.out.println("Marble costructor with(String,String,String) parameters loaded");
+		this.texture=texture;
+		this.porosity=porosity;
+		this.pattern=pattern;
+	}
+	
+	Marble(String marbleName,String color){
+		System.out.println();
+		System.out.println("Marble costructor with(String,String) parameters loaded");
+		this.marbleName=marbleName;
+		this.color=color;
+	}
+	
 	Marble(int marbleId,String marbleName,String texture,String porosity,String pattern,String color){
 		System.out.println();
 		System.out.println("Marble costructor with parameters loaded");

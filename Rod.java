@@ -12,6 +12,28 @@ class Rod{
 		System.out.println("Rod constructor without parameters loaded");
 	}
 	
+	Rod(int rodId,String rodMaterial){
+		System.out.println();
+		System.out.println("Rod constructor with(int,String) parameters loaded");
+		this.rodId=rodId;
+		this.rodMaterial=rodMaterial;
+	}
+	
+	Rod(double price,double weight){
+		System.out.println();
+		System.out.println("Rod constructor with(double,double) parameters loaded");
+		this.price=price;
+		this.weight=weight;
+	}
+	
+	Rod(boolean isMagnetic,double rodLength){
+		System.out.println();
+		System.out.println("Rod constructor with(boolean,double) parameters loaded");
+		this.isMagnetic=isMagnetic;
+		this.rodLength=rodLength;
+		
+	}
+	
 	Rod(int rodId,String rodMaterial,double rodLength,boolean isMagnetic,double weight,double price){
 		System.out.println();
 		System.out.println("Rod constructor with parameters loaded");

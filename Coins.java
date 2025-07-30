@@ -11,6 +11,28 @@ class Coins{
 		System.out.println("Coins constructor without parameters loaded");
 	}
 	
+	Coins(int coinId,String currencyName){
+		System.out.println();
+		System.out.println("Coins constructor with(int,String) parameters loaded");
+		this.coinId=coinId;
+		this.currencyName=currencyName;
+	}
+	
+	Coins(String countryOfOrigin,String coinMaterial,int yearOfMinting){
+		System.out.println();
+		System.out.println("Coins constructor with(String,String,int) parameters loaded");
+		this.countryOfOrigin=countryOfOrigin;
+		this.coinMaterial=coinMaterial;
+		this.yearOfMinting=yearOfMinting;
+	}
+	
+	Coins(String currencyName,double coinWeight){
+		System.out.println();
+		System.out.println("Coins constructor with(String,double) parameters loaded");
+		this.currencyName=currencyName;
+		this.coinWeight=coinWeight;
+	}
+	
 	Coins(int coinId,String currencyName,String countryOfOrigin,String coinMaterial,int yearOfMinting,double coinWeight){
 		System.out.println();
 		System.out.println("Coins constructor with parameters loaded");

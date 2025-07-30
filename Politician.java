@@ -13,6 +13,28 @@ class Politician{
 		System.out.println("Politician constructor without parameters loaded");
 	}
 	
+	Politician(int politicianId,String politicianName){
+		System.out.println();
+		System.out.println("Politician constructor with(int,String) parameters loaded");
+		this.politicianId=politicianId;
+		this.politicianName=politicianName;
+	}
+	
+	Politician(String dateOfBirth,char gender,String politicalParty){
+		System.out.println();
+		System.out.println("Politician constructor with(String,char,Sting) parameters loaded");
+		this.dateOfBirth=dateOfBirth;
+		this.gender=gender;
+		this.politicalParty=politicalParty;
+	}
+	
+	Politician(String position,String termStarted){
+		System.out.println();
+		System.out.println("Politician constructor with(STring,String) parameters loaded");
+		this.position=position;
+		this.termStarted=termStarted;
+	}
+	
 	Politician(int politicianId,String politicianName,String dateOfBirth,char gender,String politicalParty,String position,String termStarted){
 		System.out.println();
 		System.out.println("Politician constructor with parameters loaded");

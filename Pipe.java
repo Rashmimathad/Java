@@ -11,6 +11,27 @@ class Pipe{
 		System.out.println("Pipe constructor without parameters loaded");
 	}
 	
+	Pipe(int pipeId,String pipeMaterial){
+		System.out.println();
+		System.out.println("Pipe constructor with(int,String) parameters loaded");
+		this.pipeId=pipeId;
+		this.pipeMaterial=pipeMaterial;
+	}
+	
+	Pipe(int length,int flowRate){
+		System.out.println();
+		System.out.println("Pipe constructor with(int,int) parameters loaded");
+		this.length=length;
+		this.flowRate=flowRate;
+	}
+	
+	Pipe(String color,double cost){
+		System.out.println();
+		System.out.println("Pipe constructor with(String,double) parameters loaded");
+		this.color=color;
+		this.cost=cost;
+	}
+	
 	Pipe(int pipeId,String pipeMaterial,int length,int flowRate,String color,double cost){
 		System.out.println();
 		System.out.println("Pipe constructor with parameters loaded");

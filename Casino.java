@@ -12,9 +12,30 @@ class Casino{
 			System.out.println("Casino constructor without parameters loaded");
 	}
 	
+	Casino(int casinoId,String casinoName){
+			System.out.println();
+			System.out.println("Casino constructor with(int,String) parameters loaded");
+			this.casinoId=casinoId;
+			this.casinoName=casinoName;
+	}
+	
+	Casino(String location,int establishedYear){
+			System.out.println();
+			System.out.println("Casino constructor with(String,int) parameters loaded");
+			this.location=location;
+			this.establishedYear=establishedYear;
+	}
+	
+	Casino(int numberOfTablesGames,int numberOfSlotMachines){
+			System.out.println();
+			System.out.println("Casino constructor with(int,int) parameters loaded");
+			this.numberOfTablesGames=numberOfTablesGames;
+			this.numberOfSlotMachines=numberOfSlotMachines;
+	}
+	
 	Casino(int casinoId,String casinoName,String location,int establishedYear,int numberOfTablesGames,int numberOfSlotMachines){
 			System.out.println();
-			System.out.println("Casino constructor without parameters loaded");
+			System.out.println("Casino constructor with parameters loaded");
 			this.casinoId=casinoId;
 			this.casinoName=casinoName;
 			this.location=location;

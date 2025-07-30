@@ -11,11 +11,33 @@ class Hat{
 		System.out.println("Hat constructor without parameters loaded");
 	}
 	
+	Hat(int hatId,String hatType){
+		System.out.println();
+		System.out.println("Hat constructor with(int,String) parameters loaded");
+		this.hatId=hatId;
+		this.hatType=hatType;
+	}
+	
+	Hat(String hatColor,String brandName){
+		System.out.println();
+		System.out.println("Hat constructor with(String,String) parameters loaded");
+		this.hatColor=hatColor;
+		this.brandName=brandName;
+	}
+	
+	Hat(String brandName,double price,String material){
+		System.out.println();
+		System.out.println("Hat constructor with(String,double,String) parameters loaded");
+		this.brandName=brandName;
+		this.price=price;
+		this.material=material;
+	}
 	Hat(int hatId,String hatType,String hatColor,String brandName,double price,String material){
 		System.out.println();
 		System.out.println("Hat constructor with parameters loaded");
 		this.hatId=hatId;
 		this.hatType=hatType;
+		this.brandName=brandName;
 		this.hatColor=hatColor;
 		this.price=price;
 		this.material=material;

@@ -12,6 +12,29 @@ class CourtCase{
 		System.out.println("court case constructor without parameter loaded");		
 	}
 	
+	CourtCase(int caseId,String caseType,String caseTitle){
+		System.out.println();
+		System.out.println("court case constructor with(int,String,String) parameter loaded");	
+		this.caseId=caseId;
+		this.caseType=caseType;
+		this.caseTitle=caseTitle;
+	}
+	
+	CourtCase(String courtName,String filingDate){
+		System.out.println();
+		System.out.println("court case constructor with(String,String) parameter loaded");
+		this.courtName=courtName;
+		this.filingDate=filingDate;
+	}
+	
+	CourtCase(String caseTitle,String plaintiffName,String defendantName){
+		System.out.println();
+		System.out.println("court case constructor with(String,String,String) parameter loaded");		
+		this.caseTitle=caseTitle;
+		this.plaintiffName=plaintiffName;
+		this.defendantName=defendantName;
+	}
+	
 	CourtCase(int caseId,String caseType,String caseTitle,String courtName,String filingDate,String plaintiffName,String defendantName){
 		System.out.println();
 		System.out.println("court case constructor with parameter loaded");		

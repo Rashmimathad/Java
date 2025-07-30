@@ -12,6 +12,28 @@ class King{
 		System.out.println("King constructor without parameters loaded");
 	}
 	
+	King(int kingId,String kingName){
+		System.out.println();
+		System.out.println("King constructor with(int,String) parameters loaded");
+		this.kingId=kingId;
+		this.kingName=kingName;
+	}
+	
+	King(String dynastyName,String kingdomName,String capitalCity){
+		System.out.println();
+		System.out.println("King constructor with(String,String,String) parameters loaded");
+		this.dynastyName=dynastyName;
+		this.kingdomName=kingdomName;
+		this.capitalCity=capitalCity;
+	}
+	
+	King(String reignStart,String reignEnd){
+		System.out.println();
+		System.out.println("King constructor with(String,String) parameters loaded");
+		this.reignStart=reignStart;
+		this.reignEnd=reignEnd;
+	}
+	
 	King(int kingId,String kingName,String dynastyName,String kingdomName,String capitalCity,String reignStart,String reignEnd){
 		System.out.println();
 		System.out.println("King constructor with parameters loaded");

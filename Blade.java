@@ -12,6 +12,29 @@ class Blade{
 		System.out.println("Blade constructor without parameters loaded");
 	}
 	
+	Blade(int bladeId,double bladeWeight,double bladeThickness){
+		System.out.println();
+		System.out.println("Blade constructor with(int,double,double) parameters loaded");
+		this.bladeId=bladeId;
+		this.bladeWeight=bladeWeight;
+		this.bladeThickness=bladeThickness;
+	}
+	
+	Blade(String bladeMaterial,double bladeLength,String bladeType){
+		System.out.println();
+		System.out.println("Blade constructor with(String,double,String) parameters loaded");
+		this.bladeMaterial=bladeMaterial;
+		this.bladeLength=bladeLength;
+		this.bladeType=bladeType;
+	}
+	
+	Blade(double bladeThickness,String sharpnessLevel){
+		System.out.println();
+		System.out.println("Blade constructor with(double,String) parameters loaded");
+		this.bladeThickness=bladeThickness;
+		this.sharpnessLevel=sharpnessLevel;
+	}
+	
 	Blade(int bladeId,double bladeWeight,double bladeThickness,String bladeMaterial,double bladeLength,String bladeType,String sharpnessLevel){
 		System.out.println();
 		System.out.println("Blade constructor with parameters loaded");

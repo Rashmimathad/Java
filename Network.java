@@ -11,6 +11,27 @@ class Network{
 		System.out.println("Network constructor without parameters loaded");
 	}
 	
+	Network(int networkId,String networkName){
+		System.out.println();
+		System.out.println("Network constructor with(int,String) parameters loaded");
+		this.networkId=networkId;
+		this.networkName=networkName;
+	}
+	
+	Network(String topology,String securityType){
+		System.out.println();
+		System.out.println("Network constructor with(String,String) parameters loaded");
+		this.topology=topology;
+		this.securityType=securityType;
+	}
+	
+	Network(int bandwidth,boolean isWireless){
+		System.out.println();
+		System.out.println("Network constructor with(int,boolean) parameters loaded");
+		this.bandwidth=bandwidth;
+		this.isWireless=isWireless;
+	}
+	
 	Network(int networkId,String networkName,String topology,String securityType,int bandwidth,boolean isWireless){
 		System.out.println();
 		System.out.println("Network constructor with parameters loaded");
