@@ -1,7 +1,7 @@
 package com.xworkz.clothapp.cloth;
 
 public class Cloth {
-    public Cloth(){
-        System.out.println("cloth constructor invoked");
+    public void cloth(){
+        System.out.println("Cloth method invoked");
     }
 }

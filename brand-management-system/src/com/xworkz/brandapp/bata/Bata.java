@@ -3,7 +3,7 @@ package com.xworkz.brandapp.bata;
 import com.xworkz.brandapp.brand.Brand;
 
 public class Bata extends Brand {
-    public Bata(){
-        System.out.println("Bata constructor invoked");
+    public void brand(){
+        System.out.println("Bata is a brand");
     }
 }

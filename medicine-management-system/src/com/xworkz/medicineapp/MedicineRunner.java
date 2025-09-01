@@ -6,7 +6,8 @@ import com.xworkz.medicineapp.medicine.Medicine;
 public class MedicineRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-        Dolo dolo=new Dolo();
+        Medicine medicineOne=new Dolo();
+        medicineOne.medicine();
         System.out.println("main ended");
     }
 }
