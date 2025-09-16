@@ -3,7 +3,7 @@ package com.xworkz.amazonapp.validator;
 import com.xworkz.amazonapp.product.Product;
 
 public class ProductValidator {
-    Product product;
+
 
     public boolean validateProduct(Product product){
         boolean isProductValidated=false;
@@ -13,6 +13,7 @@ public class ProductValidator {
         boolean isBrandNameValid=false;
         boolean isPriceValid=false;
         boolean isManufacturerNameValid=false;
+        boolean isProductAvailabilityValid=false;
 
         if (product.getProductId()!=0)
             isProductIdValid=true;
@@ -23,10 +24,10 @@ public class ProductValidator {
         else System.out.println("Invalid Product Name");
 
         if (product.getCategoryOfProduct()!=null && !product.getCategoryOfProduct().isEmpty())
-            isCategoryOfProductValid=true;
+           isCategoryOfProductValid=true;
         else System.out.println("Invalid category of product");
 
-        if (product.getBrandName()!=null && !product.getBrandName().isEmpty())
+        if (product.getBrandName()!=null)
             isBrandNameValid=true;
         else System.out.println("Invalid brand name");
 
@@ -38,9 +39,12 @@ public class ProductValidator {
             isManufacturerNameValid=true;
         else System.out.println("Invalid manufacturer name");
 
-        if (isProductIdValid && isProductNameValid && isCategoryOfProductValid && isBrandNameValid && isPriceValid && isManufacturerNameValid){
+        if (product.getProductAvailability()!=null) isProductAvailabilityValid=true;
+        else System.out.println("Invalid product availability");
+
+        if (isProductIdValid && isProductNameValid && isCategoryOfProductValid && isBrandNameValid && isPriceValid && isManufacturerNameValid && isProductAvailabilityValid){
             isProductValidated=true;
-        }
+        }else System.out.println("Product not validated!!!");
 
         return isProductValidated;
     }

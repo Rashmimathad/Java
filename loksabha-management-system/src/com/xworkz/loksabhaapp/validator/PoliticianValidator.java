@@ -12,6 +12,7 @@ public class PoliticianValidator {
         boolean isConstituencyNameValid=false;
         boolean isAgeValid=false;
         boolean isYearsInServiceValid=false;
+        boolean isPoliticalPartyValid=false;
 
         if (politician.getPoliticianId()!=0)
             isPoliticianIdValid=true;
@@ -37,7 +38,10 @@ public class PoliticianValidator {
             isYearsInServiceValid=true;
         else System.out.println("Invalid years in service");
 
-        if (isPoliticianIdValid && isPoliticianNameValid && isDesignationValid && isConstituencyNameValid && isAgeValid && isYearsInServiceValid){
+        if (politician.getPoliticalParty()!=null) isPoliticalPartyValid=true;
+        else System.out.println("Invalid political party");
+
+        if (isPoliticianIdValid && isPoliticianNameValid && isDesignationValid && isConstituencyNameValid && isAgeValid && isYearsInServiceValid && isPoliticalPartyValid){
             isPoliticianValidated=true;
         }
         return isPoliticianValidated;

@@ -9,9 +9,9 @@ public class PoliceValidator {
         boolean isPoliceIdValid=false;
         boolean isPoliceNameValid=false;
         boolean isDesignationValid=false;
-        boolean isStationNameValid=false;
         boolean isYearsOfServiceValid=false;
         boolean isOnDutyValid=false;
+        boolean isDepartmentValid=false;
 
         if (police.getPoliceId()!=0)
             isPoliceIdValid=true;
@@ -25,9 +25,6 @@ public class PoliceValidator {
             isDesignationValid=true;
         else System.out.println("Invalid designation");
 
-        if (police.getStationName()!=null && !police.getStationName().isEmpty())
-            isStationNameValid=true;
-        else System.out.println("Invalid station Name");
 
         if (police.getYearsOfService()!=0)
             isYearsOfServiceValid=true;
@@ -37,7 +34,10 @@ public class PoliceValidator {
             isOnDutyValid=true;
         else System.out.println("Invalid details");
 
-        if (isPoliceIdValid && isPoliceNameValid && isDesignationValid && isStationNameValid && isYearsOfServiceValid && isOnDutyValid){
+        if (police.getDepartment()!=null) isDepartmentValid=true;
+        else System.out.println("Invalid Department");
+
+        if (isPoliceIdValid && isPoliceNameValid && isDesignationValid && isYearsOfServiceValid && isOnDutyValid && isDepartmentValid){
             isPoliceValidated=true;
         }
         return isPoliceValidated;

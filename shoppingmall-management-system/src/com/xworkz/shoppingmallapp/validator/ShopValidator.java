@@ -33,7 +33,7 @@ public class ShopValidator {
             isNoOfStaffMembersValid=true;
         else System.out.println("Invalid No of staff members");
 
-        if (shop.getFloorNumber()!=0)
+        if (shop.getFloorNumber()!=null)
             isFloorNumberValid=true;
         else System.out.println("Invalid floor number");
 

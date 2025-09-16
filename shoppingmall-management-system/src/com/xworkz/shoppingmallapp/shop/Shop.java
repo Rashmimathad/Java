@@ -1,5 +1,6 @@
 package com.xworkz.shoppingmallapp.shop;
 
+import com.xworkz.shoppingmallapp.constants.Floor;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +18,7 @@ public class Shop {
     private String shopType;
     private String managerName;
     private int noOfStaffMembers;
-    private int floorNumber;
+    private Floor floorNumber;
 
 //    public void setShopId(int shopId) {
 //        this.shopId = shopId;

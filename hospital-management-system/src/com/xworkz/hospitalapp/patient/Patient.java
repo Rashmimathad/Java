@@ -1,5 +1,6 @@
 package com.xworkz.hospitalapp.patient;
 
+import com.xworkz.hospitalapp.constants.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ public class Patient {
 
     private int patientId;
     private String patientName;
-    private char gender;
+    private Gender gender;
     private long phoneNo;
     private String address;
     private String inchargeDoctorName;

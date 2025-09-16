@@ -1,6 +1,7 @@
 package com.xworkz.amazonapp.product;
 
 
+import com.xworkz.amazonapp.constants.Availability;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,7 +19,7 @@ public class Product {
     private String brandName;
     private double price;
     private String manufacturerName;
-
+    private Availability productAvailability;
 //    public void setProductId(int productId) {
 //        this.productId = productId;
 //    }

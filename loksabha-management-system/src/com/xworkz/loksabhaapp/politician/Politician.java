@@ -1,5 +1,6 @@
 package com.xworkz.loksabhaapp.politician;
 
+import com.xworkz.loksabhaapp.constants.PoliticalParty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,6 +18,7 @@ public class Politician {
     private String constituencyName;
     private int age;
     private int yearsInService;
+    private PoliticalParty politicalParty;
 
 //    public void setPoliticianId(int politicianId) {
 //        this.politicianId = politicianId;

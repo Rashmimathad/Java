@@ -1,5 +1,6 @@
 package com.xworkz.watchshopapp.watch;
 
+import com.xworkz.watchshopapp.constants.WatchType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +15,7 @@ public class Watch {
 
     private int watchId;
     private String brandName;
-    private String watchType;
+    private WatchType watchType;
     private String materialType;
     private double price;
     private boolean isWaterResistant;

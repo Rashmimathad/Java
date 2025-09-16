@@ -1,5 +1,6 @@
 package com.xworkz.theatreapp.movie;
 
+import com.xworkz.theatreapp.constants.Genre;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,7 @@ public class Movie {
     private int movieId;
     private String movieName;
     private double ticketPrice;
-    private String movieGenre;
+    private Genre movieGenre;
     private String duration;
     private String language;
 

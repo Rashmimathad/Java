@@ -1,5 +1,6 @@
 package com.xworkz.instituteapp.trainee;
 
+import com.xworkz.instituteapp.constants.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ public class Trainee {
 
     private int traineeId;
     private String traineeName;
-    private char gender;
+    private Gender gender;
     private long phoneNo;
     private String courseEnrolled;
     private int termOfCourse;

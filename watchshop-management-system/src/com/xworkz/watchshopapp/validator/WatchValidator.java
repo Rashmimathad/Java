@@ -22,7 +22,7 @@ public class WatchValidator {
             isBrandNameValid=true;
         else System.out.println("Invalid brand name");
 
-        if (watch.getWatchType()!=null && !watch.getWatchType().isEmpty())
+        if (watch.getWatchType()!=null)
             isWatchTypeValid=true;
         else System.out.println("Invalid watch type");
 

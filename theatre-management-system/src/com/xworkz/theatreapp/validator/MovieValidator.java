@@ -21,7 +21,7 @@ public class MovieValidator {
             isMovieNameValid=true;
         else System.out.println("Invalid movie name");
 
-        if (movie.getMovieGenre()!=null && !movie.getMovieGenre().isEmpty())
+        if (movie.getMovieGenre()!=null)
             isMovieGenreValid=true;
         else System.out.println("Invalid Genre");
 

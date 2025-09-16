@@ -1,5 +1,6 @@
 package com.xworkz.companyapp.project;
 
+import com.xworkz.companyapp.constants.ProjectStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,7 +19,7 @@ public class Project {
     private String endDate;
     private int teamSize;
     private String managerName;
-
+    private ProjectStatus projectStatus;
 //    public void setProjectId(int projectId){
 //        this.projectId=projectId;
 //    }

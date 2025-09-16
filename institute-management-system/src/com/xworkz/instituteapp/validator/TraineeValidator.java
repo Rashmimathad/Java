@@ -21,7 +21,7 @@ public class TraineeValidator {
             isTraineeNameValid=true;
         else System.out.println("Invalid trainee name");
 
-        if (trainee.getGender()!=' ')
+        if (trainee.getGender()!=null)
             isGenderValid=true;
         else System.out.println("Invalid gender");
 

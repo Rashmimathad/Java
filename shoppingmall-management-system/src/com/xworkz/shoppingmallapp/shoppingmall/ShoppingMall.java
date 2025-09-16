@@ -3,9 +3,17 @@ package com.xworkz.shoppingmallapp.shoppingmall;
 import com.xworkz.shoppingmallapp.shop.Shop;
 import com.xworkz.shoppingmallapp.validator.ShopValidator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ShoppingMall {
 
-    Shop[] shops = new Shop[13];
+
+    public ShoppingMall(int size){
+        this.shops=new Shop[size];
+    }
+
+    public Shop[] shops;
     int index;
 
     public boolean addShop(Shop shop){
@@ -20,10 +28,95 @@ public class ShoppingMall {
         return isShopAdded;
     }
 
-    public void getAllShopsDetails(){
-        System.out.println("All Shops details are :");
-        System.out.println();
-        for (Shop shop : shops) {
+    public String getShopNameByShopId(int shopId){
+        String shopName=null;
+        for (Shop shop:shops){
+            if (shop.getShopId()==shopId){
+                shopName=shop.getShopName();
+            }
+        }
+        if (shopName!=null) return "The name of the shop with Id "+shopId+" is : "+shopName;
+        else return "Shop "+shopName+" not found";
+    }
+
+    public boolean deleteShopById(int shopId){
+        boolean isShopDeleted=false;
+        int length=shops.length;
+        for (int i = 0; i < shops.length; i++) {
+            if (shops[i].getShopId()==shopId){
+                for(int j=i;j<shops.length-1;j++){
+                    shops[j]=shops[j+1];
+                }
+                shops[shops.length-1]=null;
+                length--;
+                isShopDeleted=true;
+                break;
+            }
+        }
+        return isShopDeleted;
+    }
+
+
+    public String getShopNameById(int shopId){
+        for (Shop shop:shops){
+            if (shop.getShopId()==shopId){
+                return "The name of the shio with Id "+shopId+" is : "+shop.getShopName();
+            }
+        }
+        return "Shop with Id "+shopId+" not found";
+    }
+
+    public int getNoOfStaffMembersByShopName(String shopName){
+        int noOfStaffMembers=0;
+        for (Shop shop : shops){
+            if (shop.getShopName().equalsIgnoreCase(shopName)) {
+                noOfStaffMembers= shop.getNoOfStaffMembers();
+            }
+        }
+     if (noOfStaffMembers!=0)return noOfStaffMembers;
+     return 0;
+    }
+
+    public String getFloorNumberById(int shopId){
+        for (Shop shop :shops){
+            if (shop.getShopId()==shopId){
+                return "The shop with Id "+shopId+" is at floor number : "+shop.getFloorNumber();
+            }
+        }
+        return "Shop with Id "+shopId+" not found";
+    }
+
+    public String getManagerNamebyShopId(int shopId){
+        for (Shop shop:shops){
+            if (shop.getShopId()==shopId){
+                return "The Manager name of the shop with Id "+shopId+" is : "+shop.getManagerName();
+            }
+        }
+        return "Shop with Id "+shopId+" not found";
+    }
+
+    public String getShopTypeByShopName(String shopName){
+        for (Shop shop:shops){
+            if (shop.getShopName().equalsIgnoreCase(shopName)){
+                return "The type of shop "+shopName+" is : "+shop.getShopType();
+            }
+        }
+        return "Shop "+shopName+" not found";
+    }
+
+
+    public Shop getShopInfoById(int shopId){
+        for (Shop shop:shops){
+            if (shop.getShopId()==shopId){
+                return shop;
+            }
+        }
+        return null;
+    }
+
+
+    public void displayShopInfo(Shop shop){
+        if (shop!=null) {
             System.out.println("Shop Id is : " + shop.getShopId());
             System.out.println("Shop Name is : " + shop.getShopName());
             System.out.println("Shop Type is : " + shop.getShopType());
@@ -31,6 +124,21 @@ public class ShoppingMall {
             System.out.println("No of staff members in shop are : " + shop.getNoOfStaffMembers());
             System.out.println("Floor number of shop is : " + shop.getFloorNumber());
             System.out.println("----------------------------------------------------------------");
+        }
+    }
+    public void getAllShopsDetails(){
+        System.out.println("All Shops details are :");
+        System.out.println();
+        for (Shop shop : shops) {
+            if (shop!=null) {
+                System.out.println("Shop Id is : " + shop.getShopId());
+                System.out.println("Shop Name is : " + shop.getShopName());
+                System.out.println("Shop Type is : " + shop.getShopType());
+                System.out.println("Shop Manager Name is : " + shop.getManagerName());
+                System.out.println("No of staff members in shop are : " + shop.getNoOfStaffMembers());
+                System.out.println("Floor number of shop is : " + shop.getFloorNumber());
+                System.out.println("----------------------------------------------------------------");
+            }
         }
     }
 }

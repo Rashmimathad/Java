@@ -14,6 +14,7 @@ public class ProjectValidator {
         boolean isEndDateValid=false;
         boolean isTeamSizeValid=false;
         boolean isManagerNameValid=false;
+        boolean isProjectStatusValid=false;
 
         if (project.getProjectId()!=0)
             isProjectIdValid=true;
@@ -39,9 +40,12 @@ public class ProjectValidator {
             isManagerNameValid=true;
         else System.out.println("Invalid manager Name");
 
-        if (isProjectIdValid && isProjectNameValid && isStartDateValid && isEndDateValid && isTeamSizeValid && isManagerNameValid){
+        if (project.getProjectStatus()!=null) isProjectStatusValid=true;
+        else System.out.println("Invalid project status");
+
+        if (isProjectIdValid && isProjectNameValid && isStartDateValid && isEndDateValid && isTeamSizeValid && isManagerNameValid && isProjectStatusValid){
             isProjectValidated=true;
-        }
+        }else System.out.println("Project not validated!!");
 
         return isProjectValidated;
     }

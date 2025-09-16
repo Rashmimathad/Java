@@ -1,5 +1,6 @@
 package com.xworkz.policestationapp.police;
 
+import com.xworkz.policestationapp.constants.Department;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,9 +16,9 @@ public class Police {
     private int policeId;
     private String policeName;
     private String designation;
-    private String stationName;
     private int yearsOfService;
     private boolean isOnDuty;
+    private Department department;
 
 //    public void setPoliceId(int policeId){
 //        this.policeId=policeId;

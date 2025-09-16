@@ -21,7 +21,7 @@ public class BookValidator {
             isBookNameValid=true;
         else System.out.println("Invalid book name");
 
-        if (book.getGenre()!=null && !book.getGenre().isEmpty())
+        if (book.getGenre()!=null)
             isGenreValid=true;
         else System.out.println("Invalid Genre");
 
@@ -31,7 +31,7 @@ public class BookValidator {
 
         if (book.getPublisherName()!=null && !book.getPublisherName().isEmpty())
             isPublisherNameValid=true;
-        else System.out.println("Invalid publisher name");
+        else System.out.println("Invalid Publisher name");
 
         if (book.getPublishedYear()!=0)
             isPublishedYearValid=true;
@@ -39,7 +39,7 @@ public class BookValidator {
 
         if (isBookIdValid && isBookNameValid && isGenreValid && isAuthorNameValid && isPublisherNameValid && isPublishedYearValid){
             isBookValidated=true;
-        }
+        }else System.out.println("Book not validated!!");
         return isBookValidated;
     }
 }

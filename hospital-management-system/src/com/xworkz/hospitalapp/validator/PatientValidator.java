@@ -22,7 +22,7 @@ public class PatientValidator {
             isPatientNameValid = true;
         else System.out.println("Invalid Patient name");
 
-        if (patient.getGender() != ' ')
+        if (patient.getGender() != null)
             isPatientGenderValid = true;
         else System.out.println("Invalid patient gender");
 
