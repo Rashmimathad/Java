@@ -42,7 +42,8 @@ public class LokSabhaRunner {
             politician.setPoliticalParty(PoliticalParty.valueOf(sc.next().toUpperCase()));
 
             lokSabha.addPolitician(politician);
-
+            System.out.println();
+            System.out.println(politician);
             System.out.println("Number of politicians left to be added : "+(lokSabha.politicians.length-(i+1)));
             System.out.println();
         }

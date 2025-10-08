@@ -120,6 +120,7 @@ public class ApolloHospitalImpl implements Hospital {
                 patient.setInchargeDoctorName(upadtedInchargeDoctorName);
                 isPatientUpdated=true;
             }
+
         }
         if (isPatientUpdated!=false) System.out.println("The updated incharge doctor name for the patient with id "+patientId+" is : "+upadtedInchargeDoctorName);
         else System.out.println("Patient with Id "+patientId+" not found");

@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,7 +22,29 @@ public class Project {
     private int teamSize;
     private String managerName;
     private ProjectStatus projectStatus;
-//    public void setProjectId(int projectId){
+
+    @Override
+    public String toString(){
+        return "Project = {projectId= "+this.projectId+", projectName= "+this.projectName+", startDate= "+this.startDate+", endDate= "+this.endDate+", teamSize= "+this.teamSize+",managerName= "+this.managerName+",projectStatus="+this.projectStatus+"}";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+       if (o instanceof Project){
+           Project project=(Project) o;
+           if (this.projectId==project.projectId&&this.projectName.equals(projectName)&&this.startDate.equals(project.startDate)&&this.endDate.equals(project.endDate)&&this.teamSize==project.teamSize&&this.managerName.equals(project.managerName)&&this.projectStatus.equals(project.projectStatus))
+               return true;
+           return false;
+       }
+       return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(projectId, projectName, startDate, endDate, teamSize, managerName, projectStatus);
+    }
+
+    //    public void setProjectId(int projectId){
 //        this.projectId=projectId;
 //    }
 //

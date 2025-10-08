@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,6 +22,26 @@ public class Movie {
     private String duration;
     private String language;
 
+    @Override
+    public String toString(){
+        return "Movie = {movieId= "+this.movieId+", movieName= "+this.movieName+", ticketPrice= "+this.ticketPrice+", movieGenre= "+this.movieGenre+", duration= "+this.duration+", language= "+this.language+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(movieId,movieName,ticketPrice,movieGenre,duration,language);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Movie){
+            Movie movie=(Movie)obj;
+            if (this.movieId==movie.movieId&&this.movieName.equals(movie.movieName)&&this.ticketPrice==movie.ticketPrice&&this.movieGenre.equals(movie.movieGenre)&&this.duration.equals(movie.duration)&&this.language.equals(movie.language))
+                return true;
+            return false;
+        }
+        return false;
+    }
 //    public void setMovieId(int movieId) {
 //        this.movieId = movieId;
 //    }

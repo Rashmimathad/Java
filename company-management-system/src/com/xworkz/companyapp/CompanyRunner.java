@@ -45,6 +45,8 @@ public class CompanyRunner {
             project.setProjectStatus(ProjectStatus.valueOf(sc.next().toUpperCase()));
 
             company.addProject(project);
+            System.out.println();
+            System.out.println(project);
             System.out.println("Number of projects left to be added : "+(company.projects.length-(i+1)));
         }
 

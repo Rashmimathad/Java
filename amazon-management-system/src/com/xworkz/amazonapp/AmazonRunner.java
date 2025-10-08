@@ -45,6 +45,8 @@ public class AmazonRunner {
             product.setProductAvailability(Availability.valueOf(sc.next().toUpperCase()));
 
             amazon.addProduct(product);
+            System.out.println();
+            System.out.println(product);
             System.out.println("Number of products left to be added : "+(amazon.products.length-(i+1)));
         }
 
@@ -61,7 +63,6 @@ public class AmazonRunner {
 
         System.out.print("Enter the product Id to be deleted : ");
         amazon.deleteProductById(sc.nextInt());
-
 //        Product productOne = new Product();
 //        productOne.setProductId(101);
 //        productOne.setProductName("Galaxy F34 5G");

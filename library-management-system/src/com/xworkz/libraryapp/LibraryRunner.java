@@ -41,6 +41,8 @@ public class LibraryRunner {
             book.setPublishedYear(sc.nextInt());
 
             library.addBook(book);
+            System.out.println();
+            System.out.println(book);
             System.out.println("Number of books left to be added : "+(library.books.length-(i+1)));
         }
 

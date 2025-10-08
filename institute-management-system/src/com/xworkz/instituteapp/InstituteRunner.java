@@ -18,6 +18,7 @@ public class InstituteRunner {
 
         for (int i = 0; i < institute.trainees.length;i++) {
             Trainee trainee=new Trainee();
+            System.out.println();
             System.out.println("Enter the trainee "+(i+1)+" details :");
 
             System.out.print("Enter the trainee Id  : ");
@@ -39,6 +40,8 @@ public class InstituteRunner {
             trainee.setTermOfCourse(sc.nextInt());
 
             institute.addTrainee(trainee);
+            System.out.println();
+            System.out.println(trainee);
             System.out.println("Numbers of trainees left to be added : "+(institute.trainees.length-(i+1)));
 
         }

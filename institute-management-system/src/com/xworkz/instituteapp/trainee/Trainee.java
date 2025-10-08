@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -19,7 +21,29 @@ public class Trainee {
     private String courseEnrolled;
     private int termOfCourse;
 
-//    public void setTraineeId(int traineeId) {
+    @Override
+    public String toString() {
+        return "Trainee = { traineeId= "+this.traineeId+", traineeName= "+this.traineeName+", gender= "+this.gender+", phoneNo= "+this.phoneNo+
+                ", courseEnrolled= "+this.courseEnrolled+", termOfCourse= "+this.termOfCourse+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(traineeId,traineeName,gender,phoneNo,courseEnrolled,termOfCourse);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Trainee){
+            Trainee trainee=(Trainee) obj;
+            if (this.traineeId==trainee.traineeId && this.traineeName.equals(trainee.traineeName) && this.gender.equals(trainee.gender) && this.phoneNo==trainee.phoneNo &&this.courseEnrolled.equals(trainee.courseEnrolled)&& this.termOfCourse==trainee.termOfCourse)
+                return true;
+            return false;
+        }
+        return false;
+    }
+
+    //    public void setTraineeId(int traineeId) {
 //        this.traineeId = traineeId;
 //    }
 //

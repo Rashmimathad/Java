@@ -13,7 +13,6 @@ public class AmazonImpl implements EcommerceRules {
     public Product[] products;
     int index;
 
-    @Override
     public boolean addProduct(Product product){
         boolean isProductAdded=false;
 
@@ -41,16 +40,7 @@ public class AmazonImpl implements EcommerceRules {
 //      return isPriceUpdated;
 //   }
 
-//   public boolean deleteProduct(Product product){
-//        boolean isProductDeleted=false;
-//
-//        this.product=null;
-//        isProductDeleted=true;
-//
-//        return isProductDeleted;
-//   }
 
-    @Override
     public boolean deleteProductById(int productId){
         boolean isProductDeleted=false;
         int length=products.length;
@@ -66,44 +56,11 @@ public class AmazonImpl implements EcommerceRules {
             }
         }
         if (isProductDeleted!=false) System.out.println("The Product With Id "+productId+" is deleted");
-        else System.out.println("Product with Id "+productId+" not found");
+        else System.out.println("Prouct with Id "+productId+" not found");
         return false;
     }
 
-    @Override
-    public String getBrandNameById(int productId){
-        for (Product product:products){
-            if (product.getProductId()==productId){
-                return "The brand name of the product with Id "+productId+" is : "+product.getBrandName();
-            }
-        }
-        return "Product with Id "+productId+" not found ";
-    }
 
-    @Override
-    public double getPriceById(int productId){
-        double price=0.0;
-        for (Product product:products){
-            if (product.getProductId()==productId){
-                price=product.getPrice();
-            }
-        }
-        if (price!=0.0) System.out.println("Price of the product with Id "+productId+" is : "+price+" rs");
-        else System.out.println("Product with Id "+productId+" not found");
-        return price;
-    }
-
-    @Override
-    public String getProductAvailabilityByName(String productName){
-        for (Product product:products){
-            if (product.getProductName().equalsIgnoreCase(productName)){
-                return "The availability of the product"+product.getProductName()+" is : "+product.getProductAvailability();
-            }
-        }
-        return "Product "+productName+" not found";
-    }
-
-    @Override
     public boolean updatePriceByProductId(int productId,double updatedPrice){
         boolean isPriceUpdated=false;
         if (updatedPrice>0.0) {
@@ -118,7 +75,6 @@ public class AmazonImpl implements EcommerceRules {
         return isPriceUpdated;
     }
 
-    @Override
     public String getCategoryOfProductByProductId(int productId){
         for (Product product:products){
             if (product.getProductId()==productId){
@@ -129,7 +85,6 @@ public class AmazonImpl implements EcommerceRules {
         return  "Product Id "+productId+" not found";
     }
 
-    @Override
     public Product getProductInfoById(int productId){
         Product product=null;
         for (Product product1:products){
@@ -142,7 +97,6 @@ public class AmazonImpl implements EcommerceRules {
         return null;
     }
 
-    @Override
     public void displayProductInfo(Product product){
         if (product!=null) {
             System.out.println("Product Id is : " + product.getProductId());
@@ -155,7 +109,6 @@ public class AmazonImpl implements EcommerceRules {
         }
     }
 
-    @Override
    public void getAllProductsDetails(){
        System.out.println("Products Info are : ");
        System.out.println();

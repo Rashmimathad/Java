@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,7 +22,29 @@ public class Shop {
     private int noOfStaffMembers;
     private Floor floorNumber;
 
-//    public void setShopId(int shopId) {
+    @Override
+    public String toString() {
+        return "Shop = {shopId="+this.shopId+", shopName= "+this.shopName+", shopType= "+this.shopType+
+                ", managerName= "+this.managerName+", noOfStaffMembers= "+this.noOfStaffMembers+", floorNumber= "+this.floorNumber+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(shopId,shopName,shopType,managerName,noOfStaffMembers,floorNumber);
+    }
+
+    @Override
+    public  boolean equals(Object obj){
+        if (obj instanceof Shop){
+            Shop shop=(Shop) obj;
+            if (this.shopId==shop.shopId&& this.shopName.equals(shop.shopName)&&this.shopType.equals(shop.shopType)&& this.managerName.equals(shop.managerName)&& this.noOfStaffMembers==shop.noOfStaffMembers&&this.floorNumber.equals(shop.floorNumber))
+                return true;
+            return false;
+        }
+        return false;
+    }
+
+    //    public void setShopId(int shopId) {
 //        this.shopId = shopId;
 //    }
 //

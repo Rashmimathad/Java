@@ -41,12 +41,15 @@ public class WatchShopRunner {
             watch.setWaterResistant(sc.nextBoolean());
 
             watchShop.addWatch(watch);
+            System.out.println();
+            System.out.println(watch);
             System.out.println("Number of watches left to be added : "+(watchShop.watches.length-(i+1)));
             System.out.println();
         }
 
         System.out.println();
         watchShop.getAllWatchDetails();
+
         System.out.println();
 
         System.out.print("Enter the watch Id to get it's Brand name : ");

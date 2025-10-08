@@ -2,10 +2,9 @@ package com.xworkz.amazonapp.product;
 
 
 import com.xworkz.amazonapp.constants.Availability;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -20,6 +19,28 @@ public class Product {
     private double price;
     private String manufacturerName;
     private Availability productAvailability;
+
+    @Override
+    public String toString(){
+        return "Product = {productId= "+this.productId+", productName= "+this.productName+",categoryOfProduct= "+this.categoryOfProduct+", brandName= "+this.brandName+", price= "+this.price+", manufacturerName= "+this.manufacturerName+", productAvailability= "+this.productAvailability+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(productId,productName,categoryOfProduct,brandName,price,manufacturerName,productAvailability);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Product){
+            Product product=(Product) obj;
+            if (this.productId==product.productId && this.productName.equals(product.productName) && this.categoryOfProduct.equals(product.categoryOfProduct) && this.brandName.equals(product.brandName) &&this.price==product.price && this.manufacturerName.equals(product.manufacturerName) && this.productAvailability.equals(product.productAvailability))
+                return true;
+            return false;
+        }
+        return false;
+    }
+
 //    public void setProductId(int productId) {
 //        this.productId = productId;
 //    }
@@ -67,4 +88,6 @@ public class Product {
 //    public String getManufacturerName() {
 //        return manufacturerName;
 //    }
+
+
 }

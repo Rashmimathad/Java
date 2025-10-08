@@ -40,6 +40,8 @@ public class PoliceStationRunner {
             police.setDepartment(Department.valueOf(sc.next().toUpperCase()));
 
             policeStation.addPolice(police);
+            System.out.println();
+            System.out.println(police);
             System.out.println("Number of the police officers left to be added : "+(policeStation.policeOfficers.length-(i+1)));
             System.out.println();
         }

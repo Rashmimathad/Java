@@ -10,7 +10,6 @@ public class HospitalRunner {
     public static void main(String[] args) {
 
         System.out.println("main started");
-        System.out.println();
 
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of patients to be added : ");
@@ -19,6 +18,7 @@ public class HospitalRunner {
 
         for (int i = 0; i <size; i++) {
             Patient patient=new Patient();
+            System.out.println();
             System.out.println("Enter patient "+(i+1)+" details : ");
 
             System.out.print("Enter the Patient Id : ");
@@ -41,6 +41,7 @@ public class HospitalRunner {
 
             hospital.addPatient(patient);
             System.out.println();
+            System.out.println(patient);
             System.out.println("Number of patients left to add : "+(size-(i+1)));
         }
     /*    Patient patientOne = new Patient();

@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,6 +22,27 @@ public class Politician {
     private int yearsInService;
     private PoliticalParty politicalParty;
 
+    @Override
+    public String toString(){
+        return "Politician = {politicianId= "+this.politicianId+", politicianName= "+this.politicianName+", designation= "+this.designation+", constituencyName= "+this.constituencyName+
+    ", age= "+this.age+", yearsInService= "+this.yearsInService+", politicalParty= "+this.politicalParty+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(politicianId,politicianName,designation,constituencyName,age,yearsInService,politicalParty);
+    }
+
+    @Override
+    public  boolean equals(Object obj){
+        if (obj instanceof Politician){
+            Politician politician=(Politician) obj;
+            if (this.politicianId==politician.politicianId&& this.politicianName.equals(politician.politicianName)&& this.designation.equals(politician.designation)&& this.constituencyName.equals(politician.constituencyName)&& this.age==politician.age && this.yearsInService==politician.yearsInService&& this.politicalParty.equals(politician.politicalParty))
+                return true;
+            return false;
+        }
+        return false;
+    }
 //    public void setPoliticianId(int politicianId) {
 //        this.politicianId = politicianId;
 //    }

@@ -30,8 +30,8 @@ public class ShoppingMallRunner {
             System.out.print("Enter the shop type : ");
             shop.setShopType(sc.next());
 
-            System.out.print("Enter the manager name of the shop : ");
-            shop.setManagerName(sc.next());
+            System.out.print("Enter the manager name of the shop : ");sc.nextLine();
+            shop.setManagerName(sc.nextLine());
 
             System.out.print("Enter the number of staff members in shop : ");
             shop.setNoOfStaffMembers(sc.nextInt());
@@ -41,6 +41,8 @@ public class ShoppingMallRunner {
 
             System.out.println();
             shoppingMall.addShop(shop);
+            System.out.println();
+            System.out.println(shop);
             System.out.println("Number of shops left to be added : "+(shoppingMall.shops.length-(i+1)));
             System.out.println();
         }

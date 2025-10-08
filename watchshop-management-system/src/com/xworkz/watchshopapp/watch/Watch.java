@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,7 +22,29 @@ public class Watch {
     private double price;
     private boolean isWaterResistant;
 
-//    public void setWatchId(int watchId) {
+    @Override
+    public String toString() {
+        return "Watch = {watchId= "+this.watchId+", brandName= "+this.brandName+", watchType= "+this.watchType+
+                ", materialType= "+this.materialType+", price= "+this.price+", isWaterResistant= "+this.isWaterResistant+"}";
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Watch){
+            Watch watch=(Watch) obj;
+            if (this.watchId==watch.watchId&&this.brandName.equals(watch.brandName)&&this.watchType.equals(watch.watchType)&&this.materialType.equals(watch.materialType)&&this.price==watch.price&&this.isWaterResistant==watch.isWaterResistant)
+                return true;
+            return false;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(watchId, brandName, watchType, materialType, price, isWaterResistant);
+    }
+
+    //    public void setWatchId(int watchId) {
 //        this.watchId = watchId;
 //    }
 //

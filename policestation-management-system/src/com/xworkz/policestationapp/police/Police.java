@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,7 +22,30 @@ public class Police {
     private boolean isOnDuty;
     private Department department;
 
-//    public void setPoliceId(int policeId){
+    @Override
+    public String toString() {
+        return "Police = {policeId= "+this.policeId+", policeName= "+this.policeName+", designation= " +this.designation+
+                ", yearsOfService= "+this.yearsOfService+", isOnDuty= " +this.isOnDuty+", department= "+this.department+"}";
+    }
+
+    @Override
+    public  int hashCode(){
+        return Objects.hash(policeId,policeName,designation,department,yearsOfService,isOnDuty);
+    }
+
+    @Override
+    public  boolean equals(Object obj){
+        if (obj instanceof Police){
+            Police police=(Police) obj;
+            if (this.policeId==police.policeId&& this.policeName.equals(police.policeName)&& this.designation.equals(police.designation)&&this.yearsOfService==police.yearsOfService&& this.isOnDuty==police.isOnDuty&& this.department.equals(police.department))
+                return true;
+            return false;
+        }
+        return false;
+    }
+
+
+    //    public void setPoliceId(int policeId){
 //        this.policeId=policeId;
 //    }
 //

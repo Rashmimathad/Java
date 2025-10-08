@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,6 +22,27 @@ public class Book {
     private String authorName;
     private String publisherName;
     private int publishedYear;
+
+    @Override
+    public String toString(){
+        return "Book = {bookId= "+this.bookId+", bookName= "+this.bookName+", genre= "+this.genre+", authorName= "+this.authorName+", publisherName= "+this.publisherName+", publishedYear= "+this.publishedYear+"}";
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(bookId,bookName,genre,authorName,publisherName,publishedYear);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Book){
+            Book book=(Book) obj;
+            if (this.bookId==book.bookId&& this.bookName.equals(book.bookName)&& this.genre.equals(book.genre)&&this.authorName.equals(book.authorName)&& this.publisherName.equals(book.publisherName)&& this.publishedYear==book.publishedYear)
+                return true;
+            return false;
+        }
+        return false;
+    }
 
 //    public void setBookId(int bookId){
 //        this.bookId=bookId;

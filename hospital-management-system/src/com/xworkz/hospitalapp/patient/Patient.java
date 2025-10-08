@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -18,8 +20,30 @@ public class Patient {
     private long phoneNo;
     private String address;
     private String inchargeDoctorName;
-    
-//    public void setPatientId(int patientId){
+
+    @Override
+    public  String toString(){
+        return "Patient = {patientId= "+this.patientId+", patientName= "+this.patientName+", gender= "+this.gender+", phoneNo= "+this.phoneNo+", address= "+this.address+", inchargeDoctorName= "+this.inchargeDoctorName+"}";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Patient){
+            Patient patient=(Patient) o;
+            if (this.patientId==patient.patientId&&this.patientName.equals(patient.patientName)&&this.gender.equals(patient.gender)&&this.phoneNo==patient.phoneNo&&this.address.equals(patient.address)&&this.inchargeDoctorName.equals(patient.inchargeDoctorName))
+                return true;
+            return false;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(patientId, patientName, gender, phoneNo, address, inchargeDoctorName);
+    }
+
+
+    //    public void setPatientId(int patientId){
 //        this.patientId=patientId;
 //    }
 //

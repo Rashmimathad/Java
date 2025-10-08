@@ -38,6 +38,8 @@ public class TheatreRunner {
             movie.setLanguage(sc.next());
 
             theatre.addMovie(movie);
+            System.out.println();
+            System.out.println(movie);
             System.out.println("Number of movies left to be added in the theatre : "+(theatre.movies.length-(i+1)));
             System.out.println();
         }
