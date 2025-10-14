@@ -1,16 +1,33 @@
 package com.xworkz.instituteapp.institute;
 
-import com.xworkz.instituteapp.constants.Gender;
-import com.xworkz.instituteapp.trainee.Trainee;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-public interface Institute {
-    boolean addTrainee(Trainee trainee);
-    boolean deleteTraineeById(int traineeId);
-    String getTraineeNameById(int traineeId);
-    Gender getGenderByName(String traineeName);
-    boolean updateTermOfCourseById(int traineeId,int updatedTermOfCourse);
-    long getPhoneNumberById(int traineeId);
-    Trainee getTraineeInfoById(int traineeId);
-    void displayTraineeInfo(Trainee trainee);
-    void getAllTraineesDetails();
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Institute {
+
+    private int instituteId;
+    private String instituteName;
+    private String instituteLocation;
+    private int noOfTrainees;
+    private int noOfCourses;
+    private int noOfTrainers;
+
+    @Override
+    public String toString() {
+        return "Institute{" +
+                "instituteId=" + instituteId +
+                ", instituteName='" + instituteName + '\'' +
+                ", instituteLocation='" + instituteLocation + '\'' +
+                ", noOfTrainees=" + noOfTrainees +
+                ", noOfCourses=" + noOfCourses +
+                ", noOfTrainers=" + noOfTrainers +
+                '}';
+    }
 }

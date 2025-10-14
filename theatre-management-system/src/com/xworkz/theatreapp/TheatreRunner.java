@@ -1,168 +1,100 @@
 package com.xworkz.theatreapp;
 
-import com.xworkz.theatreapp.constants.Genre;
-import com.xworkz.theatreapp.movie.Movie;
-import com.xworkz.theatreapp.impl.NavrangTheatreImpl;
+import com.xworkz.theatreapp.theatre.Theatre;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class TheatreRunner {
+
     public static void main(String[] args) {
-        System.out.println("main started");
 
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number of movies to be added in the theatre : ");
-        NavrangTheatreImpl theatre=new NavrangTheatreImpl(sc.nextInt());
-        System.out.println("Total number of movies to be added in the theatre : "+theatre.movies.length);
+        List<Theatre> theatres = new ArrayList<>();
+
+        Theatre theatreOne = new Theatre(1, "PVR Cinemas", "Connaught Place", 5, 1000, "Ajay Sharma");
+        Theatre theatreTwo = new Theatre(2, "INOX", "Rajouri Garden", 6, 1200, "Ravi Verma");
+        Theatre theatreThree = new Theatre(3, "Cinepolis", "Saket", 4, 800, "Sunita Rani");
+        Theatre theatreFour = new Theatre(4, "Satyam Cineplex", "Patel Nagar", 3, 600, "Vikram Singh");
+        Theatre theatreFive = new Theatre(5, "Carnival Cinemas", "Dwarka", 7, 1500, "Priya Yadav");
+        Theatre theatreSix = new Theatre(6, "DT Cinemas", "Vasant Kunj", 5, 1000, "Manoj Gupta");
+        Theatre theatreSeven = new Theatre(7, "Wave Cinemas", "Noida", 6, 1200, "Anjali Sharma");
+        Theatre theatreEight = new Theatre(8, "Miraj Cinemas", "Faridabad", 4, 800, "Kiran Mehta");
+        Theatre theatreNine = new Theatre(9, "Cinepolis", "Gurgaon", 3, 600, "Deepak Kumar");
+        Theatre theatreTen = new Theatre(10, "PVR Cinemas", "Lajpat Nagar", 7, 1500, "Rakesh Yadav");
+        Theatre theatreEleven = new Theatre(11, "INOX", "Kolkata", 5, 1000, "Neha Rani");
+        Theatre theatreTwelve = new Theatre(12, "Cinepolis", "Mumbai", 6, 1200, "Amit Chauhan");
+        Theatre theatreThirteen = new Theatre(13, "Satyam Cineplex", "Chandigarh", 4, 800, "Geeta Devi");
+        Theatre theatreFourteen = new Theatre(14, "Carnival Cinemas", "Bangalore", 3, 600, "Harish Kumar");
+        Theatre theatreFifteen = new Theatre(15, "DT Cinemas", "Hyderabad", 7, 1500, "Suman Rani");
+        Theatre theatreSixteen = new Theatre(16, "Wave Cinemas", "Chennai", 5, 1000, "Rajesh Yadav");
+        Theatre theatreSeventeen = new Theatre(17, "Miraj Cinemas", "Pune", 6, 1200, "Anil Mehta");
+        Theatre theatreEighteen = new Theatre(18, "Cinepolis", "Ahmedabad", 4, 800, "Pooja Sharma");
+        Theatre theatreNineteen = new Theatre(19, "PVR Cinemas", "Surat", 3, 600, "Vandana Gupta");
+        Theatre theatreTwenty = new Theatre(20, "INOX", "Jaipur", 7, 1500, "Ravi Singh");
+
+        theatres.add(theatreOne);
+        theatres.add(theatreTwo);
+        theatres.add(theatreThree);
+        theatres.add(theatreFour);
+        theatres.add(theatreFive);
+        theatres.add(theatreSix);
+        theatres.add(theatreSeven);
+        theatres.add(theatreEight);
+        theatres.add(theatreNine);
+        theatres.add(theatreTen);
+        theatres.add(theatreEleven);
+        theatres.add(theatreTwelve);
+        theatres.add(theatreThirteen);
+        theatres.add(theatreFourteen);
+        theatres.add(theatreFifteen);
+        theatres.add(theatreSixteen);
+        theatres.add(theatreSeventeen);
+        theatres.add(theatreEighteen);
+        theatres.add(theatreNineteen);
+        theatres.add(theatreTwenty);
+
+        System.out.println("Total theatres:");
+        for (Theatre theatre : theatres) {
+            System.out.println(theatre);
+        }
         System.out.println();
-        for (int i = 0; i < theatre.movies.length; i++) {
-            Movie movie=new Movie();
-            System.out.println("Enter movie "+(i+1)+" details : ");
 
-            System.out.print("Enter the movie Id : ");
-            movie.setMovieId(sc.nextInt());
+        List<Theatre> theatres1 = new ArrayList<>();
+        Theatre theatreTwentyOne = new Theatre(21, "Satyam Cineplex", "Delhi", 5, 1000, "Kiran Rani");
+        Theatre theatreTwentyTwo = new Theatre(22, "Carnival Cinemas", "Mumbai", 6, 1200, "Rakesh Mehta");
+        Theatre theatreTwentyThree = new Theatre(23, "DT Cinemas", "Bangalore", 4, 800, "Anjali Yadav");
+        Theatre theatreTwentyFour = new Theatre(24, "Wave Cinemas", "Chennai", 3, 600, "Sunita Sharma");
+        Theatre theatreTwentyFive = new Theatre(25, "Miraj Cinemas", "Hyderabad", 7, 1500, "Pooja Gupta");
 
-            System.out.print("Enter the movie name : ");sc.nextLine();
-            movie.setMovieName(sc.nextLine());
+        theatres1.add(theatreTwentyOne);
+        theatres1.add(theatreTwentyTwo);
+        theatres1.add(theatreTwentyThree);
+        theatres1.add(theatreTwentyFour);
+        theatres1.add(theatreTwentyFive);
 
-            System.out.print("Enter the ticket price of movie : ");
-            movie.setTicketPrice(sc.nextDouble());
+        System.out.println("Total theatres of theatres1:");
+        for (Theatre theatre : theatres1) {
+            System.out.println(theatre);
+        }
+        System.out.println();
 
-            System.out.print("Enter the genre of the movie : ");
-            movie.setMovieGenre(Genre.valueOf(sc.next().toUpperCase()));
+        System.out.println("Is theatres1 added to theatres: " + theatres.addAll(theatres1));
+        System.out.println("Is theatres contains theatreSeven: " + theatres.contains(theatreSeven));
+        System.out.println("Is theatres contains all theatres1: " + theatres.containsAll(theatres1));
+        System.out.println();
 
-            System.out.print("Enter the duration of the movie : ");
-            movie.setDuration(sc.next());
-
-            System.out.print("Enter the language of the movie : ");
-            movie.setLanguage(sc.next());
-
-            theatre.addMovie(movie);
-            System.out.println();
-            System.out.println(movie);
-            System.out.println("Number of movies left to be added in the theatre : "+(theatre.movies.length-(i+1)));
-            System.out.println();
+        System.out.println("Total theatres:");
+        for (Theatre theatre : theatres) {
+            System.out.println(theatre);
         }
 
         System.out.println();
-        theatre.getAllMovieDetails();
-
-        System.out.print("Enter the movie Id and the updated ticket price for the movie : ");
-        System.out.println("Is Price Updated? "+theatre.updateMoviePriceByMovieId(sc.nextInt(), sc.nextDouble()));
+        System.out.println("Is theatreTwentyOne removed: " + theatres.remove(theatreTwentyOne));
+        System.out.println("Is theatres1 removed from theatres: " + theatres.removeAll(theatres1));
         System.out.println();
-
-        System.out.print("Enter the movie Id and the updated language for the movie : ");
-        System.out.println("Is Language Updated? "+theatre.updateMovieLanguageByMovieId(sc.nextInt(), sc.next()));
-        System.out.println();
-
-        System.out.print("Enter the movie Id to get movie name: ");
-        System.out.println(theatre.getMovieNameByMovieId(sc.nextInt()));
-        System.out.println();
-
-
-        System.out.print("Enter the movie Id to get movie details : ");
-        theatre.displayMovieInfo(theatre.getMovieInfoById(sc.nextInt()));
-        System.out.println();
-
-        System.out.print("Enter the movie Id to deleted : ");
-        System.out.println("Is Movie Deleted? "+theatre.deleteMovieByMovieId(sc.nextInt()));
-        theatre.getAllMovieDetails();
-
-        System.out.println();
-//    Movie movieOne=new Movie();
-//        movieOne.setMovieId(101);
-//        movieOne.setMovieName("Kantara");
-//        movieOne.setTicketPrice(150.00);
-//        movieOne.setMovieGenre("Drama/Thriller");
-//        movieOne.setDuration("2:30");
-//        movieOne.setLanguage("Kannada");
-//
-//        Movie movieTwo = new Movie();
-//        movieTwo.setMovieId(102);
-//        movieTwo.setMovieName("RRR");
-//        movieTwo.setTicketPrice(200.00);
-//        movieTwo.setMovieGenre("Action/Drama");
-//        movieTwo.setDuration("3:07");
-//        movieTwo.setLanguage("Telugu");
-//
-//        Movie movieThree = new Movie();
-//        movieThree.setMovieId(103);
-//        movieThree.setMovieName("KGF Chapter 2");
-//        movieThree.setTicketPrice(180.00);
-//        movieThree.setMovieGenre("Action/Thriller");
-//        movieThree.setDuration("2:48");
-//        movieThree.setLanguage("Kannada");
-//
-//        Movie movieFour = new Movie();
-//        movieFour.setMovieId(104);
-//        movieFour.setMovieName("Baahubali: The Beginning");
-//        movieFour.setTicketPrice(170.00);
-//        movieFour.setMovieGenre("Historical/Fantasy");
-//        movieFour.setDuration("2:39");
-//        movieFour.setLanguage("Telugu");
-//
-//        Movie movieFive = new Movie();
-//        movieFive.setMovieId(105);
-//        movieFive.setMovieName("Baahubali: The Conclusion");
-//        movieFive.setTicketPrice(180.00);
-//        movieFive.setMovieGenre("Historical/Fantasy");
-//        movieFive.setDuration("2:47");
-//        movieFive.setLanguage("Telugu");
-//
-//        Movie movieSix = new Movie();
-//        movieSix.setMovieId(106);
-//        movieSix.setMovieName("Pushpa: The Rise");
-//        movieSix.setTicketPrice(160.00);
-//        movieSix.setMovieGenre("Action/Drama");
-//        movieSix.setDuration("2:56");
-//        movieSix.setLanguage("Telugu");
-//
-//        Movie movieSeven = new Movie();
-//        movieSeven.setMovieId(107);
-//        movieSeven.setMovieName("Vikram");
-//        movieSeven.setTicketPrice(175.00);
-//        movieSeven.setMovieGenre("Action/Thriller");
-//        movieSeven.setDuration("2:55");
-//        movieSeven.setLanguage("Tamil");
-//
-//        Movie movieEight = new Movie();
-//        movieEight.setMovieId(108);
-//        movieEight.setMovieName("Leo");
-//        movieEight.setTicketPrice(190.00);
-//        movieEight.setMovieGenre("Action/Thriller");
-//        movieEight.setDuration("2:44");
-//        movieEight.setLanguage("Tamil");
-//
-//        Movie movieNine = new Movie();
-//        movieNine.setMovieId(109);
-//        movieNine.setMovieName("Jawan");
-//        movieNine.setTicketPrice(210.00);
-//        movieNine.setMovieGenre("Action/Drama");
-//        movieNine.setDuration("2:50");
-//        movieNine.setLanguage("Hindi");
-//
-//        Movie movieTen = new Movie();
-//        movieTen.setMovieId(110);
-//        movieTen.setMovieName("Pathaan");
-//        movieTen.setTicketPrice(200.00);
-//        movieTen.setMovieGenre("Action/Spy Thriller");
-//        movieTen.setDuration("2:46");
-//        movieTen.setLanguage("Hindi");
-//
-//
-//        Theatre theatre=new Theatre();
-//        System.out.println("Is Movie One added? : "+theatre.addMovie(movieOne));
-//        System.out.println("Is Movie Two added? : "+theatre.addMovie(movieTwo));
-//        System.out.println("Is Movie Three added? : "+theatre.addMovie(movieThree));
-//        System.out.println("Is Movie Four added? : "+theatre.addMovie(movieFour));
-//        System.out.println("Is Movie Five added? : "+theatre.addMovie(movieFive));
-//        System.out.println("Is Movie Six added? : "+theatre.addMovie(movieSix));
-//        System.out.println("Is Movie Seven added? : "+theatre.addMovie(movieSeven));
-//        System.out.println("Is Movie Eight added? : "+theatre.addMovie(movieEight));
-//        System.out.println("Is Movie Nine added? : "+theatre.addMovie(movieNine));
-//        System.out.println("Is Movie Ten added? : "+theatre.addMovie(movieTen));
-
-
-        System.out.println("main ended");
+        System.out.println("Total theatres:");
+        for (Theatre theatre : theatres) {
+            System.out.println(theatre);
+        }
     }
 }

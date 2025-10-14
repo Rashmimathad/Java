@@ -1,210 +1,100 @@
 package com.xworkz.instituteapp;
 
-import com.xworkz.instituteapp.constants.Gender;
-import com.xworkz.instituteapp.impl.XworkzImpl;
-import com.xworkz.instituteapp.trainee.Trainee;
+import com.xworkz.instituteapp.institute.Institute;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class InstituteRunner {
+
     public static void main(String[] args) {
-        System.out.println("main started");
-        System.out.println();
 
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter number of trainees to be added : ");
-        XworkzImpl institute=new XworkzImpl(sc.nextInt());
-        System.out.println("Total number of trainees to be added : "+institute.trainees.length);
+        List<Institute> institutes = new ArrayList<>();
 
-        for (int i = 0; i < institute.trainees.length;i++) {
-            Trainee trainee=new Trainee();
-            System.out.println();
-            System.out.println("Enter the trainee "+(i+1)+" details :");
+        Institute instituteOne = new Institute(1, "Tech Academy", "Delhi", 300, 5, 10);
+        Institute instituteTwo = new Institute(2, "Design School", "Mumbai", 200, 4, 8);
+        Institute instituteThree = new Institute(3, "Business Institute", "Bangalore", 150, 3, 6);
+        Institute instituteFour = new Institute(4, "Coding Bootcamp", "Chennai", 100, 2, 4);
+        Institute instituteFive = new Institute(5, "Language Center", "Hyderabad", 50, 1, 2);
+        Institute instituteSix = new Institute(6, "Music Academy", "Pune", 80, 2, 3);
+        Institute instituteSeven = new Institute(7, "Art School", "Kolkata", 60, 2, 3);
+        Institute instituteEight = new Institute(8, "Culinary Institute", "Lucknow", 40, 1, 2);
+        Institute instituteNine = new Institute(9, "Photography School", "Ahmedabad", 30, 1, 2);
+        Institute instituteTen = new Institute(10, "Dance Academy", "Jaipur", 70, 2, 4);
+        Institute instituteEleven = new Institute(11, "Yoga Center", "Surat", 90, 3, 5);
+        Institute instituteTwelve = new Institute(12, "Driving School", "Vadodara", 120, 3, 6);
+        Institute instituteThirteen = new Institute(13, "Fashion Institute", "Nagpur", 110, 3, 6);
+        Institute instituteFourteen = new Institute(14, "Film School", "Indore", 130, 4, 7);
+        Institute instituteFifteen = new Institute(15, "Photography School", "Bhopal", 140, 4, 7);
+        Institute instituteSixteen = new Institute(16, "Coding Bootcamp", "Patna", 150, 5, 8);
+        Institute instituteSeventeen = new Institute(17, "Design School", "Ranchi", 160, 5, 8);
+        Institute instituteEighteen = new Institute(18, "Business Institute", "Agra", 170, 6, 9);
+        Institute instituteNineteen = new Institute(19, "Language Center", "Udaipur", 180, 6, 9);
+        Institute instituteTwenty = new Institute(20, "Music Academy", "Patiala", 190, 6, 10);
 
-            System.out.print("Enter the trainee Id  : ");
-            trainee.setTraineeId(sc.nextInt());
+        institutes.add(instituteOne);
+        institutes.add(instituteTwo);
+        institutes.add(instituteThree);
+        institutes.add(instituteFour);
+        institutes.add(instituteFive);
+        institutes.add(instituteSix);
+        institutes.add(instituteSeven);
+        institutes.add(instituteEight);
+        institutes.add(instituteNine);
+        institutes.add(instituteTen);
+        institutes.add(instituteEleven);
+        institutes.add(instituteTwelve);
+        institutes.add(instituteThirteen);
+        institutes.add(instituteFourteen);
+        institutes.add(instituteFifteen);
+        institutes.add(instituteSixteen);
+        institutes.add(instituteSeventeen);
+        institutes.add(instituteEighteen);
+        institutes.add(instituteNineteen);
+        institutes.add(instituteTwenty);
 
-            System.out.print("Enter the trainee name : ");sc.nextLine();
-            trainee.setTraineeName(sc.nextLine());
-
-            System.out.print("Enter the gender : ");
-            trainee.setGender(Gender.valueOf(sc.next().toUpperCase()));
-
-            System.out.print("Enter the phone number : ");
-            trainee.setPhoneNo(sc.nextLong());
-
-            System.out.print("Enter course trainee enrolled for : ");sc.nextLine();
-            trainee.setCourseEnrolled(sc.nextLine());
-
-            System.out.print("Enter term of enrolled course : ");
-            trainee.setTermOfCourse(sc.nextInt());
-
-            institute.addTrainee(trainee);
-            System.out.println();
-            System.out.println(trainee);
-            System.out.println("Numbers of trainees left to be added : "+(institute.trainees.length-(i+1)));
-
+        System.out.println("Total institutes:");
+        for (Institute institute : institutes) {
+            System.out.println(institute);
         }
         System.out.println();
-        institute.getAllTraineesDetails();
+
+        List<Institute> institutes1 = new ArrayList<>();
+        Institute instituteTwentyOne = new Institute(21, "Art School", "Chandigarh", 50, 1, 2);
+        Institute instituteTwentyTwo = new Institute(22, "Culinary Institute", "Gurgaon", 60, 2, 3);
+        Institute instituteTwentyThree = new Institute(23, "Photography School", "Noida", 70, 2, 4);
+        Institute instituteTwentyFour = new Institute(24, "Dance Academy", "Faridabad", 80, 2, 4);
+        Institute instituteTwentyFive = new Institute(25, "Yoga Center", "Ghaziabad", 90, 3, 5);
+
+        institutes1.add(instituteTwentyOne);
+        institutes1.add(instituteTwentyTwo);
+        institutes1.add(instituteTwentyThree);
+        institutes1.add(instituteTwentyFour);
+        institutes1.add(instituteTwentyFive);
+
+        System.out.println("Total institutes of institutes1:");
+        for (Institute institute : institutes1) {
+            System.out.println(institute);
+        }
+        System.out.println();
+
+        System.out.println("Is institutes1 added to institutes: " + institutes.addAll(institutes1));
+        System.out.println("Is institutes contains instituteSeven: " + institutes.contains(instituteSeven));
+        System.out.println("Is institutes contains all institutes1: " + institutes.containsAll(institutes1));
+        System.out.println();
+
+        System.out.println("Total institutes:");
+        for (Institute institute : institutes) {
+            System.out.println(institute);
+        }
 
         System.out.println();
-        System.out.print("Enter the trainee Id to get trainee name : ");
-        System.out.println(institute.getTraineeNameById(sc.nextInt()));
-
+        System.out.println("Is instituteTwentyOne removed: " + institutes.remove(instituteTwentyOne));
+        System.out.println("Is institutes1 removed from institutes: " + institutes.removeAll(institutes1));
         System.out.println();
-        System.out.print("Enter the trainee Id and updated term of course to update : ");
-        institute.updateTermOfCourseById(sc.nextInt(),sc.nextInt());
-
-        System.out.println();
-        System.out.print("Enter the trainee Id to get trainee Info  : ");
-        institute.displayTraineeInfo(institute.getTraineeInfoById(sc.nextInt()));
-
-        System.out.println();
-        System.out.print("Enter the trainee Id to be deleted : ");
-        institute.deleteTraineeById(sc.nextInt());
-
-//        Trainee traineeOne = new Trainee();
-//        traineeOne.setTraineeId(101);
-//        traineeOne.setTraineeName("Rashmi");
-//        traineeOne.setGender('F');
-//        traineeOne.setPhoneNo(9019184800L);
-//        traineeOne.setCourseEnrolled("Java Full Stack Development");
-//        traineeOne.setTermOfCourse(6);
-//
-//        Trainee traineeTwo = new Trainee();
-//        traineeTwo.setTraineeId(102);
-//        traineeTwo.setTraineeName("Arjun");
-//        traineeTwo.setGender('M');
-//        traineeTwo.setPhoneNo(8431101915L);
-//        traineeTwo.setCourseEnrolled("Python Full Stack Development");
-//        traineeTwo.setTermOfCourse(6);
-//
-//        Trainee traineeThree = new Trainee();
-//        traineeThree.setTraineeId(103);
-//        traineeThree.setTraineeName("Sneha");
-//        traineeThree.setGender('F');
-//        traineeThree.setPhoneNo(7892622184L);
-//        traineeThree.setCourseEnrolled("Data Science with Python");
-//        traineeThree.setTermOfCourse(9);
-//
-//        Trainee traineeFour = new Trainee();
-//        traineeFour.setTraineeId(104);
-//        traineeFour.setTraineeName("Karthik");
-//        traineeFour.setGender('M');
-//        traineeFour.setPhoneNo(8105755408L);
-//        traineeFour.setCourseEnrolled("AWS Cloud Practitioner");
-//        traineeFour.setTermOfCourse(4);
-//
-//        Trainee traineeFive = new Trainee();
-//        traineeFive.setTraineeId(105);
-//        traineeFive.setTraineeName("Anita");
-//        traineeFive.setGender('F');
-//        traineeFive.setPhoneNo(9480398726L);
-//        traineeFive.setCourseEnrolled("UI/UX Design");
-//        traineeFive.setTermOfCourse(5);
-//
-//        Trainee traineeSix = new Trainee();
-//        traineeSix.setTraineeId(106);
-//        traineeSix.setTraineeName("Vikram");
-//        traineeSix.setGender('M');
-//        traineeSix.setPhoneNo(9632902375L);
-//        traineeSix.setCourseEnrolled("Java Backend Development");
-//        traineeSix.setTermOfCourse(6);
-//
-//        Trainee traineeSeven = new Trainee();
-//        traineeSeven.setTraineeId(107);
-//        traineeSeven.setTraineeName("Priya");
-//        traineeSeven.setGender('F');
-//        traineeSeven.setPhoneNo(98475687125L);
-//        traineeSeven.setCourseEnrolled("Android App Development");
-//        traineeSeven.setTermOfCourse(6);
-//
-//        Trainee traineeEight = new Trainee();
-//        traineeEight.setTraineeId(108);
-//        traineeEight.setTraineeName("Rohit");
-//        traineeEight.setGender('M');
-//        traineeEight.setPhoneNo(9748134566L);
-//        traineeEight.setCourseEnrolled("Cyber Security Fundamentals");
-//        traineeEight.setTermOfCourse(8);
-//
-//        Trainee traineeNine = new Trainee();
-//        traineeNine.setTraineeId(109);
-//        traineeNine.setTraineeName("Meena");
-//        traineeNine.setGender('F');
-//        traineeNine.setPhoneNo(9647123644L);
-//        traineeNine.setCourseEnrolled("Machine Learning");
-//        traineeNine.setTermOfCourse(10);
-//
-//        Trainee traineeTen = new Trainee();
-//        traineeTen.setTraineeId(110);
-//        traineeTen.setTraineeName("Suresh");
-//        traineeTen.setGender('M');
-//        traineeTen.setPhoneNo(8127034792L);
-//        traineeTen.setCourseEnrolled("React Frontend Development");
-//        traineeTen.setTermOfCourse(5);
-//
-//        Trainee traineeEleven = new Trainee();
-//        traineeEleven.setTraineeId(111);
-//        traineeEleven.setTraineeName("Divya");
-//        traineeEleven.setGender('F');
-//        traineeEleven.setPhoneNo(6745831426L);
-//        traineeEleven.setCourseEnrolled("DevOps with Kubernetes");
-//        traineeEleven.setTermOfCourse(6);
-//
-//        Trainee traineeTwelve = new Trainee();
-//        traineeTwelve.setTraineeId(112);
-//        traineeTwelve.setTraineeName("Manoj");
-//        traineeTwelve.setGender('M');
-//        traineeTwelve.setPhoneNo(6363023929L);
-//        traineeTwelve.setCourseEnrolled("C# .NET Development");
-//        traineeTwelve.setTermOfCourse(7);
-//
-//        Trainee traineeThirteen = new Trainee();
-//        traineeThirteen.setTraineeId(113);
-//        traineeThirteen.setTraineeName("Pooja");
-//        traineeThirteen.setGender('F');
-//        traineeThirteen.setPhoneNo(6475823466L);
-//        traineeThirteen.setCourseEnrolled("Blockchain Development");
-//        traineeThirteen.setTermOfCourse(9);
-//
-//        Trainee traineeFourteen = new Trainee();
-//        traineeFourteen.setTraineeId(114);
-//        traineeFourteen.setTraineeName("Rahul");
-//        traineeFourteen.setGender('M');
-//        traineeFourteen.setPhoneNo(9741117623L);
-//        traineeFourteen.setCourseEnrolled("iOS App Development");
-//        traineeFourteen.setTermOfCourse(6);
-//
-//        Trainee traineeFifteen = new Trainee();
-//        traineeFifteen.setTraineeId(115);
-//        traineeFifteen.setTraineeName("Neha");
-//        traineeFifteen.setGender('F');
-//        traineeFifteen.setPhoneNo(7485983145L);
-//        traineeFifteen.setCourseEnrolled("Artificial Intelligence");
-//        traineeFifteen.setTermOfCourse(12);
-//
-//        Institute institute=new Institute();
-//        System.out.println("Is Trainee One Added? "+institute.addTrainee(traineeOne));
-//        System.out.println("Is Trainee Two Added? "+institute.addTrainee(traineeTwo));
-//        System.out.println("Is Trainee Three Added? "+institute.addTrainee(traineeThree));
-//        System.out.println("Is Trainee Four Added? "+institute.addTrainee(traineeFour));
-//        System.out.println("Is Trainee Five Added? "+institute.addTrainee(traineeFive));
-//        System.out.println("Is Trainee Six Added? "+institute.addTrainee(traineeSix));
-//        System.out.println("Is Trainee Seven Added? "+institute.addTrainee(traineeSeven));
-//        System.out.println("Is Trainee Eight Added? "+institute.addTrainee(traineeEight));
-//        System.out.println("Is Trainee Nine Added? "+institute.addTrainee(traineeNine));
-//        System.out.println("Is Trainee Ten Added? "+institute.addTrainee(traineeTen));
-//        System.out.println("Is Trainee ELeven Added? "+institute.addTrainee(traineeEleven));
-//        System.out.println("Is Trainee Twelve Added? "+institute.addTrainee(traineeTwelve));
-//        System.out.println("Is Trainee Thirteen Added? "+institute.addTrainee(traineeThirteen));
-//        System.out.println("Is Trainee Fourteen Added? "+institute.addTrainee(traineeFourteen));
-//        System.out.println("Is Trainee Fifteen Added? "+institute.addTrainee(traineeFifteen));
-
-
-
-
-        System.out.println();
-        System.out.println("main ended");
+        System.out.println("Total institutes:");
+        for (Institute institute : institutes) {
+            System.out.println(institute);
+        }
     }
 }

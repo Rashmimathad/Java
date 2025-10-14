@@ -1,19 +1,33 @@
 package com.xworkz.theatreapp.theatre;
 
-import com.xworkz.theatreapp.constants.Genre;
-import com.xworkz.theatreapp.movie.Movie;
 
-public interface Theatre {
-    boolean addMovie(Movie movie);
-    boolean updateMoviePriceByMovieId(int movieId, double newPrice);
-    boolean updateMovieLanguageByMovieId(int movieId, String newLanguage);
-    String getMovieNameByMovieId(int movieId);
-    double getMovieTicketPriceByMovieName(String movieName);
-    Movie getMovieInfoById(int movieId);
-    Genre getMovieGenreByMovieName(String movieName);
-    String getLanguageByMovieId(int movieId);
-    String getDurationByMovieId(int movieId);
-    boolean deleteMovieByMovieId(int movieId);
-    void displayMovieInfo(Movie movie);
-    void getAllMovieDetails();
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Theatre {
+    private int theatreId;
+    private String theatreName;
+    private String theatreLocation;
+    private int noOfScreens;
+    private  int seatingCapacity;
+    private String ownerName;
+
+    @Override
+    public String toString() {
+        return "Theatre{" +
+                "theatreId=" + theatreId +
+                ", theatreName='" + theatreName + '\'' +
+                ", theatreLocation='" + theatreLocation + '\'' +
+                ", noOfScreens=" + noOfScreens +
+                ", seatingCapacity=" + seatingCapacity +
+                ", ownerName='" + ownerName + '\'' +
+                '}';
+    }
 }
