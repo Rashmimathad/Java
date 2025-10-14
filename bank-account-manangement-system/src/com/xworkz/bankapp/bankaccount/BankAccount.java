@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 
 public class BankAccount {
-    private int customerType;
+    private int accountId;
     private int accountNumber;
     private String accountHolderName;
     private String accountHolderLocation;
@@ -22,7 +22,7 @@ public class BankAccount {
     @Override
     public String toString() {
         return "BankAccount{" +
-                "customerType=" + customerType +
+                "accountId=" + accountId +
                 ", accountNumber=" + accountNumber +
                 ", accountHolderName='" + accountHolderName + '\'' +
                 ", accountHolderLocation='" + accountHolderLocation + '\'' +
