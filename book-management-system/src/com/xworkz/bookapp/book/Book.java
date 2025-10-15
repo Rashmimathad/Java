@@ -12,21 +12,21 @@ import lombok.Setter;
 
 public class Book {
     private int bookId;
-    private String  book_title;
-    private String author_name;
+    private String  bookTitle;
+    private String authorName;
     private double price;
     private String genre;
-    private int published_year;
+    private int publishedYear;
 
     @Override
     public String toString() {
         return "Book{" +
                 "bookId=" + bookId +
-                ", book_title='" + book_title + '\'' +
-                ", author_name='" + author_name + '\'' +
+                ", bookTitle='" + bookTitle + '\'' +
+                ", authorName='" + authorName + '\'' +
                 ", price=" + price +
                 ", genre='" + genre + '\'' +
-                ", published_year=" + published_year +
+                ", publishedYear=" + publishedYear +
                 '}';
     }
 }
